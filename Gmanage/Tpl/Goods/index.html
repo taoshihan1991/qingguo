@@ -1,0 +1,45 @@
+<include file="Common:header" />
+<script type="text/javascript" src="../Public/js/category.js"> </script>
+
+<div id="map">
+	<span class='title'>商铺列表</span>
+</div>
+<div id="content">
+
+	<table class="table table-striped table-bordered table-hover">
+		<thead>
+			<tr>
+				<th width="5%"></th>
+				<th width="20%">商铺名称</th>
+				<th width="30%">商铺地址</th>
+				<th width="20%">商铺电话</th>
+	
+				<th>操作</th>
+			</tr>
+		</thead>
+		<tbody>
+			<foreach name="data" item="v">
+			<tr>
+				
+				<td>{$v.shopid}</td>
+				<td>{$v.shopname}</td>
+				<td>{$v.shopaddress}</td>
+				<td>{$v.shoptel}</td>
+				
+				<td>
+					<a href="{:U('goods/add',array('shopid'=>$v['shopid']))}" class="btn  btn-primary btn-xs">添加商品</a>&nbsp;&nbsp;
+					<a href="{:U('shop/edit',array('shopid'=>$v['shopid']))}" class="btn  btn-primary btn-xs">编辑</a>&nbsp;&nbsp;
+					<a href="{:U('shop/del',array('shopid'=>$v['shopid']))}" class="btn  btn-danger btn-xs delAffirm">删除</a>
+				</td>
+				
+			</tr>
+			</foreach>
+		</tbody>
+	</table>
+	<div id="page">
+		{$page}
+	</div>
+
+</div>
+</body>
+</html>

@@ -1,0 +1,631 @@
+/*清除样式*/
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	font: 12px/20px Arial,tahoma,Srial,helvetica,sans-serif;
+	color: #888;
+	background: #fff;
+}
+
+a {
+		text-decoration: none;
+		transition: all 0.2s linear;
+		-webkit-transition: all 0.2s linear;
+		-moz-transition: all 0.2s linear;
+		-o-transition: all 0.2s linear;
+		color: #333;
+}
+a:hover{
+	text-decoration: underline;
+	color: rgba(46, 150, 150, 0.95);
+}
+li{
+	list-style-type: none;
+}
+img,input{
+	border:none;
+	border:1px solid none;
+}
+
+/*公共样式*/
+
+.bold{
+	font-weight: bold;
+}
+
+
+
+/*******************注册登陆样式**************************************************/
+#main{
+	width: 290px;
+	height:430px;
+	position: absolute;
+	top:10%;
+	left: 40%;
+}
+
+#main .title{
+	color: #fff;
+	font-size: 15px;
+	font-family: "Microsoft Yahei";
+}
+
+#main .ms{
+	color: rgb(233,233,233);
+	margin-top: 10px;
+}
+
+#main .login{
+	margin-top: 10px;
+	width:270px;
+	border:1px solid #ccc;
+	border-radius: 8px;
+	background: #DDE5ED;
+	-webkit-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.36),0 1px 0 rgba(255, 255, 255, 0.15);
+	-moz-box-shadow: inset 0 1px 3px rgba(0,0,0,0.36),0 1px 0 rgba(255,255,255,0.15);
+	box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.36),0 1px 0 rgba(255, 255, 255, 0.15);
+	padding: 10px;
+}
+
+#main .login .label{
+	color:#333;
+	font-size: 14px;
+	font-family: "Microsoft Yahei";
+	text-shadow:1px 1px 2px #fff;
+	margin-top: 10px;
+}
+
+#main .login .inp{
+	padding: 5px 10px;
+	border:1px solid #ccc;
+	border-radius: 5px;
+	color: #444;
+	font-weight: bold;
+	font-size: 14px;
+	font-family: "Microsoft Yahei";
+	color: #444;
+	box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.075);
+	margin-top: 5px;
+}
+
+#main .login .sm{
+	font-family: "Microsoft Yahei";
+	color: #333;
+	margin-top: 20px;
+	font-size: 14px;
+}
+
+#main .login .btn{
+	display: block;
+	width:250px;
+	margin: 0 auto;
+	height: 33px;
+	text-align: center;
+	background: #529ECC;
+	border-radius: 8px;
+	color: #fff;
+	line-height: 33px;
+	font-family: "Microsoft Yahei";
+	font-size: 16px;
+	font-weight: bold;
+	margin: 40px auto;
+
+}
+#main .login .btn:hover{
+	text-decoration: none;
+}
+
+#main .forget{
+	margin: 10px 0;
+}
+
+#main .forget a,#main .back a{
+	text-shadow: 1px 1px 0px black;
+	color: white !important;
+	font-family: "Microsoft Yahei";
+	text-decoration: underline;
+	margin: 10px;
+	font-size: 14px;
+}
+
+#copyright{
+	position:fixed;
+	bottom: 0;
+	left: 0;
+	text-shadow: 1px 1px 0px black;
+	color: white !important;
+	font-family: "Microsoft Yahei";
+	margin: 10px;
+	font-size: 14px;
+}
+/*******************会员中心样式**************************************************/
+body{
+	background: #EDECE9;
+}
+#page{
+	width: 100%;
+	height: auto;
+	background: #EDECE9;
+	
+
+}
+#page .header{
+	z-index: 99;
+	width: 100%;
+	height: 42px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background: #fff;
+	border-bottom:1px solid #ddd;
+	box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+}
+#page .header .middle{
+	width: 992px;
+	margin:0 auto;
+	height: 42px;
+	position: relative;
+}
+#page .header .middle .header_1{
+	border-left:1px solid #ddd;
+	border-right:1px solid #ddd;
+	display: block;
+	width: 56px;
+	height: 42px;
+	position: absolute;
+	left: 0
+	top:0;
+	cursor: pointer;
+	background: url(../images/menu_sprite.svg) 20px 15px no-repeat;
+}
+#page .header .middle .header_1:hover{
+	background: url(../images/menu_sprite.svg) 20px 15px no-repeat #eee;
+}
+#page .header .middle .logo{
+	position: absolute;
+	left: 45%;
+	top:0;
+	width: 130px;
+}
+#page .header .middle .user_info{
+	width: 200px;
+	height: 253px;
+	border: 1px solid #ddd;
+	border-top: none;
+	border-radius: 5px;
+	background: #fff;
+	position: absolute;
+	right: 0;
+	top: 44px;
+	box-shadow: 0 0 1px rgba(0,0,0,0.2);
+	padding-top: 1px;
+	z-index: 999;
+} 
+#page .header .middle .user_info a{
+	display: block;
+	width: 200px;
+	height: 42px;
+	line-height: 42px;
+	font-size: 14px;
+	color: #221919;
+	text-decoration: none;
+	position: relative;
+}
+#page .header .middle .user_info a:hover{
+	background-color: #F2F2F2;
+}
+
+#page .header .middle .user_info a span{
+	position: absolute;
+	left: 40px;
+}
+
+#page .header .middle .user_info i{
+	display: block;
+	position: absolute;
+	left: 15px;
+	top:15px;
+	width: 16px;
+	height: 16px;
+	background: url(../images/icon_user_menu.svg) 0 0 no-repeat;
+}
+#page .header .middle .user_info .user_1 i{background-position: 0 0;}
+#page .header .middle .user_info .user_1{border-bottom: 1px solid #ddd;}
+#page .header .middle .user_info .user_2 i{background-position: 0 -360px;}
+#page .header .middle .user_info .user_3 i{background-position: 0 -400px;}
+#page .header .middle .user_info .user_4 i{background-position: 0 -40px;}
+#page .header .middle .user_info .user_4{border-bottom: 1px solid #ddd;}
+#page .header .middle .user_info .user_5 i{background-position: 0 -160px;}
+#page .header .middle .user_info .user_6 i{background-position: 0 -200px;}
+
+#page .header .middle .right{
+	width: 173px;
+	height: 42px;
+	overflow: hidden;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+#page .header .middle .right a{
+	cursor: pointer;
+	position: absolute;
+	display: block;
+	width: 43px;
+	height: 42px;
+	text-align: center;
+	border-right: 1px solid whiteSmoke;
+}
+#page .header .middle .right a:hover{background: #efefef;}
+#page .header .middle .right a.email{
+	border-left: 1px solid whiteSmoke;
+	right: 86px;
+	top:0;
+	background: url(../images/menu_sprite.svg) 12px -1183px no-repeat;
+}
+#page .header .middle .right a.email:hover{	background: url(../images/menu_sprite.svg) 12px -1183px no-repeat #eee;}
+#page .header .middle .right a.notice{
+	right: 43px;
+	top:0;
+	background: url(../images/menu_sprite.svg) 13px -187px no-repeat;
+}
+#page .header .middle .right a.notice:hover{background: url(../images/menu_sprite.svg) 13px -187px no-repeat #eee;}
+#page .header .middle .right a.avator{
+	right: 0;
+	top:0;
+	text-align: center;
+}
+#page .header .middle .right a.avator img{width:20px;height: 20px;margin-top: 10px;}
+
+
+#page .content{
+	border-radius: 2px;
+	width: 992px;
+	margin:0 auto;
+	height: 773px;
+	position: relative;
+	top:62px;
+	z-index: 0;
+	background: #fff;
+	box-shadow: 0 1px 3px rgba(34, 25, 25, .4);
+	-webkit-box-shadow: 0 1px 3px rgba(34, 25, 25, .4);
+}
+#page .content .title{
+	height: 60px;
+	text-align: center;
+	line-height: 60px;
+	font-size: 26px;
+	font-family: "Microsoft Yahei";
+	border-bottom: 1px solid #ddd;
+}
+
+#page .content .item .shower{
+	width: 940px;
+	height:60px;
+	margin: 0 auto;
+	border-bottom: 1px solid #ddd;
+	position: relative;
+}
+#page .content .item .shower:hover{
+	cursor: pointer;
+	background: #FAFAFA;
+}
+#page .content .item .shower .clumn{
+	position: absolute;
+	left: 10px;
+	top: 20px;
+	font-size: 20px;
+	color: #333;
+}
+#page .content .item .shower .detail{
+	position: absolute;
+	left: 200px;
+	top: 20px;
+	font-size: 18px;
+}
+#page .content .item .shower .edit{
+	position: absolute;
+	right: 30px;
+	top: 20px;
+	font-size: 16px;
+}
+#page .content .item .shower .ico{
+	background: url(../images/editor_arrow.png) right 25px no-repeat;
+	height: 60px;
+	width: 20px;
+	position: absolute;
+	right: 5px;
+	top: 0;
+}
+#page .content .item .holder{
+	border-bottom: 1px solid #ddd;
+}
+#page .content .item .holder table{
+	width: 700px;
+	margin: 0 auto;
+	margin-top: 10px;
+	font-size: 16px;
+}
+
+#page .content .item .holder table td{
+	height: 40px;
+	vertical-align: middle;
+	text-align: left;
+}
+#page .content .item .holder table td.td_left{
+	width: 80px;
+}
+#page .content .item .holder table .inp{
+	display: inline-block;
+	padding: 0 10px;
+	height: 36px;
+	font-size: 16px;
+	line-height: 1;
+	color: #777;
+	background: #FCFCFC;
+	border: 1px solid #CCC;
+	border-radius: 3px;
+	width: 250px;
+	box-shadow: inset 0 1px 2px rgba(0, 0, 0, .05);
+	-webkit-transition: color .2s linear,border-color .3s linear;
+}
+
+
+
+#container{
+	height: 680px;
+	background: url(../images/login_bg.jpg) no-repeat;
+	background-size: 100% 100%;
+}
+
+#container .main{
+	width: 1014px;
+	margin: 0 auto;
+}
+
+#container .main .head{
+	height: 110px;
+	position: relative;
+}
+
+#container .main .logo{
+	position: absolute;
+	top:45px;
+	left: 0;
+	font-weight: bold;
+	font-size: 50px;
+	font-family: "Microsoft Yahei";
+	color: #fff;
+	text-shadow:1px 1px 2px #000;
+}
+
+#container .main .head .user_center{
+	position: absolute;
+	top:58px;
+	left: 200px;
+	font-weight: bold;
+	font-size: 30px;
+	font-family: "Microsoft Yahei";
+	color: #fff;
+	text-shadow:1px 1px 1px #555;
+}
+
+#container .main .head .tou{
+	position: absolute;
+	right: 0;
+	top: 20px;
+	width: 196px;
+	height: 74px;
+	background: url(../images/personal-manage-index-ico.png) no-repeat 0 0;
+}
+
+#container .main .head .tou .pic{
+	margin: 1px 0 0 1px;
+		width: 64px;
+		height:64px;
+		display: block;
+		border:4px solid #ddd;	
+}
+
+#container .main .head .tou .pic:hover{
+	border:4px solid #FF7800;	
+}
+
+#container .main .head .tou img{
+	width: 64px;
+	height:64px;
+
+}
+
+#container .main .head .tou .info1{
+	position: absolute;
+	top:5px;
+	left: 90px;
+	color: #fff;
+}
+#container .main .head .tou .info2{
+	position: absolute;
+	top:30px;
+	left: 90px;
+	color: #fff;
+}
+
+#container .main .nav{
+	height: 60px;
+	background:rgba(57, 164, 250, 0.7);
+}
+
+#container .main .nav a{
+	display: block;
+	height: 60px;
+	float: left;
+	line-height: 60px;
+	padding: 0 20px;
+	font-size: 16px;
+	color: #fff;
+	font-family: "Microsoft Yahei";
+}
+
+#container .main .nav a:hover{
+	background: #333;
+	text-decoration: none;
+}
+
+#container .main .content{
+	background: rgba(255,255,255,0.95);
+	height: 470px;
+	overflow: hidden;
+}
+
+#container .main .content .left{
+	background: #e8e8e8;
+	height: 470px;
+	width:200px;
+	border-right: 1px solid #ddd;
+	float: left;
+}
+
+#container .main .content .left ul{
+	width: 180px;
+	margin-left: 10px;
+	padding-top: 20px;
+}
+
+#container .main .content .left ul li{
+	height: 50px;
+	line-height: 50px;
+	border-bottom: 1px solid #ddd;
+}
+#container .main .content .left ul li .ico{
+	margin-right: 10px;
+}
+
+#container .main .content .left ul li a{
+	color: #222;
+	font-size: 14px;
+
+}
+
+#container .main .content .left ul li .num{
+	color: #C30;
+}
+
+#container .main .content .right{
+	width: 800px;
+	float: right;
+}
+
+#container .main .content .right .biao{
+	height: 30px;
+	width: 780px;
+	border:1px solid #ddd;
+	margin: 20px 0 0 8px;
+	background: url(../images/sprite-bar.png) repeat-x 0px -100px;
+	position: relative;
+	color: #333;
+	overflow: hidden;
+}
+
+#container .main .content .right .biao .title{
+	position: absolute;
+	top:5px;
+	left: 20px;
+
+}
+
+#container .main .content .right .biao ul{
+	width: 330px;
+	position: absolute;
+	right: 0;
+	top: 5px;
+}
+
+#container .main .content .right .biao ul li{
+	float: left;
+	padding: 0 37px;
+	border-left: 1px solid #ddd;
+}
+
+#container .main .content .right .list{
+	width: 780px;
+	margin-left: 8px;
+}
+
+#container .main .content .right .list ul li{
+	height: 40px;
+	line-height: 40px;
+	border-bottom:1px dashed #ddd;
+	position: relative;
+}
+
+#container .main .content .right .list ul li .title{
+	width: 450px;
+
+}
+
+#container .main .content .right .list ul li .time{
+	position: absolute;
+	right: 10px;
+}
+
+#container .main .content .right .list ul li .edit{
+width: 18px;
+height: 15px;
+background: url(../images/manage-ico.png) no-repeat 0px 0px;
+position: absolute;
+left: 470px;
+top:10px;
+}
+
+#container .main .content .right .list ul li .delete{
+width: 18px;
+height: 15px;
+background: url(../images/manage-ico.png) no-repeat -48px 2px;
+position: absolute;
+left: 510px;
+top:10px;
+}
+
+#container .main .content .right .list ul li .channel{
+	position: absolute;
+	left:575px;
+	color: #333;
+}
+#container .main .content .right .article .row{
+	margin: 15px 0 15px 10px;
+}
+#container .main .content .right .article .row .inp{
+	border:1px solid #ddd;
+	width: 300px;
+	height: 28px;
+	line-height: 28px;
+}
+#container .main .content .right .article .row .neirong{
+	border:1px solid #ddd;
+	width: 500px;
+	height: 200px;
+	vertical-align: middle;
+}
+#container .main .content .right .article .row .btn{
+	width: 80px;
+	height: 30px;
+	background: rgb(57, 164, 250);
+	border-radius: 5px;
+	color: #fff;
+	font-family: "Microsoft Yahei";
+	font-weight: bold;
+	cursor: pointer;
+}
+#container .main .content .right .article .row .info{
+	color:#C30;
+	padding-left: 5px;
+}
+#container .main .content .right .article .row .cid{
+	width:300px;
+	border:1px solid #ddd;
+	height: 30px;
+	background: #fff;
+	color: #333;
+}
+
