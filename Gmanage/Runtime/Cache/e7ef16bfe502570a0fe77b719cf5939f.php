@@ -17,7 +17,7 @@
 
 </head>
 <body>
-<script type="text/javascript" src="../Public/js/goods.js"> </script>
+
 
 <div id="map">
 	<span class='title'>添加商品</span>
@@ -42,7 +42,7 @@
 				<td>分类名称</td>
 	
 				<td>
-					<select name="pid" class="form-control">
+					<select name="cid" class="form-control">
 						<option value="0">请选择分类</option>
 						<?php if(is_array($category)): foreach($category as $key=>$v): ?><option value="<?php echo ($v["cid"]); ?>"><?php echo ($v["_name"]); echo ($v["cname"]); ?></option><?php endforeach; endif; ?>
 					</select>
@@ -52,7 +52,7 @@
 				<td>所属地区</td>
 	
 				<td>
-					<select name="pid" class="form-control">
+					<select name="lid" class="form-control">
 						<option value="0">请选择地区</option>
 						<?php if(is_array($locality)): foreach($locality as $key=>$v): ?><option value="<?php echo ($v["lid"]); ?>"><?php echo ($v["_name"]); echo ($v["lname"]); ?></option><?php endforeach; endif; ?>
 					</select>
@@ -81,7 +81,10 @@
 			<tr>
 				<td>商品展示图</td>
 	
-				<td><input type="file" name="goods_img" id="goods_img" class="form-control"/></td>
+				<td><input type="file" id="goods_img" class="form-control"/>
+				<input type="hidden" name="goods_img" id="hid_img" />
+				<img src="" id="thumb" class="img-thumbnail"/>
+				</td>
 				<!--图片上传插件uploadify-->
 				<link rel="stylesheet" type="text/css" href="__PUBLIC__/Uploadify/uploadify.css"/>
 				<script type="text/javascript" src='__PUBLIC__/Uploadify/jquery.uploadify.min.js'></script>
@@ -92,10 +95,57 @@
 						width : 120,//按钮的宽度
 						height : 30,//按钮的高度
 						buttonImage: "__PUBLIC__/Uploadify/browse-btn.png",//按钮背景图
-						fileTypeDesc : 'Image File'
+						fileTypeDesc : 'Image File',//windows保存类型那里
+						fileTypeExts : '*.jpeg;*.jpg;*.png;*.gif',//允许选择的文件类型
+						formData : {<?php echo session_name();?>:'<?php echo session_id();?>'},//解决session丢失问题
+						//上传成功后的回调函数
+						onUploadSuccess : function(file,data,res){
+							data=JSON.parse(data);
+							if(data.status){
+								$('#thumb').attr('src','__ROOT__/'+'Uploads/Goods/'+data.path.medium);
+								var imgPath='/Uploads/Goods/'+data.path.max+',/Uploads/Goods/'+data.path.medium+',/Uploads/Goods/'+data.path.mini;
+								$('#hid_img').val(imgPath);
+							}else{
+								alert(data.msg);
+							}
+						}
 					});
 				</script>
 				<!--//图片上传插件-->
+			</tr>
+			<tr>
+				<td>商品服务</td>
+				<td>
+					<?php if(is_array($goods_server)): foreach($goods_server as $k=>$v): ?><label><input type="checkbox" name="goods_server[]" value="<?php echo ($k); ?>" />&nbsp;<?php echo ($v["name"]); ?>
+						</label><br/><br/><?php endforeach; endif; ?>
+				</td>
+			</tr>
+			<tr>
+				<td>商品详情</td>
+				<td>
+					<!--Umeditor编辑器-->
+					<script id="detail" name="detail" type="text/plain" style="width:600px;height:200px;"></script>
+					<!-- 样式文件 -->
+					<link rel="stylesheet" href="__PUBLIC__/Umeditor/themes/default/css/umeditor.css">
+					<!-- 配置文件 -->
+					<script type="text/javascript" src="__PUBLIC__/Umeditor/umeditor.config.js"></script>
+					<!-- 编辑器源码文件 -->
+					<script type="text/javascript" src="__PUBLIC__/Umeditor/umeditor.js"></script>
+					<!-- 实例化编辑器代码 -->
+					<script type="text/javascript">
+					    $(function(){
+					        window.um = UM.getEditor('detail', {
+					            /* 传入配置参数,可配参数列表看umeditor.config.js */
+					            toolbar: ['undo redo | bold italic underline | emotion image'],
+					            imageUrl:"<?php echo U('Common/uploadDetailImg');?>",//php处理脚本
+					            imagePath:'__ROOT__/Uploads/Goods/',
+					            focus: true,
+					            enterTag:'br'
+					        });
+					    });
+					</script>
+					<!--//Umeditor编辑器-->
+				</td>
 			</tr>
 
 			<tr>
@@ -107,5 +157,6 @@
 	</table>
 	</form>
 </div>
+
 </body>
 </html>

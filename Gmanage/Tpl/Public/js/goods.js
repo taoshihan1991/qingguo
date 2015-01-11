@@ -23,39 +23,6 @@ $(function(){
 				required:'请填写分类标题'
 			},
 			message:'分类标题必填'
-		},
-		keywords:{
-			rule:{
-				required:true,
-				maxlen:60
-			},
-			error:{
-				maxlen:'不能大于60个字符',
-				required:'请填写分类关键字'
-			},
-			message:'分类关键字必填'
-		},
-		description:{
-			rule:{
-				required:true,
-				maxlen:80
-			},
-			error:{
-				maxlen:'不能大于80个字符',
-				required:'请填写分类描述'
-			},
-			message:'分类描述必填'
-		},
-		sort:{
-			rule:{
-				required:true,
-				num:"1,100"
-			},
-			error:{
-				num:'请填写1到100的数字',
-				required:'请填写分类排序'
-			},
-			message:'分类排序必填'
 		}
 	});
 });

@@ -66,7 +66,7 @@ class ShopAction extends CommonAction {
 		if($this->db->delShop($this->shopid)){
 			$this->success('删除成功',U('shop/index'));
 		}else{
-			throw new Exception('删除失败'.$this->db->getLastSql());
+			throw new Exception('该商铺下还有商品，删除失败,'.$this->db->getLastSql());
 		}
 	}
 	/**

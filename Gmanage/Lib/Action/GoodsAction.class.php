@@ -5,20 +5,22 @@
 * @time 2015年1月10日19:19:06
 */
 class GoodsAction extends CommonAction {
-
-    private $cid;//分类id
+    protected $gid;
 
 	/*初始化*/
     public function _auto(){
     	/*实例化模型*/
-        $this->db=D('Category');
-        $this->cid=intval($_GET['cid']);
+        $this->db=D('GoodsView');
+        $this->gid=intval($_GET['gid']);
     }
-    /*显示分类列表*/
+    /*显示商品列表*/
     public function index(){
-    	$category=$this->db->getCategoryAll();
-    	import('ORG.Util.Data');
-    	$data=Data::tree($category,'','cid','pid');
+        $total=$this->db->getGoodsTotal();
+        import('ORG.Util.Page');
+        $page=new Page($total,1);
+    	$data=$this->db->getGoodsAll($page);
+        $this->assign('data',$data);
+        $this->assign('page',$page->show());
 
     	$this->assign('data',$data);
     	$this->display();
@@ -36,17 +38,19 @@ class GoodsAction extends CommonAction {
             $this->setCategory();
             //分配地区选择
             $this->setLocality();
+            $this->assign('goods_server',C('goods_server'));
             //显示模板
     		$this->display();
     		exit;
     	} 
     	//获得分类的数据
     	$data=$this->getData();
-    	if($this->db->add($data)){
+      
+    	if($this->db->addGoods($data)){
     		//成功跳转
-    		$this->success('添加成功',U('category/index'));
+    		$this->success('添加成功',U('goods/index'));
     	}else{
-    		throw new Exception('添加分类失败');
+    		throw new Exception('添加失败'.$this->db->getLastSql());
     	}
     	
     }
@@ -55,44 +59,57 @@ class GoodsAction extends CommonAction {
 	*/
     public function edit(){
         if(IS_GET===true){
-            
+            //分配分类选择
+            $this->setCategory();
+            //分配地区选择
+            $this->setLocality();
+            $this->assign('goods_server',C('goods_server'));
 
-            //获取所有的分类用于选择
-            $level=$this->db->getCategoryAll();
-            import('ORG.Util.Data');
-            $level=Data::tree($level,'','cid','pid');
-            $this->assign('level',$level);
+            $info=$this->db->getGoodsFind($this->gid);
 
-            $category=$this->db->getCategoryFind($this->cid);
-            $this->assign('category',$category);
-
-            //查询父类的信息
-            $parent=$this->db->getParentInfo($category['pid']);
-            $this->assign('parent',$parent);
-
+            $info['goods_server']=unserialize($info['goods_detail']['goods_server']);
+            $info['detail']=$info['goods_detail']['detail'];
+        
+            $this->assign('info',$info);
+     
+            //显示模板
             $this->display();
             exit;
         }
 
         $data=$this->getData();
-        if($this->db->editCategory($data,$this->cid)){
-            $this->success('编辑成功！',U('category/index'));
+
+        if($this->db->editGoods($data,$this->gid)){
+            $this->success('编辑成功！',U('goods/index'));
         }else{
-           $this->error('没有改动！',U('category/index'));
+           $this->error('没有改动！',U('goods/index'));
         }
 
     }
     /**
-    * 删除分类
+    * 删除商品
     */
     public function del(){
-        if($this->db->checkSon($this->cid)){
-            $this->error('请先删除子分类');
-        }
-        if($this->db->delCategory($this->cid)){
+        //删除旧文件
+        $this->delOldFile($this->gid);
+        if($this->db->delGoods($this->gid)){
+            
             $this->success('删除成功',U('index'));
         }else{
             $this->error('删除失败');
+        }
+    }
+    /**
+    * 删除旧的文件
+    */
+    public function delOldFile($gid){
+        $info=$this->db->getGoodsFind($gid);
+        $array=explode(',',$info['goods_img']);
+        foreach($array as $v){
+
+            if(is_file(ROOT_PATH.$v)){
+                unlink(ROOT_PATH.$v);
+            }
         }
     }
     /**
@@ -100,13 +117,16 @@ class GoodsAction extends CommonAction {
 	*/
     private function getData(){
     	$data=array();
-    	$data['cname']=I('post.cname');
-    	$data['title']=htmlspecialchars($_POST['title']);
-    	$data['keywords']=htmlspecialchars($_POST['keywords']);
-    	$data['description']=htmlspecialchars($_POST['description']);
-    	$data['sort']=intval($_POST['sort']);
-    	$data['pid']=intval($_POST['pid']);
-    	$data['display']=intval($_POST['display']);
+        $data['goods']['shopid']=intval($_POST['shopid']);
+        $data['goods']['cid']=intval($_POST['cid']);
+        $data['goods']['lid']=intval($_POST['lid']);
+    	$data['goods']['main_title']=I('post.main_title');
+    	$data['goods']['sub_title']=htmlspecialchars($_POST['sub_title']);
+    	$data['goods']['price']=htmlspecialchars($_POST['price']);
+    	$data['goods']['old_price']=htmlspecialchars($_POST['old_price']);
+        $data['goods']['goods_img']=htmlspecialchars($_POST['goods_img']);
+        $data['goods_detail']['detail']=$_POST['detail'];
+        $data['goods_detail']['goods_server']=serialize($_POST['goods_server']);
     	return $data;
     }
     /**

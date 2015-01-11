@@ -2,7 +2,7 @@
 <script type="text/javascript" src="../Public/js/category.js"> </script>
 
 <div id="map">
-	<span class='title'>商铺列表</span>
+	<span class='title'>商品列表</span>
 </div>
 <div id="content">
 
@@ -10,10 +10,13 @@
 		<thead>
 			<tr>
 				<th width="5%"></th>
-				<th width="20%">商铺名称</th>
-				<th width="30%">商铺地址</th>
-				<th width="20%">商铺电话</th>
-	
+				<th width="25%">商品主标题</th>
+				<th width="10%">分类名称</th>
+				<th width="10%">所属地区</th>
+				<th width="15%">商铺名称</th>
+				<th width="5%">原价</th>
+				<th width="5%">现价</th>
+				<th width="5%">销量</th>
 				<th>操作</th>
 			</tr>
 		</thead>
@@ -21,15 +24,18 @@
 			<foreach name="data" item="v">
 			<tr>
 				
-				<td>{$v.shopid}</td>
+				<td>{$v.gid}</td>
+				<td>{$v.main_title}</td>
+				<td>{$v.cname}</td>
+				<td>{$v.lname}</td>
 				<td>{$v.shopname}</td>
-				<td>{$v.shopaddress}</td>
-				<td>{$v.shoptel}</td>
-				
+				<td>￥{$v.old_price}</td>
+				<td>￥{$v.price}</td>
+				<td>{$v.buy}</td>
 				<td>
-					<a href="{:U('goods/add',array('shopid'=>$v['shopid']))}" class="btn  btn-primary btn-xs">添加商品</a>&nbsp;&nbsp;
-					<a href="{:U('shop/edit',array('shopid'=>$v['shopid']))}" class="btn  btn-primary btn-xs">编辑</a>&nbsp;&nbsp;
-					<a href="{:U('shop/del',array('shopid'=>$v['shopid']))}" class="btn  btn-danger btn-xs delAffirm">删除</a>
+			
+					<a href="{:U('goods/edit',array('gid'=>$v['gid']))}" class="btn  btn-primary btn-xs">编辑</a>&nbsp;&nbsp;
+					<a href="{:U('goods/del',array('gid'=>$v['gid']))}" class="btn  btn-danger btn-xs delAffirm">删除</a>
 				</td>
 				
 			</tr>

@@ -1,11 +1,11 @@
 <include file="Common:header" />
-<script type="text/javascript" src="../Public/js/locality.js"> </script>
+
 
 <div id="map">
-	<span class='title'>编辑商铺</span>
+	<span class='title'>添加商品</span>
 </div>
 <div id="content">
-	<form class="form-horizontal" role="form" id="localityForm" action="{:U('shop/edit',array('shopid'=>$info['shopid']))}" method="post">
+	<form class="form-horizontal" role="form" id="goodsForm" action="{:U('Goods/edit',array('gid'=>$info['gid']))}" method="post">
 	<table class="table table-striped table-bordered table-hover">
 		<thead>
 			<tr>
@@ -15,59 +15,133 @@
 			</tr>
 		</thead>
 		<tbody>
-		
 			<tr>
 				<td>商铺名称</td>
 	
-				<td><input type="text" name="shopname" class="form-control" value="{$info.shopname}" /></td>
+				<td><input type="hidden" name="shopid" value="{$info.shopid}" />{$info.shopname}</td>
 			</tr>
-
 			<tr>
-				<td>商铺地址</td>
+				<td>分类名称</td>
 	
-				<td><input type="text" name="shopaddress" class="form-control" value="{$info.shopaddress}" /></td>
-			</tr>
-			<tr>
-				<td>公交地址</td>
-	
-				<td><input type="text" name="metroaddress" class="form-control" value="{$info.metroaddress}"/></td>
-			</tr>
-			<tr>
-				<td>商铺电话</td>
-	
-				<td><input type="text" name="shoptel" class="form-control" value="{$info.shoptel}"/></td>
-			</tr>
-			<tr>
-				<td>商铺坐标</td>
-	
-				<td><input type="text" name="shopcoord" class="form-control" value="{$info.shopcoord}"/></td>
-			</tr>
-			<tr>
-				<td></td>
 				<td>
-					<!--百度地图实例-->
-					<style type="text/css">
-						#allmap{width:100%;height:300px;}
-					</style>
-					<div id="allmap"></div>
-					<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=nZs75slzWpQGsIaloDGpGCGA"></script>
-					<script type="text/javascript">
-						// 百度地图API功能
-						var map = new BMap.Map("allmap");
-						map.enableScrollWheelZoom(true);
-						var point=new BMap.Point(<?php echo $info['shopcoord'];?>);
-						map.centerAndZoom(point,20);
-						var marker = new BMap.Marker(point);  // 创建标注
-						map.addOverlay(marker);               // 将标注添加到地图中
-						marker.setAnimation(BMAP_ANIMATION_BOUNCE); //跳动的动画
-						function showInfo(e){
-							$('input[name=shopcoord]').val(e.point.lng + "," + e.point.lat);
-						}
-						map.addEventListener("click", showInfo);
-					</script>
-					<!--//百度地图实例-->
+					<select name="cid" class="form-control">
+						<option value="{$info.cid}">{$info.cname}</option>
+						<foreach name="category" item="v">
+						<option value="{$v.cid}">{$v._name}{$v.cname}</option>
+						</foreach>
+					</select>
 				</td>
 			</tr>
+			<tr>
+				<td>所属地区</td>
+	
+				<td>
+					<select name="lid" class="form-control">
+						<option value="{$info.lid}">{$info.lname}</option>
+						<foreach name="locality" item="v">
+						<option value="{$v.lid}">{$v._name}{$v.lname}</option>
+						</foreach>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>商品主标题</td>
+	
+				<td><input type="text" name="main_title" class="form-control" value="{$info.main_title}" /></td>
+			</tr>
+			<tr>
+				<td>商品副标题</td>
+	
+				<td><input type="text" name="sub_title" class="form-control" value="{$info.sub_title}" /></td>
+			</tr>
+			<tr>
+				<td>商品现价</td>
+	
+				<td><input type="text" name="price" class="form-control" value="{$info.price}" /></td>
+			</tr>
+			<tr>
+				<td>商品原价</td>
+	
+				<td><input type="text" name="old_price" class="form-control" value="{$info.old_price}" /></td>
+			</tr>
+			<tr>
+				<td>商品展示图</td>
+	
+				<td><input type="file" id="goods_img" class="form-control"/>
+				<input type="hidden" name="goods_img" id="hid_img" value="{$info.goods_img}" />
+				<if condition="$info['goods_img']">
+				<img src="__ROOT__<?php $pic=explode(',',$info['goods_img']);echo $pic[1];?>" id="thumb" class="img-thumbnail"/>
+				</if>
+				<input type="hidden" name="old_img" value="{$info.goods_img}"/>
+				</td>
+				<!--图片上传插件uploadify-->
+				<link rel="stylesheet" type="text/css" href="__PUBLIC__/Uploadify/uploadify.css"/>
+				<script type="text/javascript" src='__PUBLIC__/Uploadify/jquery.uploadify.min.js'></script>
+				<script type="text/javascript">
+					$('#goods_img').uploadify({
+						swf : '__PUBLIC__/Uploadify/uploadify.swf',//载入swf
+						uploader : "<?php echo U('Common/uploadGoodsImg');?>",//php处理脚本
+						width : 120,//按钮的宽度
+						height : 30,//按钮的高度
+						buttonImage: "__PUBLIC__/Uploadify/browse-btn.png",//按钮背景图
+						fileTypeDesc : 'Image File',//windows保存类型那里
+						fileTypeExts : '*.jpeg;*.jpg;*.png;*.gif',//允许选择的文件类型
+						formData : {<?php echo session_name();?>:'<?php echo session_id();?>'},//解决session丢失问题
+						//上传成功后的回调函数
+						onUploadSuccess : function(file,data,res){
+							data=JSON.parse(data);
+							if(data.status){
+								$('#thumb').attr('src','__ROOT__/'+'Uploads/Goods/'+data.path.medium);
+								var imgPath='/Uploads/Goods/'+data.path.max+',/Uploads/Goods/'+data.path.medium+',/Uploads/Goods/'+data.path.mini;
+								$('#hid_img').val(imgPath);
+							}else{
+								alert(data.msg);
+							}
+						}
+					});
+				</script>
+				<!--//图片上传插件-->
+			</tr>
+			<tr>
+				<td>商品服务</td>
+				<td>
+					<foreach name="goods_server" key="k" item="v">
+
+						<label><input type="checkbox" name="goods_server[]" value="{$k}" 
+						<if condition="in_array($k,$info['goods_server'])">checked="checked"</if>
+						/>&nbsp;{$v.name}
+						</label><br/><br/>
+					</foreach>
+				</td>
+			</tr>
+			<tr>
+				<td>商品详情</td>
+				<td>
+					<!--Umeditor编辑器-->
+					<script id="detail" name="detail" type="text/plain" style="width:600px;height:200px;">{$info.detail}</script>
+					<!-- 样式文件 -->
+					<link rel="stylesheet" href="__PUBLIC__/Umeditor/themes/default/css/umeditor.css">
+					<!-- 配置文件 -->
+					<script type="text/javascript" src="__PUBLIC__/Umeditor/umeditor.config.js"></script>
+					<!-- 编辑器源码文件 -->
+					<script type="text/javascript" src="__PUBLIC__/Umeditor/umeditor.js"></script>
+					<!-- 实例化编辑器代码 -->
+					<script type="text/javascript">
+					    $(function(){
+					        window.um = UM.getEditor('detail', {
+					            /* 传入配置参数,可配参数列表看umeditor.config.js */
+					            toolbar: ['undo redo | bold italic underline | emotion image'],
+					            imageUrl:"<?php echo U('Common/uploadDetailImg');?>",//php处理脚本
+					            imagePath:'__ROOT__/Uploads/Goods/',
+					            focus: true,
+					            enterTag:'br'
+					        });
+					    });
+					</script>
+					<!--//Umeditor编辑器-->
+				</td>
+			</tr>
+
 			<tr>
 				<td></td>
 	
@@ -77,5 +151,6 @@
 	</table>
 	</form>
 </div>
+
 </body>
 </html>
