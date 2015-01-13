@@ -1,0 +1,146 @@
+[ 2015-01-13T20:16:54+08:00 ] 127.0.0.1 /qingguo/groupManage.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.010472s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010615s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.099992s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.100105s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.010951s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.011050s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.009886s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.010482s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.042611s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.010433s ]
+INFO: [ view_end ] --END-- [ RunTime:0.010509s ]
+
+[ 2015-01-13T20:16:54+08:00 ] 127.0.0.1 /qingguo/groupManage.php/index/welcome
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.014544s ]
+INFO: [ route_check ] --END-- [ RunTime:0.014669s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.017696s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017856s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.119426s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.119585s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.010424s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.011030s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.011301s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.010397s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.043397s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.011389s ]
+INFO: [ view_end ] --END-- [ RunTime:0.011477s ]
+
+[ 2015-01-13T20:16:58+08:00 ] 127.0.0.1 /qingguo/groupManage.php/category/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.011147s ]
+INFO: [ route_check ] --END-- [ RunTime:0.011267s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.010970s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011065s ]
+SQL: SHOW COLUMNS FROM `group_category` [ RunTime:0.013483s ]
+NOTIC: [8] Undefined index: cid G:\php\htdocs\qingguo\Gmanage\Lib\Action\CategoryAction.class.php 第 15 行.
+SQL: SELECT * FROM `group_category`  [ RunTime:0.010055s ]
+NOTIC: [8] Undefined index:  G:\php\htdocs\qingguo\ThinkPHP\Extend\Library\ORG\Util\Data.class.php 第 121 行.
+NOTIC: [8] Undefined index:  G:\php\htdocs\qingguo\ThinkPHP\Extend\Library\ORG\Util\Data.class.php 第 121 行.
+NOTIC: [8] Undefined index:  G:\php\htdocs\qingguo\ThinkPHP\Extend\Library\ORG\Util\Data.class.php 第 121 行.
+NOTIC: [8] Undefined index:  G:\php\htdocs\qingguo\ThinkPHP\Extend\Library\ORG\Util\Data.class.php 第 121 行.
+NOTIC: [8] Undefined index:  G:\php\htdocs\qingguo\ThinkPHP\Extend\Library\ORG\Util\Data.class.php 第 121 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.067462s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.067564s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.009603s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.009497s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.009362s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.009543s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.038240s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.009885s ]
+INFO: [ view_end ] --END-- [ RunTime:0.009973s ]
+
+[ 2015-01-13T20:46:23+08:00 ] 127.0.0.1 /qingguo/groupManage.php/category/add/cid/1
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.010172s ]
+INFO: [ route_check ] --END-- [ RunTime:0.010294s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.009896s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009984s ]
+SQL: SHOW COLUMNS FROM `group_category` [ RunTime:0.008590s ]
+SQL: SELECT `cname`,`cid` FROM `group_category` WHERE ( `cid` = 1 ) LIMIT 1   [ RunTime:0.002970s ]
+SQL: SELECT * FROM `group_category`  [ RunTime:0.000482s ]
+NOTIC: [8] Undefined index:  G:\php\htdocs\qingguo\ThinkPHP\Extend\Library\ORG\Util\Data.class.php 第 121 行.
+NOTIC: [8] Undefined index:  G:\php\htdocs\qingguo\ThinkPHP\Extend\Library\ORG\Util\Data.class.php 第 121 行.
+NOTIC: [8] Undefined index:  G:\php\htdocs\qingguo\ThinkPHP\Extend\Library\ORG\Util\Data.class.php 第 121 行.
+NOTIC: [8] Undefined index:  G:\php\htdocs\qingguo\ThinkPHP\Extend\Library\ORG\Util\Data.class.php 第 121 行.
+NOTIC: [8] Undefined index:  G:\php\htdocs\qingguo\ThinkPHP\Extend\Library\ORG\Util\Data.class.php 第 121 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.167012s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.167117s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.010580s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.009917s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.010449s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.010817s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.042007s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.013142s ]
+INFO: [ view_end ] --END-- [ RunTime:0.013227s ]
+
+[ 2015-01-13T20:46:40+08:00 ] 127.0.0.1 /qingguo/groupManage.php/category/add
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.010692s ]
+INFO: [ route_check ] --END-- [ RunTime:0.010811s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.015401s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015502s ]
+SQL: SHOW COLUMNS FROM `group_category` [ RunTime:0.006295s ]
+NOTIC: [8] Undefined index: cid G:\php\htdocs\qingguo\Gmanage\Lib\Action\CategoryAction.class.php 第 15 行.
+SQL: INSERT INTO `group_category` (`cname`,`title`,`keywords`,`description`,`sort`,`pid`,`display`) VALUES ('烤肉','烤肉','烤肉','烤肉',2,1,1) [ RunTime:0.237973s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: error G:\php\htdocs\qingguo\Gmanage\Runtime\Cache\601939d8f47d76133e8112da531d3a21.php 第 61 行.
+NOTIC: [8] Undefined variable: error G:\php\htdocs\qingguo\Gmanage\Runtime\Cache\601939d8f47d76133e8112da531d3a21.php 第 65 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.114972s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.115076s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.011051s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.012111s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.009886s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.025614s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.058953s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.015044s ]
+INFO: [ view_end ] --END-- [ RunTime:0.015134s ]
+
+[ 2015-01-13T20:46:48+08:00 ] 127.0.0.1 /qingguo/groupManage.php/category/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.010401s ]
+INFO: [ route_check ] --END-- [ RunTime:0.010518s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.009898s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009987s ]
+SQL: SHOW COLUMNS FROM `group_category` [ RunTime:0.005819s ]
+NOTIC: [8] Undefined index: cid G:\php\htdocs\qingguo\Gmanage\Lib\Action\CategoryAction.class.php 第 15 行.
+SQL: SELECT * FROM `group_category`  [ RunTime:0.009711s ]
+NOTIC: [8] Undefined index:  G:\php\htdocs\qingguo\ThinkPHP\Extend\Library\ORG\Util\Data.class.php 第 121 行.
+NOTIC: [8] Undefined index:  G:\php\htdocs\qingguo\ThinkPHP\Extend\Library\ORG\Util\Data.class.php 第 121 行.
+NOTIC: [8] Undefined index:  G:\php\htdocs\qingguo\ThinkPHP\Extend\Library\ORG\Util\Data.class.php 第 121 行.
+NOTIC: [8] Undefined index:  G:\php\htdocs\qingguo\ThinkPHP\Extend\Library\ORG\Util\Data.class.php 第 121 行.
+NOTIC: [8] Undefined index:  G:\php\htdocs\qingguo\ThinkPHP\Extend\Library\ORG\Util\Data.class.php 第 121 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.076501s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.076599s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.014551s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.010613s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.010899s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.010294s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.046603s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.010781s ]
+INFO: [ view_end ] --END-- [ RunTime:0.010862s ]
+

@@ -184,11 +184,11 @@
 				<div class='filter-label-level-1'>
 					<span><b></b>分类：</span>
 					<div class='box'>
-			
+						<?php if(is_array($topCategory)): foreach($topCategory as $key=>$v): echo ($v); endforeach; endif; ?>
 					</div>
 				</div>
 				<div class='filter-label-level-2'>
-					
+					<?php if(is_array($sonCategory)): foreach($sonCategory as $key=>$v): echo ($v); endforeach; endif; ?>
 				</div>
 			</div>
 			<div class='locality filter-label'>

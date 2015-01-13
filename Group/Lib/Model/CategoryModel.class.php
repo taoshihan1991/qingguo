@@ -9,5 +9,12 @@ class CategoryModel extends Model {
     public function getCategoryLevel($pid){
         return $this->field('cname,cid')->where(array('pid'=>$pid,'display'=>1))->order('sort asc')->select();
     }
+    /**
+	* 获取分类的父id
+	*/
+    public function getCategoryPid($cid){
+        $result=$this->field('pid')->where(array('cid'=>$cid,'display'=>1))->find();
+        return $result['pid'];
+    }
 
 }

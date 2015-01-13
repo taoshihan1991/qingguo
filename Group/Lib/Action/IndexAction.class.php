@@ -30,12 +30,50 @@ class IndexAction extends CommonAction {
 	*/
 	private function setCategory(){
 		$db=D('Category');
-		if(empty($this->cid)){
-			$topCategory=$db->getCategoryLevel(0);
-			$tempArr=array();
-			echo __URL__;
-			//$tempArr[]=''
-			dump($topCategory);
+		$topCategory=$db->getCategoryLevel(0);
+		$tempArr=array();
+		//当没有cid的时候
+		if(empty($this->cid)){	
+			$tempArr[]='<a class="active" href="'.U('index').'">全部</a>';
+		}else{
+			$tempArr[]='<a href="'.U('index').'">全部</a>';
 		}
+
+
+		/*
+		有cid的情况
+		1.cid 是顶级分类id
+		2.cid 不是顶级分类id
+		*/
+		$pid=$db->getCategoryPid($this->cid);
+		foreach($topCategory as $v){
+				if($this->cid==$v['cid'] || $pid==$v['cid']){
+					$tempArr[]='<a class="active" href="'.U('index',array('cid'=>$v['cid'])).'">'.$v['cname'].'</a>';
+				}else{
+					$tempArr[]='<a href="'.U('index',array('cid'=>$v['cid'])).'">'.$v['cname'].'</a>';
+				}	
+		}
+		$this->assign('topCategory',$tempArr);
+			
+		if($pid==0){
+			$sonCategory=$db->getCategoryLevel($this->cid);
+			$tempSon[]='<a class="active" href="'.U('index',array('cid'=>$this->cid)).'">全部</a>';
+		}else{
+			$sonCategory=$db->getCategoryLevel($pid);
+			$tempSon[]='<a href="'.U('index',array('cid'=>$pid)).'">全部</a>';
+		}
+		foreach($sonCategory as $v){
+				if($this->cid==$v['cid']){
+					$tempSon[]='<a class="active" href="'.U('index',array('cid'=>$v['cid'])).'">'.$v['cname'].'</a>';
+				}else{
+					$tempSon[]='<a href="'.U('index',array('cid'=>$v['cid'])).'">'.$v['cname'].'</a>';
+				}	
+		}
+		$this->assign('sonCategory',$tempSon);
+
+
+		
+
+		
 	}
 }
