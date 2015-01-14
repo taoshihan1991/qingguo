@@ -21,6 +21,9 @@ class IndexAction extends CommonAction {
     	//设置分类模板
     	$this->setCategory();
 
+    	//设置地区模板
+    	$this->setLocality();
+
     	$this->display();
     }
     /**
@@ -62,17 +65,69 @@ class IndexAction extends CommonAction {
 			$sonCategory=$db->getCategoryLevel($pid);
 			$tempSon[]='<a href="'.U('index',array('cid'=>$pid)).'">全部</a>';
 		}
-		foreach($sonCategory as $v){
-				if($this->cid==$v['cid']){
-					$tempSon[]='<a class="active" href="'.U('index',array('cid'=>$v['cid'])).'">'.$v['cname'].'</a>';
-				}else{
-					$tempSon[]='<a href="'.U('index',array('cid'=>$v['cid'])).'">'.$v['cname'].'</a>';
-				}	
+		if($sonCategory&&$this->cid){
+			foreach($sonCategory as $v){
+					if($this->cid==$v['cid']){
+						$tempSon[]='<a class="active" href="'.U('index',array('cid'=>$v['cid'])).'">'.$v['cname'].'</a>';
+					}else{
+						$tempSon[]='<a href="'.U('index',array('cid'=>$v['cid'])).'">'.$v['cname'].'</a>';
+					}	
+			}
+			$this->assign('sonCategory',$tempSon);			
 		}
-		$this->assign('sonCategory',$tempSon);
-
 
 		
+	}
+
+	/**
+	* 设置地区模板
+	* 1.没有lid 显示顶级地区
+	* 2.有lid 显示顶级地区和当前地区下的子地区
+	*/
+	private function setLocality(){
+		$db=D('Locality');
+		$topLocality=$db->getLocalityLevel(0);
+		$tempArr=array();
+		//当没有cid的时候
+		if(empty($this->lid)){	
+			$tempArr[]='<a class="active" href="'.U('index').'">全部</a>';
+		}else{
+			$tempArr[]='<a href="'.U('index').'">全部</a>';
+		}
+
+
+		/*
+		有lid的情况
+		1.lid 是顶级分类id
+		2.lid 不是顶级分类id
+		*/
+		$pid=$db->getLocalityPid($this->lid);
+		foreach($topLocality as $v){
+				if($this->lid==$v['lid'] || $pid==$v['lid']){
+					$tempArr[]='<a class="active" href="'.U('index',array('lid'=>$v['lid'])).'">'.$v['lname'].'</a>';
+				}else{
+					$tempArr[]='<a href="'.U('index',array('lid'=>$v['lid'])).'">'.$v['lname'].'</a>';
+				}	
+		}
+		$this->assign('topLocality',$tempArr);
+		
+		if($pid==0){
+			$sonLocality=$db->getLocalityLevel($this->lid);
+			$tempSon[]='<a class="active" href="'.U('index',array('lid'=>$this->lid)).'">全部</a>';
+		}else{
+			$sonLocality=$db->getLocalityLevel($pid);
+			$tempSon[]='<a href="'.U('index',array('lid'=>$pid)).'">全部</a>';
+		}
+		if($sonLocality&&$this->lid){
+			foreach($sonLocality as $v){
+					if($this->lid==$v['lid']){
+						$tempSon[]='<a class="active" href="'.U('index',array('lid'=>$v['lid'])).'">'.$v['lname'].'</a>';
+					}else{
+						$tempSon[]='<a href="'.U('index',array('lid'=>$v['lid'])).'">'.$v['lname'].'</a>';
+					}	
+			}
+			$this->assign('sonLocality',$tempSon);			
+		}
 
 		
 	}
