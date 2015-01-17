@@ -1,0 +1,2369 @@
+[ 2015-01-14T19:03:16+08:00 ] 127.0.0.1 /qingguo/group.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.042707s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.067681s ]
+NOTIC: [8] Undefined index: cid G:\php\htdocs\qingguo\Group\Lib\Action\IndexAction.class.php 第 14 行.
+NOTIC: [8] Undefined index: lid G:\php\htdocs\qingguo\Group\Lib\Action\IndexAction.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `group_category` [ RunTime:0.454923s ]
+SQL: SELECT `cname`,`cid` FROM `group_category` WHERE ( `pid` = 0 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.095999s ]
+SQL: SELECT `pid` FROM `group_category` WHERE ( `cid` = 0 ) AND ( `display` = 1 ) LIMIT 1   [ RunTime:0.000836s ]
+SQL: SELECT `cname`,`cid` FROM `group_category` WHERE ( `pid` = 0 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.000915s ]
+SQL: SHOW COLUMNS FROM `group_locality` [ RunTime:0.089586s ]
+SQL: SELECT `lname`,`lid` FROM `group_locality` WHERE ( `pid` = 0 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.027857s ]
+SQL: SELECT `pid` FROM `group_locality` WHERE ( `lid` = 0 ) AND ( `display` = 1 ) LIMIT 1   [ RunTime:0.001071s ]
+SQL: SELECT `lname`,`lid` FROM `group_locality` WHERE ( `pid` = 0 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.001614s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: webInfo G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 11 行.
+NOTIC: [8] Undefined variable: sonCategory G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 191 行.
+NOTIC: [8] Undefined variable: sonLocality G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 202 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 217 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 218 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 219 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 220 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 221 行.
+NOTIC: [8] Undefined variable: page G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 333 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.382135s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.382307s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.016505s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.021466s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.010386s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.011130s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.059743s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.012135s ]
+INFO: [ view_end ] --END-- [ RunTime:0.012242s ]
+
+[ 2015-01-14T19:07:54+08:00 ] 127.0.0.1 /qingguo/group.php/Index/index/cid/3
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.041594s ]
+INFO: [ route_check ] --END-- [ RunTime:0.041723s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.009315s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009399s ]
+NOTIC: [8] Undefined index: lid G:\php\htdocs\qingguo\Group\Lib\Action\IndexAction.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `group_category` [ RunTime:0.013229s ]
+SQL: SELECT `cname`,`cid` FROM `group_category` WHERE ( `pid` = 0 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.004825s ]
+SQL: SELECT `pid` FROM `group_category` WHERE ( `cid` = 3 ) AND ( `display` = 1 ) LIMIT 1   [ RunTime:0.028281s ]
+SQL: SELECT `cname`,`cid` FROM `group_category` WHERE ( `pid` = 3 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.001470s ]
+SQL: SHOW COLUMNS FROM `group_locality` [ RunTime:0.006909s ]
+SQL: SELECT `lname`,`lid` FROM `group_locality` WHERE ( `pid` = 0 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.003428s ]
+SQL: SELECT `pid` FROM `group_locality` WHERE ( `lid` = 0 ) AND ( `display` = 1 ) LIMIT 1   [ RunTime:0.000450s ]
+SQL: SELECT `lname`,`lid` FROM `group_locality` WHERE ( `pid` = 0 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.000562s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: webInfo G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 11 行.
+NOTIC: [8] Undefined variable: sonCategory G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 191 行.
+NOTIC: [8] Undefined variable: sonLocality G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 202 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 217 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 218 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 219 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 220 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 221 行.
+NOTIC: [8] Undefined variable: page G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 333 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.078960s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.079130s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.009186s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.009128s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.009384s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.009967s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.037923s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.009571s ]
+INFO: [ view_end ] --END-- [ RunTime:0.009658s ]
+
+[ 2015-01-14T19:07:57+08:00 ] 127.0.0.1 /qingguo/group.php/Index/index/cid/1
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.009432s ]
+INFO: [ route_check ] --END-- [ RunTime:0.009546s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.009117s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009197s ]
+NOTIC: [8] Undefined index: lid G:\php\htdocs\qingguo\Group\Lib\Action\IndexAction.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `group_category` [ RunTime:0.006976s ]
+SQL: SELECT `cname`,`cid` FROM `group_category` WHERE ( `pid` = 0 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.003002s ]
+SQL: SELECT `pid` FROM `group_category` WHERE ( `cid` = 1 ) AND ( `display` = 1 ) LIMIT 1   [ RunTime:0.000374s ]
+SQL: SELECT `cname`,`cid` FROM `group_category` WHERE ( `pid` = 1 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.000421s ]
+SQL: SHOW COLUMNS FROM `group_locality` [ RunTime:0.038590s ]
+SQL: SELECT `lname`,`lid` FROM `group_locality` WHERE ( `pid` = 0 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.002965s ]
+SQL: SELECT `pid` FROM `group_locality` WHERE ( `lid` = 0 ) AND ( `display` = 1 ) LIMIT 1   [ RunTime:0.000397s ]
+SQL: SELECT `lname`,`lid` FROM `group_locality` WHERE ( `pid` = 0 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.000384s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: webInfo G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 11 行.
+NOTIC: [8] Undefined variable: sonLocality G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 202 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 217 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 218 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 219 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 220 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 221 行.
+NOTIC: [8] Undefined variable: page G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 333 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.078504s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.078597s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.009268s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.009309s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.009319s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.009668s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.037796s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.010583s ]
+INFO: [ view_end ] --END-- [ RunTime:0.010736s ]
+
+[ 2015-01-14T19:08:00+08:00 ] 127.0.0.1 /qingguo/group.php/Index/index/lid/1
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.010051s ]
+INFO: [ route_check ] --END-- [ RunTime:0.010173s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.009134s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009212s ]
+NOTIC: [8] Undefined index: cid G:\php\htdocs\qingguo\Group\Lib\Action\IndexAction.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `group_category` [ RunTime:0.013398s ]
+SQL: SELECT `cname`,`cid` FROM `group_category` WHERE ( `pid` = 0 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.005323s ]
+SQL: SELECT `pid` FROM `group_category` WHERE ( `cid` = 0 ) AND ( `display` = 1 ) LIMIT 1   [ RunTime:0.000408s ]
+SQL: SELECT `cname`,`cid` FROM `group_category` WHERE ( `pid` = 0 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.000506s ]
+SQL: SHOW COLUMNS FROM `group_locality` [ RunTime:0.006374s ]
+SQL: SELECT `lname`,`lid` FROM `group_locality` WHERE ( `pid` = 0 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.003473s ]
+SQL: SELECT `pid` FROM `group_locality` WHERE ( `lid` = 1 ) AND ( `display` = 1 ) LIMIT 1   [ RunTime:0.000402s ]
+SQL: SELECT `lname`,`lid` FROM `group_locality` WHERE ( `pid` = 1 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.000565s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: webInfo G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 11 行.
+NOTIC: [8] Undefined variable: sonCategory G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 191 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 217 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 218 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 219 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 220 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 221 行.
+NOTIC: [8] Undefined variable: page G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 333 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.076428s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.076515s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.009390s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.010488s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.009874s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.009182s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.039172s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.009899s ]
+INFO: [ view_end ] --END-- [ RunTime:0.009991s ]
+
+[ 2015-01-14T19:28:56+08:00 ] 127.0.0.1 /qingguo/group.php/Index/index/cid/1
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.009496s ]
+INFO: [ route_check ] --END-- [ RunTime:0.009631s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.009119s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009200s ]
+NOTIC: [8] Undefined index: lid G:\php\htdocs\qingguo\Group\Lib\Action\IndexAction.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `group_category` [ RunTime:0.012295s ]
+SQL: SELECT `cname`,`cid` FROM `group_category` WHERE ( `pid` = 0 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.004241s ]
+SQL: SELECT `pid` FROM `group_category` WHERE ( `cid` = 1 ) AND ( `display` = 1 ) LIMIT 1   [ RunTime:0.001068s ]
+SQL: SELECT `cname`,`cid` FROM `group_category` WHERE ( `pid` = 1 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.000889s ]
+SQL: SHOW COLUMNS FROM `group_locality` [ RunTime:0.005454s ]
+SQL: SELECT `lname`,`lid` FROM `group_locality` WHERE ( `pid` = 0 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.002287s ]
+SQL: SELECT `pid` FROM `group_locality` WHERE ( `lid` = 0 ) AND ( `display` = 1 ) LIMIT 1   [ RunTime:0.000311s ]
+SQL: SELECT `lname`,`lid` FROM `group_locality` WHERE ( `pid` = 0 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.000389s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: webInfo G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 11 行.
+NOTIC: [8] Undefined variable: sonLocality G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 202 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 217 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 218 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 219 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 220 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 221 行.
+NOTIC: [8] Undefined variable: page G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 333 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.083588s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.083682s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.009361s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.009015s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.009151s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.009278s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.037021s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.009889s ]
+INFO: [ view_end ] --END-- [ RunTime:0.009980s ]
+
+[ 2015-01-14T19:29:02+08:00 ] 127.0.0.1 /qingguo/group.php/Index/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.018796s ]
+INFO: [ route_check ] --END-- [ RunTime:0.018945s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.009391s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009487s ]
+NOTIC: [8] Undefined index: cid G:\php\htdocs\qingguo\Group\Lib\Action\IndexAction.class.php 第 14 行.
+NOTIC: [8] Undefined index: lid G:\php\htdocs\qingguo\Group\Lib\Action\IndexAction.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `group_category` [ RunTime:0.016347s ]
+SQL: SELECT `cname`,`cid` FROM `group_category` WHERE ( `pid` = 0 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.005084s ]
+SQL: SELECT `pid` FROM `group_category` WHERE ( `cid` = 0 ) AND ( `display` = 1 ) LIMIT 1   [ RunTime:0.000778s ]
+SQL: SELECT `cname`,`cid` FROM `group_category` WHERE ( `pid` = 0 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.001161s ]
+SQL: SHOW COLUMNS FROM `group_locality` [ RunTime:0.008015s ]
+SQL: SELECT `lname`,`lid` FROM `group_locality` WHERE ( `pid` = 0 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.001724s ]
+SQL: SELECT `pid` FROM `group_locality` WHERE ( `lid` = 0 ) AND ( `display` = 1 ) LIMIT 1   [ RunTime:0.000428s ]
+SQL: SELECT `lname`,`lid` FROM `group_locality` WHERE ( `pid` = 0 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.000532s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: webInfo G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 11 行.
+NOTIC: [8] Undefined variable: sonCategory G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 191 行.
+NOTIC: [8] Undefined variable: sonLocality G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 202 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 217 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 218 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 219 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 220 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 221 行.
+NOTIC: [8] Undefined variable: page G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 333 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.076111s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.076218s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.009399s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.009507s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.009198s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.009275s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.037608s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.011384s ]
+INFO: [ view_end ] --END-- [ RunTime:0.011475s ]
+
+[ 2015-01-14T19:29:06+08:00 ] 127.0.0.1 /qingguo/group.php/Index/index/cid/0
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.009426s ]
+INFO: [ route_check ] --END-- [ RunTime:0.009540s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.009116s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009196s ]
+NOTIC: [8] Undefined index: lid G:\php\htdocs\qingguo\Group\Lib\Action\IndexAction.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `group_category` [ RunTime:0.013213s ]
+SQL: SELECT `cname`,`cid` FROM `group_category` WHERE ( `pid` = 0 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.005662s ]
+SQL: SELECT `pid` FROM `group_category` WHERE ( `cid` = 0 ) AND ( `display` = 1 ) LIMIT 1   [ RunTime:0.000717s ]
+SQL: SELECT `cname`,`cid` FROM `group_category` WHERE ( `pid` = 0 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.000909s ]
+SQL: SHOW COLUMNS FROM `group_locality` [ RunTime:0.007048s ]
+SQL: SELECT `lname`,`lid` FROM `group_locality` WHERE ( `pid` = 0 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.007736s ]
+SQL: SELECT `pid` FROM `group_locality` WHERE ( `lid` = 0 ) AND ( `display` = 1 ) LIMIT 1   [ RunTime:0.000434s ]
+SQL: SELECT `lname`,`lid` FROM `group_locality` WHERE ( `pid` = 0 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.000456s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: webInfo G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 11 行.
+NOTIC: [8] Undefined variable: sonCategory G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 191 行.
+NOTIC: [8] Undefined variable: sonLocality G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 202 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 217 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 218 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 219 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 220 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 221 行.
+NOTIC: [8] Undefined variable: page G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 333 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.076808s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.076915s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.009116s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.009398s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.008997s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.009080s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.036824s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.009478s ]
+INFO: [ view_end ] --END-- [ RunTime:0.009568s ]
+
+[ 2015-01-14T19:30:45+08:00 ] 127.0.0.1 /qingguo/group.php/Index/index/cid/0
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.010193s ]
+INFO: [ route_check ] --END-- [ RunTime:0.010314s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.010915s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011036s ]
+NOTIC: [8] Undefined index: lid G:\php\htdocs\qingguo\Group\Lib\Action\IndexAction.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `group_category` [ RunTime:0.031154s ]
+SQL: SELECT `cname`,`cid` FROM `group_category` WHERE ( `pid` = 0 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.005432s ]
+SQL: SELECT `pid` FROM `group_category` WHERE ( `cid` = 0 ) AND ( `display` = 1 ) LIMIT 1   [ RunTime:0.001028s ]
+SQL: SELECT `cname`,`cid` FROM `group_category` WHERE ( `pid` = 0 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.001202s ]
+SQL: SHOW COLUMNS FROM `group_locality` [ RunTime:0.005895s ]
+SQL: SELECT `lname`,`lid` FROM `group_locality` WHERE ( `pid` = 0 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.002552s ]
+SQL: SELECT `pid` FROM `group_locality` WHERE ( `lid` = 0 ) AND ( `display` = 1 ) LIMIT 1   [ RunTime:0.000387s ]
+SQL: SELECT `lname`,`lid` FROM `group_locality` WHERE ( `pid` = 0 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.000528s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: webInfo G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 11 行.
+NOTIC: [8] Undefined variable: sonCategory G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 191 行.
+NOTIC: [8] Undefined variable: sonLocality G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 202 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 217 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 218 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 219 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 220 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 221 行.
+NOTIC: [8] Undefined variable: page G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 333 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.076249s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.076342s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.009361s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.011188s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.009609s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.009255s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.039654s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.009964s ]
+INFO: [ view_end ] --END-- [ RunTime:0.010051s ]
+
+[ 2015-01-14T19:30:51+08:00 ] 127.0.0.1 /qingguo/group.php/Index/index/cid/0/lid/0/price/0-0
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.009624s ]
+INFO: [ route_check ] --END-- [ RunTime:0.009743s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.009361s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009444s ]
+SQL: SHOW COLUMNS FROM `group_category` [ RunTime:0.007754s ]
+SQL: SELECT `cname`,`cid` FROM `group_category` WHERE ( `pid` = 0 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.004191s ]
+SQL: SELECT `pid` FROM `group_category` WHERE ( `cid` = 0 ) AND ( `display` = 1 ) LIMIT 1   [ RunTime:0.000374s ]
+SQL: SELECT `cname`,`cid` FROM `group_category` WHERE ( `pid` = 0 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.000442s ]
+SQL: SHOW COLUMNS FROM `group_locality` [ RunTime:0.004848s ]
+SQL: SELECT `lname`,`lid` FROM `group_locality` WHERE ( `pid` = 0 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.002303s ]
+SQL: SELECT `pid` FROM `group_locality` WHERE ( `lid` = 0 ) AND ( `display` = 1 ) LIMIT 1   [ RunTime:0.000297s ]
+SQL: SELECT `lname`,`lid` FROM `group_locality` WHERE ( `pid` = 0 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.000317s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: webInfo G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 11 行.
+NOTIC: [8] Undefined variable: sonCategory G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 191 行.
+NOTIC: [8] Undefined variable: sonLocality G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 202 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 217 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 218 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 219 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 220 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 221 行.
+NOTIC: [8] Undefined variable: page G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 333 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.088676s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.088777s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.009429s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.009646s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.009190s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.009455s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.037980s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.010068s ]
+INFO: [ view_end ] --END-- [ RunTime:0.010161s ]
+
+[ 2015-01-14T21:29:49+08:00 ] 127.0.0.1 /qingguo/group.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.051240s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.051426s ]
+NOTIC: [8] Undefined index: cid G:\php\htdocs\qingguo\Group\Lib\Action\IndexAction.class.php 第 14 行.
+NOTIC: [8] Undefined index: lid G:\php\htdocs\qingguo\Group\Lib\Action\IndexAction.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `group_category` [ RunTime:0.686365s ]
+SQL: SELECT `cname`,`cid` FROM `group_category` WHERE ( `pid` = 0 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.235673s ]
+SQL: SELECT `pid` FROM `group_category` WHERE ( `cid` = 0 ) AND ( `display` = 1 ) LIMIT 1   [ RunTime:0.000839s ]
+SQL: SELECT `cname`,`cid` FROM `group_category` WHERE ( `pid` = 0 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.000533s ]
+SQL: SHOW COLUMNS FROM `group_locality` [ RunTime:0.046049s ]
+SQL: SELECT `lname`,`lid` FROM `group_locality` WHERE ( `pid` = 0 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.033304s ]
+SQL: SELECT `pid` FROM `group_locality` WHERE ( `lid` = 0 ) AND ( `display` = 1 ) LIMIT 1   [ RunTime:0.000415s ]
+SQL: SELECT `lname`,`lid` FROM `group_locality` WHERE ( `pid` = 0 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.000487s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: webInfo G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 11 行.
+NOTIC: [8] Undefined variable: sonCategory G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 191 行.
+NOTIC: [8] Undefined variable: sonLocality G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 202 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 217 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 218 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 219 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 220 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 221 行.
+NOTIC: [8] Undefined variable: page G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 333 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.465797s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.465892s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.035300s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.023371s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.009933s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.009627s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.078500s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.012582s ]
+INFO: [ view_end ] --END-- [ RunTime:0.012711s ]
+
+[ 2015-01-14T21:33:10+08:00 ] 127.0.0.1 /qingguo/group.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.011538s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011680s ]
+NOTIC: [8] Undefined index: cid G:\php\htdocs\qingguo\Group\Lib\Action\IndexAction.class.php 第 14 行.
+NOTIC: [8] Undefined index: lid G:\php\htdocs\qingguo\Group\Lib\Action\IndexAction.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `group_category` [ RunTime:0.008349s ]
+SQL: SELECT `cname`,`cid` FROM `group_category` WHERE ( `pid` = 0 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.002208s ]
+SQL: SELECT `pid` FROM `group_category` WHERE ( `cid` = 0 ) AND ( `display` = 1 ) LIMIT 1   [ RunTime:0.000461s ]
+SQL: SELECT `cname`,`cid` FROM `group_category` WHERE ( `pid` = 0 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.000544s ]
+SQL: SHOW COLUMNS FROM `group_locality` [ RunTime:0.005311s ]
+SQL: SELECT `lname`,`lid` FROM `group_locality` WHERE ( `pid` = 0 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.002268s ]
+SQL: SELECT `pid` FROM `group_locality` WHERE ( `lid` = 0 ) AND ( `display` = 1 ) LIMIT 1   [ RunTime:0.000268s ]
+SQL: SELECT `lname`,`lid` FROM `group_locality` WHERE ( `pid` = 0 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.000454s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: webInfo G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 11 行.
+NOTIC: [8] Undefined variable: sonCategory G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 191 行.
+NOTIC: [8] Undefined variable: sonLocality G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 202 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 217 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 218 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 219 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 220 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 221 行.
+NOTIC: [8] Undefined variable: page G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 333 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.082263s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.082350s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.009345s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.009247s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.009007s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.009151s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.036985s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.009574s ]
+INFO: [ view_end ] --END-- [ RunTime:0.009667s ]
+
+[ 2015-01-14T21:33:14+08:00 ] 127.0.0.1 /qingguo/group.php/Index/index/cid/1/lid/0/price/0-0
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.028337s ]
+INFO: [ route_check ] --END-- [ RunTime:0.028476s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.010085s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010188s ]
+SQL: SHOW COLUMNS FROM `group_category` [ RunTime:0.012629s ]
+SQL: SELECT `cname`,`cid` FROM `group_category` WHERE ( `pid` = 0 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.004416s ]
+SQL: SELECT `pid` FROM `group_category` WHERE ( `cid` = 1 ) AND ( `display` = 1 ) LIMIT 1   [ RunTime:0.069614s ]
+SQL: SELECT `cname`,`cid` FROM `group_category` WHERE ( `pid` = 1 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.000766s ]
+SQL: SHOW COLUMNS FROM `group_locality` [ RunTime:0.006028s ]
+SQL: SELECT `lname`,`lid` FROM `group_locality` WHERE ( `pid` = 0 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.002338s ]
+SQL: SELECT `pid` FROM `group_locality` WHERE ( `lid` = 0 ) AND ( `display` = 1 ) LIMIT 1   [ RunTime:0.000384s ]
+SQL: SELECT `lname`,`lid` FROM `group_locality` WHERE ( `pid` = 0 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.000476s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: webInfo G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 11 行.
+NOTIC: [8] Undefined variable: sonLocality G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 202 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 217 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 218 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 219 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 220 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 221 行.
+NOTIC: [8] Undefined variable: page G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 333 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.076632s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.076783s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.009402s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.009267s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.008992s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.009431s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.037333s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.009531s ]
+INFO: [ view_end ] --END-- [ RunTime:0.009618s ]
+
+[ 2015-01-14T21:37:05+08:00 ] 127.0.0.1 /qingguo/group.php/Index/index/cid/1/lid/0/price/0-0
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.009970s ]
+INFO: [ route_check ] --END-- [ RunTime:0.010099s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.009244s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009329s ]
+SQL: SHOW COLUMNS FROM `group_category` [ RunTime:0.012856s ]
+SQL: SELECT `cname`,`cid` FROM `group_category` WHERE ( `pid` = 0 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.004085s ]
+SQL: SELECT `pid` FROM `group_category` WHERE ( `cid` = 1 ) AND ( `display` = 1 ) LIMIT 1   [ RunTime:0.000878s ]
+SQL: SELECT `cname`,`cid` FROM `group_category` WHERE ( `pid` = 1 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.000908s ]
+SQL: SHOW COLUMNS FROM `group_locality` [ RunTime:0.005793s ]
+SQL: SELECT `lname`,`lid` FROM `group_locality` WHERE ( `pid` = 0 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.002439s ]
+SQL: SELECT `pid` FROM `group_locality` WHERE ( `lid` = 0 ) AND ( `display` = 1 ) LIMIT 1   [ RunTime:0.000369s ]
+SQL: SELECT `lname`,`lid` FROM `group_locality` WHERE ( `pid` = 0 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.000453s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: webInfo G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 11 行.
+NOTIC: [8] Undefined variable: sonLocality G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 202 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 217 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 218 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 219 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 220 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 221 行.
+NOTIC: [8] Undefined variable: page G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 333 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.148139s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.148239s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.010701s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.009194s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.009471s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.009356s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.038958s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.009868s ]
+INFO: [ view_end ] --END-- [ RunTime:0.009960s ]
+
+[ 2015-01-14T21:37:12+08:00 ] 127.0.0.1 /qingguo/group.php/Index/index/cid/1/lid/1/price/0-0
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.009565s ]
+INFO: [ route_check ] --END-- [ RunTime:0.009678s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.009146s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009226s ]
+SQL: SHOW COLUMNS FROM `group_category` [ RunTime:0.019656s ]
+SQL: SELECT `cname`,`cid` FROM `group_category` WHERE ( `pid` = 0 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.001532s ]
+SQL: SELECT `pid` FROM `group_category` WHERE ( `cid` = 1 ) AND ( `display` = 1 ) LIMIT 1   [ RunTime:0.000838s ]
+SQL: SELECT `cname`,`cid` FROM `group_category` WHERE ( `pid` = 1 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.000970s ]
+SQL: SHOW COLUMNS FROM `group_locality` [ RunTime:0.007154s ]
+SQL: SELECT `lname`,`lid` FROM `group_locality` WHERE ( `pid` = 0 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.003566s ]
+SQL: SELECT `pid` FROM `group_locality` WHERE ( `lid` = 1 ) AND ( `display` = 1 ) LIMIT 1   [ RunTime:0.000451s ]
+SQL: SELECT `lname`,`lid` FROM `group_locality` WHERE ( `pid` = 1 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.000501s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: webInfo G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 11 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 217 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 218 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 219 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 220 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 221 行.
+NOTIC: [8] Undefined variable: page G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 333 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.077247s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.077346s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.009385s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.009209s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.009065s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.009405s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.037283s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.010712s ]
+INFO: [ view_end ] --END-- [ RunTime:0.010797s ]
+
+[ 2015-01-14T21:37:16+08:00 ] 127.0.0.1 /qingguo/group.php/Index/index/lid/7
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.009471s ]
+INFO: [ route_check ] --END-- [ RunTime:0.009586s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.009165s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009250s ]
+NOTIC: [8] Undefined index: cid G:\php\htdocs\qingguo\Group\Lib\Action\IndexAction.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `group_category` [ RunTime:0.007478s ]
+SQL: SELECT `cname`,`cid` FROM `group_category` WHERE ( `pid` = 0 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.003221s ]
+SQL: SELECT `pid` FROM `group_category` WHERE ( `cid` = 0 ) AND ( `display` = 1 ) LIMIT 1   [ RunTime:0.000483s ]
+SQL: SELECT `cname`,`cid` FROM `group_category` WHERE ( `pid` = 0 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.000557s ]
+SQL: SHOW COLUMNS FROM `group_locality` [ RunTime:0.005233s ]
+SQL: SELECT `lname`,`lid` FROM `group_locality` WHERE ( `pid` = 0 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.002246s ]
+SQL: SELECT `pid` FROM `group_locality` WHERE ( `lid` = 7 ) AND ( `display` = 1 ) LIMIT 1   [ RunTime:0.000346s ]
+SQL: SELECT `lname`,`lid` FROM `group_locality` WHERE ( `pid` = 1 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.000388s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: webInfo G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 11 行.
+NOTIC: [8] Undefined variable: sonCategory G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 191 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 217 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 218 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 219 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 220 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 221 行.
+NOTIC: [8] Undefined variable: page G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 333 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.076217s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.076301s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.009535s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.009457s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.008948s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.009258s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.037461s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.009548s ]
+INFO: [ view_end ] --END-- [ RunTime:0.009633s ]
+
+[ 2015-01-14T21:37:26+08:00 ] 127.0.0.1 /qingguo/group.php/Index/index/cid/2/lid/1/price/0-0
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.009499s ]
+INFO: [ route_check ] --END-- [ RunTime:0.009615s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.009087s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009165s ]
+SQL: SHOW COLUMNS FROM `group_category` [ RunTime:0.013338s ]
+SQL: SELECT `cname`,`cid` FROM `group_category` WHERE ( `pid` = 0 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.004292s ]
+SQL: SELECT `pid` FROM `group_category` WHERE ( `cid` = 2 ) AND ( `display` = 1 ) LIMIT 1   [ RunTime:0.000474s ]
+SQL: SELECT `cname`,`cid` FROM `group_category` WHERE ( `pid` = 1 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.000437s ]
+SQL: SHOW COLUMNS FROM `group_locality` [ RunTime:0.007313s ]
+SQL: SELECT `lname`,`lid` FROM `group_locality` WHERE ( `pid` = 0 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.001615s ]
+SQL: SELECT `pid` FROM `group_locality` WHERE ( `lid` = 1 ) AND ( `display` = 1 ) LIMIT 1   [ RunTime:0.000365s ]
+SQL: SELECT `lname`,`lid` FROM `group_locality` WHERE ( `pid` = 1 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.000435s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: webInfo G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 11 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 217 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 218 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 219 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 220 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 221 行.
+NOTIC: [8] Undefined variable: page G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 333 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.075288s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.075371s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.009379s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.009396s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.009075s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.009901s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.037978s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.009665s ]
+INFO: [ view_end ] --END-- [ RunTime:0.009751s ]
+
+[ 2015-01-14T21:37:51+08:00 ] 127.0.0.1 /qingguo/group.php/Index/index/cid/2/lid/1/price/0-0
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.009755s ]
+INFO: [ route_check ] --END-- [ RunTime:0.009880s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.010067s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010168s ]
+SQL: SHOW COLUMNS FROM `group_category` [ RunTime:0.014734s ]
+SQL: SELECT `cname`,`cid` FROM `group_category` WHERE ( `pid` = 0 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.003741s ]
+SQL: SELECT `pid` FROM `group_category` WHERE ( `cid` = 2 ) AND ( `display` = 1 ) LIMIT 1   [ RunTime:0.000742s ]
+SQL: SELECT `cname`,`cid` FROM `group_category` WHERE ( `pid` = 1 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.000897s ]
+SQL: SHOW COLUMNS FROM `group_locality` [ RunTime:0.005190s ]
+SQL: SELECT `lname`,`lid` FROM `group_locality` WHERE ( `pid` = 0 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.002260s ]
+SQL: SELECT `pid` FROM `group_locality` WHERE ( `lid` = 1 ) AND ( `display` = 1 ) LIMIT 1   [ RunTime:0.000290s ]
+SQL: SELECT `lname`,`lid` FROM `group_locality` WHERE ( `pid` = 1 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.000343s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: webInfo G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 11 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 217 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 218 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 219 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 220 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 221 行.
+NOTIC: [8] Undefined variable: page G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 333 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.074489s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.074585s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.009374s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.010135s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.009037s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.009268s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.038054s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.012562s ]
+INFO: [ view_end ] --END-- [ RunTime:0.012651s ]
+
+[ 2015-01-14T21:37:54+08:00 ] 127.0.0.1 /qingguo/group.php/Index/index/cid/2/lid/7/price/0-0
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.009510s ]
+INFO: [ route_check ] --END-- [ RunTime:0.009628s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.009172s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009256s ]
+SQL: SHOW COLUMNS FROM `group_category` [ RunTime:0.013315s ]
+SQL: SELECT `cname`,`cid` FROM `group_category` WHERE ( `pid` = 0 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.005076s ]
+SQL: SELECT `pid` FROM `group_category` WHERE ( `cid` = 2 ) AND ( `display` = 1 ) LIMIT 1   [ RunTime:0.000743s ]
+SQL: SELECT `cname`,`cid` FROM `group_category` WHERE ( `pid` = 1 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.001102s ]
+SQL: SHOW COLUMNS FROM `group_locality` [ RunTime:0.007163s ]
+SQL: SELECT `lname`,`lid` FROM `group_locality` WHERE ( `pid` = 0 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.002842s ]
+SQL: SELECT `pid` FROM `group_locality` WHERE ( `lid` = 7 ) AND ( `display` = 1 ) LIMIT 1   [ RunTime:0.000556s ]
+SQL: SELECT `lname`,`lid` FROM `group_locality` WHERE ( `pid` = 1 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.000570s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: webInfo G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 11 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 217 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 218 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 219 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 220 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 221 行.
+NOTIC: [8] Undefined variable: page G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 333 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.075086s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.075187s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.009387s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.009020s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.009141s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.009443s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.037207s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.009759s ]
+INFO: [ view_end ] --END-- [ RunTime:0.009843s ]
+
+[ 2015-01-14T21:37:58+08:00 ] 127.0.0.1 /qingguo/group.php/Index/index/cid/3/lid/7/price/0-0
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.009445s ]
+INFO: [ route_check ] --END-- [ RunTime:0.009555s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.009192s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009281s ]
+SQL: SHOW COLUMNS FROM `group_category` [ RunTime:0.013316s ]
+SQL: SELECT `cname`,`cid` FROM `group_category` WHERE ( `pid` = 0 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.006706s ]
+SQL: SELECT `pid` FROM `group_category` WHERE ( `cid` = 3 ) AND ( `display` = 1 ) LIMIT 1   [ RunTime:0.001018s ]
+SQL: SELECT `cname`,`cid` FROM `group_category` WHERE ( `pid` = 3 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.001036s ]
+SQL: SHOW COLUMNS FROM `group_locality` [ RunTime:0.005280s ]
+SQL: SELECT `lname`,`lid` FROM `group_locality` WHERE ( `pid` = 0 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.002390s ]
+SQL: SELECT `pid` FROM `group_locality` WHERE ( `lid` = 7 ) AND ( `display` = 1 ) LIMIT 1   [ RunTime:0.000295s ]
+SQL: SELECT `lname`,`lid` FROM `group_locality` WHERE ( `pid` = 1 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.000360s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: webInfo G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 11 行.
+NOTIC: [8] Undefined variable: sonCategory G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 191 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 217 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 218 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 219 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 220 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 221 行.
+NOTIC: [8] Undefined variable: page G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 333 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.075574s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.075670s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.009356s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.009222s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.009006s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.009783s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.037591s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.012074s ]
+INFO: [ view_end ] --END-- [ RunTime:0.012165s ]
+
+[ 2015-01-14T21:38:01+08:00 ] 127.0.0.1 /qingguo/group.php/Index/index/cid/3/lid/10/price/0-0
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.009486s ]
+INFO: [ route_check ] --END-- [ RunTime:0.009605s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.009102s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009186s ]
+SQL: SHOW COLUMNS FROM `group_category` [ RunTime:0.013725s ]
+SQL: SELECT `cname`,`cid` FROM `group_category` WHERE ( `pid` = 0 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.006252s ]
+SQL: SELECT `pid` FROM `group_category` WHERE ( `cid` = 3 ) AND ( `display` = 1 ) LIMIT 1   [ RunTime:0.000770s ]
+SQL: SELECT `cname`,`cid` FROM `group_category` WHERE ( `pid` = 3 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.000819s ]
+SQL: SHOW COLUMNS FROM `group_locality` [ RunTime:0.010273s ]
+SQL: SELECT `lname`,`lid` FROM `group_locality` WHERE ( `pid` = 0 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.000548s ]
+SQL: SELECT `pid` FROM `group_locality` WHERE ( `lid` = 10 ) AND ( `display` = 1 ) LIMIT 1   [ RunTime:0.000367s ]
+SQL: SELECT `lname`,`lid` FROM `group_locality` WHERE ( `pid` = 10 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.000388s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: webInfo G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 11 行.
+NOTIC: [8] Undefined variable: sonCategory G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 191 行.
+NOTIC: [8] Undefined variable: sonLocality G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 202 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 217 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 218 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 219 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 220 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 221 行.
+NOTIC: [8] Undefined variable: page G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 333 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.078212s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.078304s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.009076s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.009004s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.008850s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.009046s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.036179s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.009449s ]
+INFO: [ view_end ] --END-- [ RunTime:0.009534s ]
+
+[ 2015-01-14T21:38:05+08:00 ] 127.0.0.1 /qingguo/group.php/Index/index/cid/3/lid/10/price/0-0
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.009433s ]
+INFO: [ route_check ] --END-- [ RunTime:0.009545s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.009124s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009205s ]
+SQL: SHOW COLUMNS FROM `group_category` [ RunTime:0.013027s ]
+SQL: SELECT `cname`,`cid` FROM `group_category` WHERE ( `pid` = 0 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.005484s ]
+SQL: SELECT `pid` FROM `group_category` WHERE ( `cid` = 3 ) AND ( `display` = 1 ) LIMIT 1   [ RunTime:0.000377s ]
+SQL: SELECT `cname`,`cid` FROM `group_category` WHERE ( `pid` = 3 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.000413s ]
+SQL: SHOW COLUMNS FROM `group_locality` [ RunTime:0.005556s ]
+SQL: SELECT `lname`,`lid` FROM `group_locality` WHERE ( `pid` = 0 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.002596s ]
+SQL: SELECT `pid` FROM `group_locality` WHERE ( `lid` = 10 ) AND ( `display` = 1 ) LIMIT 1   [ RunTime:0.000342s ]
+SQL: SELECT `lname`,`lid` FROM `group_locality` WHERE ( `pid` = 10 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.000451s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: webInfo G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 11 行.
+NOTIC: [8] Undefined variable: sonCategory G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 191 行.
+NOTIC: [8] Undefined variable: sonLocality G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 202 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 217 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 218 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 219 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 220 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 221 行.
+NOTIC: [8] Undefined variable: page G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 333 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.075910s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.076006s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.009211s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.009347s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.009104s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.009270s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.037156s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.009956s ]
+INFO: [ view_end ] --END-- [ RunTime:0.010044s ]
+
+[ 2015-01-14T21:38:10+08:00 ] 127.0.0.1 /qingguo/group.php/Index/index/cid/3/lid/10/price/0-0
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.009485s ]
+INFO: [ route_check ] --END-- [ RunTime:0.009619s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.009103s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009183s ]
+SQL: SHOW COLUMNS FROM `group_category` [ RunTime:0.013590s ]
+SQL: SELECT `cname`,`cid` FROM `group_category` WHERE ( `pid` = 0 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.006348s ]
+SQL: SELECT `pid` FROM `group_category` WHERE ( `cid` = 3 ) AND ( `display` = 1 ) LIMIT 1   [ RunTime:0.000772s ]
+SQL: SELECT `cname`,`cid` FROM `group_category` WHERE ( `pid` = 3 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.000424s ]
+SQL: SHOW COLUMNS FROM `group_locality` [ RunTime:0.006474s ]
+SQL: SELECT `lname`,`lid` FROM `group_locality` WHERE ( `pid` = 0 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.002880s ]
+SQL: SELECT `pid` FROM `group_locality` WHERE ( `lid` = 10 ) AND ( `display` = 1 ) LIMIT 1   [ RunTime:0.000715s ]
+SQL: SELECT `lname`,`lid` FROM `group_locality` WHERE ( `pid` = 10 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.000487s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: webInfo G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 11 行.
+NOTIC: [8] Undefined variable: sonCategory G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 191 行.
+NOTIC: [8] Undefined variable: sonLocality G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 202 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 217 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 218 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 219 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 220 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 221 行.
+NOTIC: [8] Undefined variable: page G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 333 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.075858s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.075950s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.009070s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.009168s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.008845s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.009191s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.036476s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.012666s ]
+INFO: [ view_end ] --END-- [ RunTime:0.012755s ]
+
+[ 2015-01-14T21:38:29+08:00 ] 127.0.0.1 /qingguo/group.php/Index/index/cid/3/lid/10/price/0-0
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.009728s ]
+INFO: [ route_check ] --END-- [ RunTime:0.009845s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.010313s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010400s ]
+SQL: SHOW COLUMNS FROM `group_category` [ RunTime:0.014460s ]
+SQL: SELECT `cname`,`cid` FROM `group_category` WHERE ( `pid` = 0 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.004395s ]
+SQL: SELECT `pid` FROM `group_category` WHERE ( `cid` = 3 ) AND ( `display` = 1 ) LIMIT 1   [ RunTime:0.000823s ]
+SQL: SELECT `cname`,`cid` FROM `group_category` WHERE ( `pid` = 3 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.000986s ]
+SQL: SHOW COLUMNS FROM `group_locality` [ RunTime:0.005207s ]
+SQL: SELECT `lname`,`lid` FROM `group_locality` WHERE ( `pid` = 0 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.002352s ]
+SQL: SELECT `pid` FROM `group_locality` WHERE ( `lid` = 10 ) AND ( `display` = 1 ) LIMIT 1   [ RunTime:0.000304s ]
+SQL: SELECT `lname`,`lid` FROM `group_locality` WHERE ( `pid` = 10 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.000352s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: webInfo G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 11 行.
+NOTIC: [8] Undefined variable: sonCategory G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 191 行.
+NOTIC: [8] Undefined variable: sonLocality G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 202 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 217 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 218 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 219 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 220 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 221 行.
+NOTIC: [8] Undefined variable: page G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 333 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.078576s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.078663s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.009319s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.009216s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.009014s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.009352s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.037110s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.009832s ]
+INFO: [ view_end ] --END-- [ RunTime:0.009920s ]
+
+[ 2015-01-14T21:39:20+08:00 ] 127.0.0.1 /qingguo/group.php/Index/index/cid/3/lid/10/price/0-0
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.010434s ]
+INFO: [ route_check ] --END-- [ RunTime:0.010555s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.009919s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010009s ]
+SQL: SHOW COLUMNS FROM `group_category` [ RunTime:0.013369s ]
+SQL: SELECT `cname`,`cid` FROM `group_category` WHERE ( `pid` = 0 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.006085s ]
+SQL: SELECT `pid` FROM `group_category` WHERE ( `cid` = 3 ) AND ( `display` = 1 ) LIMIT 1   [ RunTime:0.000836s ]
+SQL: SELECT `cname`,`cid` FROM `group_category` WHERE ( `pid` = 3 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.000923s ]
+SQL: SHOW COLUMNS FROM `group_locality` [ RunTime:0.007719s ]
+SQL: SELECT `lname`,`lid` FROM `group_locality` WHERE ( `pid` = 0 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.003520s ]
+SQL: SELECT `pid` FROM `group_locality` WHERE ( `lid` = 10 ) AND ( `display` = 1 ) LIMIT 1   [ RunTime:0.000509s ]
+SQL: SELECT `lname`,`lid` FROM `group_locality` WHERE ( `pid` = 10 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.000529s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: webInfo G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 11 行.
+NOTIC: [8] Undefined variable: sonCategory G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 191 行.
+NOTIC: [8] Undefined variable: sonLocality G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 202 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 217 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 218 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 219 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 220 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 221 行.
+NOTIC: [8] Undefined variable: page G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 333 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.079050s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.079166s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.009150s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.009319s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.009378s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.009309s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.037410s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.009999s ]
+INFO: [ view_end ] --END-- [ RunTime:0.010089s ]
+
+[ 2015-01-14T21:39:22+08:00 ] 127.0.0.1 /qingguo/group.php/Index/index/cid/0/lid/10/price/0-0
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.009431s ]
+INFO: [ route_check ] --END-- [ RunTime:0.009545s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.009153s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009236s ]
+SQL: SHOW COLUMNS FROM `group_category` [ RunTime:0.013262s ]
+SQL: SELECT `cname`,`cid` FROM `group_category` WHERE ( `pid` = 0 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.005947s ]
+SQL: SELECT `pid` FROM `group_category` WHERE ( `cid` = 0 ) AND ( `display` = 1 ) LIMIT 1   [ RunTime:0.000802s ]
+SQL: SELECT `cname`,`cid` FROM `group_category` WHERE ( `pid` = 0 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.000883s ]
+SQL: SHOW COLUMNS FROM `group_locality` [ RunTime:0.006135s ]
+SQL: SELECT `lname`,`lid` FROM `group_locality` WHERE ( `pid` = 0 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.002793s ]
+SQL: SELECT `pid` FROM `group_locality` WHERE ( `lid` = 10 ) AND ( `display` = 1 ) LIMIT 1   [ RunTime:0.000414s ]
+SQL: SELECT `lname`,`lid` FROM `group_locality` WHERE ( `pid` = 10 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.000466s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: webInfo G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 11 行.
+NOTIC: [8] Undefined variable: sonCategory G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 191 行.
+NOTIC: [8] Undefined variable: sonLocality G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 202 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 217 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 218 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 219 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 220 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 221 行.
+NOTIC: [8] Undefined variable: page G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 333 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.075953s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.076055s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.009464s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.009263s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.008861s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.009434s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.037246s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.014243s ]
+INFO: [ view_end ] --END-- [ RunTime:0.014340s ]
+
+[ 2015-01-14T21:39:26+08:00 ] 127.0.0.1 /qingguo/group.php/Index/index/cid/1/lid/10/price/0-0
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.009452s ]
+INFO: [ route_check ] --END-- [ RunTime:0.009566s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.009135s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009215s ]
+SQL: SHOW COLUMNS FROM `group_category` [ RunTime:0.015307s ]
+SQL: SELECT `cname`,`cid` FROM `group_category` WHERE ( `pid` = 0 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.004207s ]
+SQL: SELECT `pid` FROM `group_category` WHERE ( `cid` = 1 ) AND ( `display` = 1 ) LIMIT 1   [ RunTime:0.000733s ]
+SQL: SELECT `cname`,`cid` FROM `group_category` WHERE ( `pid` = 1 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.000838s ]
+SQL: SHOW COLUMNS FROM `group_locality` [ RunTime:0.006186s ]
+SQL: SELECT `lname`,`lid` FROM `group_locality` WHERE ( `pid` = 0 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.002799s ]
+SQL: SELECT `pid` FROM `group_locality` WHERE ( `lid` = 10 ) AND ( `display` = 1 ) LIMIT 1   [ RunTime:0.000378s ]
+SQL: SELECT `lname`,`lid` FROM `group_locality` WHERE ( `pid` = 10 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.000433s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: webInfo G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 11 行.
+NOTIC: [8] Undefined variable: sonLocality G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 202 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 217 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 218 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 219 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 220 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 221 行.
+NOTIC: [8] Undefined variable: page G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 333 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.076047s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.076140s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.009499s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.009043s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.008937s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.009308s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.037013s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.009911s ]
+INFO: [ view_end ] --END-- [ RunTime:0.010002s ]
+
+[ 2015-01-14T21:39:31+08:00 ] 127.0.0.1 /qingguo/group.php/Index/index/cid/2/lid/10/price/0-0
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.009482s ]
+INFO: [ route_check ] --END-- [ RunTime:0.009600s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.009181s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009279s ]
+SQL: SHOW COLUMNS FROM `group_category` [ RunTime:0.013582s ]
+SQL: SELECT `cname`,`cid` FROM `group_category` WHERE ( `pid` = 0 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.006257s ]
+SQL: SELECT `pid` FROM `group_category` WHERE ( `cid` = 2 ) AND ( `display` = 1 ) LIMIT 1   [ RunTime:0.000820s ]
+SQL: SELECT `cname`,`cid` FROM `group_category` WHERE ( `pid` = 1 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.001060s ]
+SQL: SHOW COLUMNS FROM `group_locality` [ RunTime:0.006906s ]
+SQL: SELECT `lname`,`lid` FROM `group_locality` WHERE ( `pid` = 0 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.002479s ]
+SQL: SELECT `pid` FROM `group_locality` WHERE ( `lid` = 10 ) AND ( `display` = 1 ) LIMIT 1   [ RunTime:0.000411s ]
+SQL: SELECT `lname`,`lid` FROM `group_locality` WHERE ( `pid` = 10 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.000500s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: webInfo G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 11 行.
+NOTIC: [8] Undefined variable: sonLocality G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 202 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 217 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 218 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 219 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 220 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 221 行.
+NOTIC: [8] Undefined variable: page G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 333 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.077143s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.077242s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.009992s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.009251s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.008973s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.009244s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.037684s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.009543s ]
+INFO: [ view_end ] --END-- [ RunTime:0.009630s ]
+
+[ 2015-01-14T21:39:34+08:00 ] 127.0.0.1 /qingguo/group.php/Index/index/cid/2/lid/1/price/0-0
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.009489s ]
+INFO: [ route_check ] --END-- [ RunTime:0.009609s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.009192s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009282s ]
+SQL: SHOW COLUMNS FROM `group_category` [ RunTime:0.013200s ]
+SQL: SELECT `cname`,`cid` FROM `group_category` WHERE ( `pid` = 0 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.005636s ]
+SQL: SELECT `pid` FROM `group_category` WHERE ( `cid` = 2 ) AND ( `display` = 1 ) LIMIT 1   [ RunTime:0.000843s ]
+SQL: SELECT `cname`,`cid` FROM `group_category` WHERE ( `pid` = 1 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.000945s ]
+SQL: SHOW COLUMNS FROM `group_locality` [ RunTime:0.006265s ]
+SQL: SELECT `lname`,`lid` FROM `group_locality` WHERE ( `pid` = 0 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.002791s ]
+SQL: SELECT `pid` FROM `group_locality` WHERE ( `lid` = 1 ) AND ( `display` = 1 ) LIMIT 1   [ RunTime:0.000415s ]
+SQL: SELECT `lname`,`lid` FROM `group_locality` WHERE ( `pid` = 1 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.000489s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: webInfo G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 11 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 217 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 218 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 219 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 220 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 221 行.
+NOTIC: [8] Undefined variable: page G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 333 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.078033s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.078143s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.009184s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.009424s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.009281s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.009468s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.037567s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.012222s ]
+INFO: [ view_end ] --END-- [ RunTime:0.012312s ]
+
+[ 2015-01-14T21:39:36+08:00 ] 127.0.0.1 /qingguo/group.php/Index/index/cid/2/lid/7/price/0-0
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.010187s ]
+INFO: [ route_check ] --END-- [ RunTime:0.010314s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.009426s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009518s ]
+SQL: SHOW COLUMNS FROM `group_category` [ RunTime:0.014104s ]
+SQL: SELECT `cname`,`cid` FROM `group_category` WHERE ( `pid` = 0 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.007094s ]
+SQL: SELECT `pid` FROM `group_category` WHERE ( `cid` = 2 ) AND ( `display` = 1 ) LIMIT 1   [ RunTime:0.000912s ]
+SQL: SELECT `cname`,`cid` FROM `group_category` WHERE ( `pid` = 1 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.000964s ]
+SQL: SHOW COLUMNS FROM `group_locality` [ RunTime:0.006360s ]
+SQL: SELECT `lname`,`lid` FROM `group_locality` WHERE ( `pid` = 0 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.003053s ]
+SQL: SELECT `pid` FROM `group_locality` WHERE ( `lid` = 7 ) AND ( `display` = 1 ) LIMIT 1   [ RunTime:0.000459s ]
+SQL: SELECT `lname`,`lid` FROM `group_locality` WHERE ( `pid` = 1 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.000468s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: webInfo G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 11 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 217 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 218 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 219 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 220 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 221 行.
+NOTIC: [8] Undefined variable: page G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 333 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.082457s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.082559s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.009370s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.009094s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.008997s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.009424s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.037102s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.009698s ]
+INFO: [ view_end ] --END-- [ RunTime:0.009783s ]
+
+[ 2015-01-14T21:39:39+08:00 ] 127.0.0.1 /qingguo/group.php/Index/index/cid/1/lid/7/price/0-0
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.010715s ]
+INFO: [ route_check ] --END-- [ RunTime:0.010865s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.010606s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010708s ]
+SQL: SHOW COLUMNS FROM `group_category` [ RunTime:0.013486s ]
+SQL: SELECT `cname`,`cid` FROM `group_category` WHERE ( `pid` = 0 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.005941s ]
+SQL: SELECT `pid` FROM `group_category` WHERE ( `cid` = 1 ) AND ( `display` = 1 ) LIMIT 1   [ RunTime:0.001660s ]
+SQL: SELECT `cname`,`cid` FROM `group_category` WHERE ( `pid` = 1 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.000506s ]
+SQL: SHOW COLUMNS FROM `group_locality` [ RunTime:0.005799s ]
+SQL: SELECT `lname`,`lid` FROM `group_locality` WHERE ( `pid` = 0 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.002535s ]
+SQL: SELECT `pid` FROM `group_locality` WHERE ( `lid` = 7 ) AND ( `display` = 1 ) LIMIT 1   [ RunTime:0.000389s ]
+SQL: SELECT `lname`,`lid` FROM `group_locality` WHERE ( `pid` = 1 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.000535s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: webInfo G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 11 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 217 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 218 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 219 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 220 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 221 行.
+NOTIC: [8] Undefined variable: page G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 333 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.076377s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.076475s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.009198s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.009484s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.009140s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.009199s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.037247s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.010070s ]
+INFO: [ view_end ] --END-- [ RunTime:0.010159s ]
+
+[ 2015-01-14T21:39:55+08:00 ] 127.0.0.1 /qingguo/group.php/Index/index/cid/0/lid/7/price/0-0
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.009760s ]
+INFO: [ route_check ] --END-- [ RunTime:0.009874s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.009394s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009479s ]
+SQL: SHOW COLUMNS FROM `group_category` [ RunTime:0.013240s ]
+SQL: SELECT `cname`,`cid` FROM `group_category` WHERE ( `pid` = 0 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.006405s ]
+SQL: SELECT `pid` FROM `group_category` WHERE ( `cid` = 0 ) AND ( `display` = 1 ) LIMIT 1   [ RunTime:0.000896s ]
+SQL: SELECT `cname`,`cid` FROM `group_category` WHERE ( `pid` = 0 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.000893s ]
+SQL: SHOW COLUMNS FROM `group_locality` [ RunTime:0.005214s ]
+SQL: SELECT `lname`,`lid` FROM `group_locality` WHERE ( `pid` = 0 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.002270s ]
+SQL: SELECT `pid` FROM `group_locality` WHERE ( `lid` = 7 ) AND ( `display` = 1 ) LIMIT 1   [ RunTime:0.000268s ]
+SQL: SELECT `lname`,`lid` FROM `group_locality` WHERE ( `pid` = 1 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.000320s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: webInfo G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 11 行.
+NOTIC: [8] Undefined variable: sonCategory G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 191 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 217 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 218 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 219 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 220 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 221 行.
+NOTIC: [8] Undefined variable: page G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 333 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.075516s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.075612s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.009175s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.009383s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.008866s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.009335s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.036973s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.011722s ]
+INFO: [ view_end ] --END-- [ RunTime:0.011815s ]
+
+[ 2015-01-14T21:41:26+08:00 ] 127.0.0.1 /qingguo/group.php/Index/index/cid/0/lid/7/price/0-0
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.009607s ]
+INFO: [ route_check ] --END-- [ RunTime:0.009725s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.009126s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009207s ]
+SQL: SHOW COLUMNS FROM `group_category` [ RunTime:0.013828s ]
+SQL: SELECT `cname`,`cid` FROM `group_category` WHERE ( `pid` = 0 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.003175s ]
+SQL: SELECT `pid` FROM `group_category` WHERE ( `cid` = 0 ) AND ( `display` = 1 ) LIMIT 1   [ RunTime:0.000460s ]
+SQL: SELECT `cname`,`cid` FROM `group_category` WHERE ( `pid` = 0 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.000712s ]
+SQL: SHOW COLUMNS FROM `group_locality` [ RunTime:0.006326s ]
+SQL: SELECT `lname`,`lid` FROM `group_locality` WHERE ( `pid` = 0 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.002589s ]
+SQL: SELECT `pid` FROM `group_locality` WHERE ( `lid` = 7 ) AND ( `display` = 1 ) LIMIT 1   [ RunTime:0.000429s ]
+SQL: SELECT `lname`,`lid` FROM `group_locality` WHERE ( `pid` = 1 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.000498s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: webInfo G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 11 行.
+NOTIC: [8] Undefined variable: sonCategory G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 191 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 217 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 218 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 219 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 220 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 221 行.
+NOTIC: [8] Undefined variable: page G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 333 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.083070s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.083154s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.009249s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.009255s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.008894s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.009598s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.037210s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.010966s ]
+INFO: [ view_end ] --END-- [ RunTime:0.011057s ]
+
+[ 2015-01-14T21:41:28+08:00 ] 127.0.0.1 /qingguo/group.php/Index/index/cid/1/lid/7/price/0-0
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.009511s ]
+INFO: [ route_check ] --END-- [ RunTime:0.009626s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.009190s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009275s ]
+SQL: SHOW COLUMNS FROM `group_category` [ RunTime:0.014282s ]
+SQL: SELECT `cname`,`cid` FROM `group_category` WHERE ( `pid` = 0 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.004891s ]
+SQL: SELECT `pid` FROM `group_category` WHERE ( `cid` = 1 ) AND ( `display` = 1 ) LIMIT 1   [ RunTime:0.000829s ]
+SQL: SELECT `cname`,`cid` FROM `group_category` WHERE ( `pid` = 1 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.001257s ]
+SQL: SHOW COLUMNS FROM `group_locality` [ RunTime:0.005822s ]
+SQL: SELECT `lname`,`lid` FROM `group_locality` WHERE ( `pid` = 0 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.002589s ]
+SQL: SELECT `pid` FROM `group_locality` WHERE ( `lid` = 7 ) AND ( `display` = 1 ) LIMIT 1   [ RunTime:0.000396s ]
+SQL: SELECT `lname`,`lid` FROM `group_locality` WHERE ( `pid` = 1 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.000454s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: webInfo G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 11 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 217 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 218 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 219 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 220 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 221 行.
+NOTIC: [8] Undefined variable: page G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 333 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.078120s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.078212s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.009138s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.009245s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.009189s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.009432s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.037223s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.010516s ]
+INFO: [ view_end ] --END-- [ RunTime:0.010603s ]
+
+[ 2015-01-14T21:41:30+08:00 ] 127.0.0.1 /qingguo/group.php/Index/index/cid/2/lid/7/price/0-0
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.009530s ]
+INFO: [ route_check ] --END-- [ RunTime:0.009644s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.009170s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009250s ]
+SQL: SHOW COLUMNS FROM `group_category` [ RunTime:0.013551s ]
+SQL: SELECT `cname`,`cid` FROM `group_category` WHERE ( `pid` = 0 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.005054s ]
+SQL: SELECT `pid` FROM `group_category` WHERE ( `cid` = 2 ) AND ( `display` = 1 ) LIMIT 1   [ RunTime:0.000769s ]
+SQL: SELECT `cname`,`cid` FROM `group_category` WHERE ( `pid` = 1 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.000844s ]
+SQL: SHOW COLUMNS FROM `group_locality` [ RunTime:0.007952s ]
+SQL: SELECT `lname`,`lid` FROM `group_locality` WHERE ( `pid` = 0 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.003271s ]
+SQL: SELECT `pid` FROM `group_locality` WHERE ( `lid` = 7 ) AND ( `display` = 1 ) LIMIT 1   [ RunTime:0.000519s ]
+SQL: SELECT `lname`,`lid` FROM `group_locality` WHERE ( `pid` = 1 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.000546s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: webInfo G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 11 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 217 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 218 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 219 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 220 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 221 行.
+NOTIC: [8] Undefined variable: page G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 333 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.075671s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.075758s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.009738s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.012910s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.009128s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.009737s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.041743s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.020010s ]
+INFO: [ view_end ] --END-- [ RunTime:0.020124s ]
+
+[ 2015-01-14T21:41:35+08:00 ] 127.0.0.1 /qingguo/group.php/Index/index/cid/1/lid/7/price/0-0
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.009472s ]
+INFO: [ route_check ] --END-- [ RunTime:0.009581s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.009198s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009291s ]
+SQL: SHOW COLUMNS FROM `group_category` [ RunTime:0.005629s ]
+SQL: SELECT `cname`,`cid` FROM `group_category` WHERE ( `pid` = 0 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.002301s ]
+SQL: SELECT `pid` FROM `group_category` WHERE ( `cid` = 1 ) AND ( `display` = 1 ) LIMIT 1   [ RunTime:0.000317s ]
+SQL: SELECT `cname`,`cid` FROM `group_category` WHERE ( `pid` = 1 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.000334s ]
+SQL: SHOW COLUMNS FROM `group_locality` [ RunTime:0.008514s ]
+SQL: SELECT `lname`,`lid` FROM `group_locality` WHERE ( `pid` = 0 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.000647s ]
+SQL: SELECT `pid` FROM `group_locality` WHERE ( `lid` = 7 ) AND ( `display` = 1 ) LIMIT 1   [ RunTime:0.000306s ]
+SQL: SELECT `lname`,`lid` FROM `group_locality` WHERE ( `pid` = 1 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.000371s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: webInfo G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 11 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 217 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 218 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 219 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 220 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 221 行.
+NOTIC: [8] Undefined variable: page G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 333 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.074351s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.074448s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.009193s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.009109s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.008875s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.009127s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.036531s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.009627s ]
+INFO: [ view_end ] --END-- [ RunTime:0.009713s ]
+
+[ 2015-01-14T21:41:39+08:00 ] 127.0.0.1 /qingguo/group.php/Index/index/cid/1/lid/1/price/0-0
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.009482s ]
+INFO: [ route_check ] --END-- [ RunTime:0.009595s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.009161s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009242s ]
+SQL: SHOW COLUMNS FROM `group_category` [ RunTime:0.013680s ]
+SQL: SELECT `cname`,`cid` FROM `group_category` WHERE ( `pid` = 0 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.005591s ]
+SQL: SELECT `pid` FROM `group_category` WHERE ( `cid` = 1 ) AND ( `display` = 1 ) LIMIT 1   [ RunTime:0.000737s ]
+SQL: SELECT `cname`,`cid` FROM `group_category` WHERE ( `pid` = 1 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.000849s ]
+SQL: SHOW COLUMNS FROM `group_locality` [ RunTime:0.005960s ]
+SQL: SELECT `lname`,`lid` FROM `group_locality` WHERE ( `pid` = 0 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.002382s ]
+SQL: SELECT `pid` FROM `group_locality` WHERE ( `lid` = 1 ) AND ( `display` = 1 ) LIMIT 1   [ RunTime:0.000465s ]
+SQL: SELECT `lname`,`lid` FROM `group_locality` WHERE ( `pid` = 1 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.000448s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: webInfo G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 11 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 217 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 218 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 219 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 220 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 221 行.
+NOTIC: [8] Undefined variable: page G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 333 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.077168s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.077265s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.009222s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.009349s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.009088s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.009448s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.037336s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.010440s ]
+INFO: [ view_end ] --END-- [ RunTime:0.010529s ]
+
+[ 2015-01-14T21:41:42+08:00 ] 127.0.0.1 /qingguo/group.php/Index/index/cid/1/lid/7/price/0-0
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.009522s ]
+INFO: [ route_check ] --END-- [ RunTime:0.009636s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.009146s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009224s ]
+SQL: SHOW COLUMNS FROM `group_category` [ RunTime:0.013237s ]
+SQL: SELECT `cname`,`cid` FROM `group_category` WHERE ( `pid` = 0 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.005541s ]
+SQL: SELECT `pid` FROM `group_category` WHERE ( `cid` = 1 ) AND ( `display` = 1 ) LIMIT 1   [ RunTime:0.000832s ]
+SQL: SELECT `cname`,`cid` FROM `group_category` WHERE ( `pid` = 1 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.000932s ]
+SQL: SHOW COLUMNS FROM `group_locality` [ RunTime:0.006696s ]
+SQL: SELECT `lname`,`lid` FROM `group_locality` WHERE ( `pid` = 0 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.002810s ]
+SQL: SELECT `pid` FROM `group_locality` WHERE ( `lid` = 7 ) AND ( `display` = 1 ) LIMIT 1   [ RunTime:0.000436s ]
+SQL: SELECT `lname`,`lid` FROM `group_locality` WHERE ( `pid` = 1 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.000525s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: webInfo G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 11 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 217 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 218 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 219 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 220 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 221 行.
+NOTIC: [8] Undefined variable: page G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 333 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.082044s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.082145s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.009361s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.009001s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.009193s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.009391s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.037162s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.010279s ]
+INFO: [ view_end ] --END-- [ RunTime:0.010366s ]
+
+[ 2015-01-14T21:41:52+08:00 ] 127.0.0.1 /qingguo/group.php/Index/index/cid/1/lid/1/price/0-0
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.009536s ]
+INFO: [ route_check ] --END-- [ RunTime:0.009653s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.009240s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009331s ]
+SQL: SHOW COLUMNS FROM `group_category` [ RunTime:0.019384s ]
+SQL: SELECT `cname`,`cid` FROM `group_category` WHERE ( `pid` = 0 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.002985s ]
+SQL: SELECT `pid` FROM `group_category` WHERE ( `cid` = 1 ) AND ( `display` = 1 ) LIMIT 1   [ RunTime:0.000852s ]
+SQL: SELECT `cname`,`cid` FROM `group_category` WHERE ( `pid` = 1 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.000992s ]
+SQL: SHOW COLUMNS FROM `group_locality` [ RunTime:0.005338s ]
+SQL: SELECT `lname`,`lid` FROM `group_locality` WHERE ( `pid` = 0 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.002120s ]
+SQL: SELECT `pid` FROM `group_locality` WHERE ( `lid` = 1 ) AND ( `display` = 1 ) LIMIT 1   [ RunTime:0.000291s ]
+SQL: SELECT `lname`,`lid` FROM `group_locality` WHERE ( `pid` = 1 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.000367s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: webInfo G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 11 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 217 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 218 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 219 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 220 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 221 行.
+NOTIC: [8] Undefined variable: page G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 333 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.076841s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.076934s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.009707s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.009168s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.009049s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.009142s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.037281s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.010355s ]
+INFO: [ view_end ] --END-- [ RunTime:0.010445s ]
+
+[ 2015-01-14T21:41:59+08:00 ] 127.0.0.1 /qingguo/group.php/Index/index/cid/2/lid/1/price/0-0
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.009557s ]
+INFO: [ route_check ] --END-- [ RunTime:0.009678s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.009192s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009272s ]
+SQL: SHOW COLUMNS FROM `group_category` [ RunTime:0.006224s ]
+SQL: SELECT `cname`,`cid` FROM `group_category` WHERE ( `pid` = 0 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.002533s ]
+SQL: SELECT `pid` FROM `group_category` WHERE ( `cid` = 2 ) AND ( `display` = 1 ) LIMIT 1   [ RunTime:0.000419s ]
+SQL: SELECT `cname`,`cid` FROM `group_category` WHERE ( `pid` = 1 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.000377s ]
+SQL: SHOW COLUMNS FROM `group_locality` [ RunTime:0.006151s ]
+SQL: SELECT `lname`,`lid` FROM `group_locality` WHERE ( `pid` = 0 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.002542s ]
+SQL: SELECT `pid` FROM `group_locality` WHERE ( `lid` = 1 ) AND ( `display` = 1 ) LIMIT 1   [ RunTime:0.000315s ]
+SQL: SELECT `lname`,`lid` FROM `group_locality` WHERE ( `pid` = 1 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.000378s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: webInfo G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 11 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 217 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 218 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 219 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 220 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 221 行.
+NOTIC: [8] Undefined variable: page G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 333 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.074722s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.074842s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.009235s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.008996s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.009318s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.009156s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.036921s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.009889s ]
+INFO: [ view_end ] --END-- [ RunTime:0.009977s ]
+
+[ 2015-01-14T21:42:17+08:00 ] 127.0.0.1 /qingguo/group.php/Index/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.009562s ]
+INFO: [ route_check ] --END-- [ RunTime:0.009678s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.009180s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009265s ]
+NOTIC: [8] Undefined index: cid G:\php\htdocs\qingguo\Group\Lib\Action\IndexAction.class.php 第 14 行.
+NOTIC: [8] Undefined index: lid G:\php\htdocs\qingguo\Group\Lib\Action\IndexAction.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `group_category` [ RunTime:0.012116s ]
+SQL: SELECT `cname`,`cid` FROM `group_category` WHERE ( `pid` = 0 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.000648s ]
+SQL: SELECT `pid` FROM `group_category` WHERE ( `cid` = 0 ) AND ( `display` = 1 ) LIMIT 1   [ RunTime:0.000414s ]
+SQL: SELECT `cname`,`cid` FROM `group_category` WHERE ( `pid` = 0 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.000510s ]
+SQL: SHOW COLUMNS FROM `group_locality` [ RunTime:0.006623s ]
+SQL: SELECT `lname`,`lid` FROM `group_locality` WHERE ( `pid` = 0 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.002340s ]
+SQL: SELECT `pid` FROM `group_locality` WHERE ( `lid` = 0 ) AND ( `display` = 1 ) LIMIT 1   [ RunTime:0.000342s ]
+SQL: SELECT `lname`,`lid` FROM `group_locality` WHERE ( `pid` = 0 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.000982s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: webInfo G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 11 行.
+NOTIC: [8] Undefined variable: sonCategory G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 191 行.
+NOTIC: [8] Undefined variable: sonLocality G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 202 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 217 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 218 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 219 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 220 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 221 行.
+NOTIC: [8] Undefined variable: page G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 333 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.075014s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.075108s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.009125s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.009413s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.008973s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.009412s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.037147s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.011150s ]
+INFO: [ view_end ] --END-- [ RunTime:0.011241s ]
+
+[ 2015-01-14T21:42:20+08:00 ] 127.0.0.1 /qingguo/group.php/Index/index/cid/1/lid/0/price/0-0
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.009477s ]
+INFO: [ route_check ] --END-- [ RunTime:0.009589s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.009380s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009481s ]
+SQL: SHOW COLUMNS FROM `group_category` [ RunTime:0.013703s ]
+SQL: SELECT `cname`,`cid` FROM `group_category` WHERE ( `pid` = 0 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.006787s ]
+SQL: SELECT `pid` FROM `group_category` WHERE ( `cid` = 1 ) AND ( `display` = 1 ) LIMIT 1   [ RunTime:0.000903s ]
+SQL: SELECT `cname`,`cid` FROM `group_category` WHERE ( `pid` = 1 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `group_locality` [ RunTime:0.005574s ]
+SQL: SELECT `lname`,`lid` FROM `group_locality` WHERE ( `pid` = 0 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.002321s ]
+SQL: SELECT `pid` FROM `group_locality` WHERE ( `lid` = 0 ) AND ( `display` = 1 ) LIMIT 1   [ RunTime:0.000345s ]
+SQL: SELECT `lname`,`lid` FROM `group_locality` WHERE ( `pid` = 0 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.000397s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: webInfo G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 11 行.
+NOTIC: [8] Undefined variable: sonLocality G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 202 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 217 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 218 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 219 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 220 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 221 行.
+NOTIC: [8] Undefined variable: page G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 333 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.077152s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.077245s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.009499s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.009261s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.009094s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.009064s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.037128s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.010402s ]
+INFO: [ view_end ] --END-- [ RunTime:0.010492s ]
+
+[ 2015-01-14T21:42:23+08:00 ] 127.0.0.1 /qingguo/group.php/Index/index/cid/2/lid/0/price/0-0
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.009574s ]
+INFO: [ route_check ] --END-- [ RunTime:0.009694s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.009162s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009250s ]
+SQL: SHOW COLUMNS FROM `group_category` [ RunTime:0.013826s ]
+SQL: SELECT `cname`,`cid` FROM `group_category` WHERE ( `pid` = 0 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.007061s ]
+SQL: SELECT `pid` FROM `group_category` WHERE ( `cid` = 2 ) AND ( `display` = 1 ) LIMIT 1   [ RunTime:0.000833s ]
+SQL: SELECT `cname`,`cid` FROM `group_category` WHERE ( `pid` = 1 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.000940s ]
+SQL: SHOW COLUMNS FROM `group_locality` [ RunTime:0.012253s ]
+SQL: SELECT `lname`,`lid` FROM `group_locality` WHERE ( `pid` = 0 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.000690s ]
+SQL: SELECT `pid` FROM `group_locality` WHERE ( `lid` = 0 ) AND ( `display` = 1 ) LIMIT 1   [ RunTime:0.002200s ]
+SQL: SELECT `lname`,`lid` FROM `group_locality` WHERE ( `pid` = 0 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.000557s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: webInfo G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 11 行.
+NOTIC: [8] Undefined variable: sonLocality G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 202 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 217 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 218 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 219 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 220 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 221 行.
+NOTIC: [8] Undefined variable: page G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 333 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.077128s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.077216s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.009189s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.009087s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.008886s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.009090s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.036481s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.009476s ]
+INFO: [ view_end ] --END-- [ RunTime:0.009564s ]
+
+[ 2015-01-14T21:42:25+08:00 ] 127.0.0.1 /qingguo/group.php/Index/index/cid/1/lid/0/price/0-0
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.009473s ]
+INFO: [ route_check ] --END-- [ RunTime:0.009585s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.009108s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009190s ]
+SQL: SHOW COLUMNS FROM `group_category` [ RunTime:0.013180s ]
+SQL: SELECT `cname`,`cid` FROM `group_category` WHERE ( `pid` = 0 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.005267s ]
+SQL: SELECT `pid` FROM `group_category` WHERE ( `cid` = 1 ) AND ( `display` = 1 ) LIMIT 1   [ RunTime:0.000660s ]
+SQL: SELECT `cname`,`cid` FROM `group_category` WHERE ( `pid` = 1 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.000868s ]
+SQL: SHOW COLUMNS FROM `group_locality` [ RunTime:0.006605s ]
+SQL: SELECT `lname`,`lid` FROM `group_locality` WHERE ( `pid` = 0 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.002850s ]
+SQL: SELECT `pid` FROM `group_locality` WHERE ( `lid` = 0 ) AND ( `display` = 1 ) LIMIT 1   [ RunTime:0.022972s ]
+SQL: SELECT `lname`,`lid` FROM `group_locality` WHERE ( `pid` = 0 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.000537s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: webInfo G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 11 行.
+NOTIC: [8] Undefined variable: sonLocality G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 202 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 217 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 218 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 219 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 220 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 221 行.
+NOTIC: [8] Undefined variable: page G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 333 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.079412s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.079521s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.009178s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.009391s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.009155s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.009120s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.037062s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.010115s ]
+INFO: [ view_end ] --END-- [ RunTime:0.010206s ]
+
+[ 2015-01-14T21:42:27+08:00 ] 127.0.0.1 /qingguo/group.php/Index/index/cid/1/lid/1/price/0-0
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.009542s ]
+INFO: [ route_check ] --END-- [ RunTime:0.009665s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.009120s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009202s ]
+SQL: SHOW COLUMNS FROM `group_category` [ RunTime:0.012432s ]
+SQL: SELECT `cname`,`cid` FROM `group_category` WHERE ( `pid` = 0 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.003415s ]
+SQL: SELECT `pid` FROM `group_category` WHERE ( `cid` = 1 ) AND ( `display` = 1 ) LIMIT 1   [ RunTime:0.000473s ]
+SQL: SELECT `cname`,`cid` FROM `group_category` WHERE ( `pid` = 1 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.000545s ]
+SQL: SHOW COLUMNS FROM `group_locality` [ RunTime:0.022240s ]
+SQL: SELECT `lname`,`lid` FROM `group_locality` WHERE ( `pid` = 0 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.002113s ]
+SQL: SELECT `pid` FROM `group_locality` WHERE ( `lid` = 1 ) AND ( `display` = 1 ) LIMIT 1   [ RunTime:0.000315s ]
+SQL: SELECT `lname`,`lid` FROM `group_locality` WHERE ( `pid` = 1 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.000372s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: webInfo G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 11 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 217 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 218 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 219 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 220 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 221 行.
+NOTIC: [8] Undefined variable: page G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 333 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.077176s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.077262s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.010224s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.009111s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.009736s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.009088s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.038375s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.009919s ]
+INFO: [ view_end ] --END-- [ RunTime:0.010012s ]
+
+[ 2015-01-14T21:42:30+08:00 ] 127.0.0.1 /qingguo/group.php/Index/index/cid/1/lid/7/price/0-0
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.009644s ]
+INFO: [ route_check ] --END-- [ RunTime:0.009765s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.009259s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009350s ]
+SQL: SHOW COLUMNS FROM `group_category` [ RunTime:0.010071s ]
+SQL: SELECT `cname`,`cid` FROM `group_category` WHERE ( `pid` = 0 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.001838s ]
+SQL: SELECT `pid` FROM `group_category` WHERE ( `cid` = 1 ) AND ( `display` = 1 ) LIMIT 1   [ RunTime:0.000530s ]
+SQL: SELECT `cname`,`cid` FROM `group_category` WHERE ( `pid` = 1 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.000596s ]
+SQL: SHOW COLUMNS FROM `group_locality` [ RunTime:0.005021s ]
+SQL: SELECT `lname`,`lid` FROM `group_locality` WHERE ( `pid` = 0 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.002177s ]
+SQL: SELECT `pid` FROM `group_locality` WHERE ( `lid` = 7 ) AND ( `display` = 1 ) LIMIT 1   [ RunTime:0.000345s ]
+SQL: SELECT `lname`,`lid` FROM `group_locality` WHERE ( `pid` = 1 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.000559s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: webInfo G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 11 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 217 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 218 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 219 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 220 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 221 行.
+NOTIC: [8] Undefined variable: page G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 333 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.076334s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.076423s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.009687s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.009409s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.009136s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.009180s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.037631s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.010299s ]
+INFO: [ view_end ] --END-- [ RunTime:0.010385s ]
+
+[ 2015-01-14T21:42:34+08:00 ] 127.0.0.1 /qingguo/group.php/Index/index/cid/2/lid/7/price/0-0
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.009475s ]
+INFO: [ route_check ] --END-- [ RunTime:0.009587s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.009199s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009290s ]
+SQL: SHOW COLUMNS FROM `group_category` [ RunTime:0.013626s ]
+SQL: SELECT `cname`,`cid` FROM `group_category` WHERE ( `pid` = 0 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.005512s ]
+SQL: SELECT `pid` FROM `group_category` WHERE ( `cid` = 2 ) AND ( `display` = 1 ) LIMIT 1   [ RunTime:0.000942s ]
+SQL: SELECT `cname`,`cid` FROM `group_category` WHERE ( `pid` = 1 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.001074s ]
+SQL: SHOW COLUMNS FROM `group_locality` [ RunTime:0.007206s ]
+SQL: SELECT `lname`,`lid` FROM `group_locality` WHERE ( `pid` = 0 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.002971s ]
+SQL: SELECT `pid` FROM `group_locality` WHERE ( `lid` = 7 ) AND ( `display` = 1 ) LIMIT 1   [ RunTime:0.000457s ]
+SQL: SELECT `lname`,`lid` FROM `group_locality` WHERE ( `pid` = 1 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.000673s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: webInfo G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 11 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 217 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 218 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 219 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 220 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 221 行.
+NOTIC: [8] Undefined variable: page G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 333 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.074796s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.074888s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.009561s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.009274s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.009192s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.009275s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.037525s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.011781s ]
+INFO: [ view_end ] --END-- [ RunTime:0.011875s ]
+
+[ 2015-01-14T21:42:36+08:00 ] 127.0.0.1 /qingguo/group.php/Index/index/cid/1/lid/7/price/0-0
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.009418s ]
+INFO: [ route_check ] --END-- [ RunTime:0.009528s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.009114s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009197s ]
+SQL: SHOW COLUMNS FROM `group_category` [ RunTime:0.013091s ]
+SQL: SELECT `cname`,`cid` FROM `group_category` WHERE ( `pid` = 0 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.003209s ]
+SQL: SELECT `pid` FROM `group_category` WHERE ( `cid` = 1 ) AND ( `display` = 1 ) LIMIT 1   [ RunTime:0.000483s ]
+SQL: SELECT `cname`,`cid` FROM `group_category` WHERE ( `pid` = 1 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.000546s ]
+SQL: SHOW COLUMNS FROM `group_locality` [ RunTime:0.009399s ]
+SQL: SELECT `lname`,`lid` FROM `group_locality` WHERE ( `pid` = 0 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.000730s ]
+SQL: SELECT `pid` FROM `group_locality` WHERE ( `lid` = 7 ) AND ( `display` = 1 ) LIMIT 1   [ RunTime:0.000343s ]
+SQL: SELECT `lname`,`lid` FROM `group_locality` WHERE ( `pid` = 1 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.000407s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: webInfo G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 11 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 217 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 218 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 219 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 220 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 221 行.
+NOTIC: [8] Undefined variable: page G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 333 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.075005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.075097s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.009185s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.009310s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.008964s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.009374s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.037057s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.009742s ]
+INFO: [ view_end ] --END-- [ RunTime:0.009831s ]
+
+[ 2015-01-14T21:42:39+08:00 ] 127.0.0.1 /qingguo/group.php/Index/index/cid/1/lid/1/price/0-0
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.009458s ]
+INFO: [ route_check ] --END-- [ RunTime:0.009570s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.009116s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009195s ]
+SQL: SHOW COLUMNS FROM `group_category` [ RunTime:0.013451s ]
+SQL: SELECT `cname`,`cid` FROM `group_category` WHERE ( `pid` = 0 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.005537s ]
+SQL: SELECT `pid` FROM `group_category` WHERE ( `cid` = 1 ) AND ( `display` = 1 ) LIMIT 1   [ RunTime:0.000837s ]
+SQL: SELECT `cname`,`cid` FROM `group_category` WHERE ( `pid` = 1 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.000939s ]
+SQL: SHOW COLUMNS FROM `group_locality` [ RunTime:0.007416s ]
+SQL: SELECT `lname`,`lid` FROM `group_locality` WHERE ( `pid` = 0 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.002937s ]
+SQL: SELECT `pid` FROM `group_locality` WHERE ( `lid` = 1 ) AND ( `display` = 1 ) LIMIT 1   [ RunTime:0.000460s ]
+SQL: SELECT `lname`,`lid` FROM `group_locality` WHERE ( `pid` = 1 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.000544s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: webInfo G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 11 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 217 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 218 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 219 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 220 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 221 行.
+NOTIC: [8] Undefined variable: page G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 333 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.076798s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.076911s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.009853s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.009472s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.009048s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.009683s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.038286s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.009801s ]
+INFO: [ view_end ] --END-- [ RunTime:0.009885s ]
+
+[ 2015-01-14T21:42:41+08:00 ] 127.0.0.1 /qingguo/group.php/Index/index/cid/1/lid/1/price/0-0
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.009466s ]
+INFO: [ route_check ] --END-- [ RunTime:0.009580s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.009106s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009186s ]
+SQL: SHOW COLUMNS FROM `group_category` [ RunTime:0.014046s ]
+SQL: SELECT `cname`,`cid` FROM `group_category` WHERE ( `pid` = 0 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.005160s ]
+SQL: SELECT `pid` FROM `group_category` WHERE ( `cid` = 1 ) AND ( `display` = 1 ) LIMIT 1   [ RunTime:0.000827s ]
+SQL: SELECT `cname`,`cid` FROM `group_category` WHERE ( `pid` = 1 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.000887s ]
+SQL: SHOW COLUMNS FROM `group_locality` [ RunTime:0.006327s ]
+SQL: SELECT `lname`,`lid` FROM `group_locality` WHERE ( `pid` = 0 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.003243s ]
+SQL: SELECT `pid` FROM `group_locality` WHERE ( `lid` = 1 ) AND ( `display` = 1 ) LIMIT 1   [ RunTime:0.000442s ]
+SQL: SELECT `lname`,`lid` FROM `group_locality` WHERE ( `pid` = 1 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.000529s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: webInfo G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 11 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 217 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 218 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 219 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 220 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 221 行.
+NOTIC: [8] Undefined variable: page G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 333 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.075864s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.075989s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.009557s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.010023s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.009767s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.009530s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.039123s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.009848s ]
+INFO: [ view_end ] --END-- [ RunTime:0.009934s ]
+
+[ 2015-01-14T21:42:52+08:00 ] 127.0.0.1 /qingguo/group.php/Index/index/cid/1/lid/1/price/0-0
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.009612s ]
+INFO: [ route_check ] --END-- [ RunTime:0.009725s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.009364s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009455s ]
+SQL: SHOW COLUMNS FROM `group_category` [ RunTime:0.013775s ]
+SQL: SELECT `cname`,`cid` FROM `group_category` WHERE ( `pid` = 0 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.003544s ]
+SQL: SELECT `pid` FROM `group_category` WHERE ( `cid` = 1 ) AND ( `display` = 1 ) LIMIT 1   [ RunTime:0.000530s ]
+SQL: SELECT `cname`,`cid` FROM `group_category` WHERE ( `pid` = 1 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.000611s ]
+SQL: SHOW COLUMNS FROM `group_locality` [ RunTime:0.007321s ]
+SQL: SELECT `lname`,`lid` FROM `group_locality` WHERE ( `pid` = 0 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.002269s ]
+SQL: SELECT `pid` FROM `group_locality` WHERE ( `lid` = 1 ) AND ( `display` = 1 ) LIMIT 1   [ RunTime:0.000344s ]
+SQL: SELECT `lname`,`lid` FROM `group_locality` WHERE ( `pid` = 1 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.000408s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: webInfo G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 11 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 217 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 218 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 219 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 220 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 221 行.
+NOTIC: [8] Undefined variable: page G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 333 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.076525s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.076621s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.009198s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.009349s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.009122s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.009113s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.036992s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.009679s ]
+INFO: [ view_end ] --END-- [ RunTime:0.009764s ]
+
+[ 2015-01-14T21:43:20+08:00 ] 127.0.0.1 /qingguo/group.php/Index/index/cid/1/lid/1/price/0-0
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.009780s ]
+INFO: [ route_check ] --END-- [ RunTime:0.009904s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.009347s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009456s ]
+SQL: SHOW COLUMNS FROM `group_category` [ RunTime:0.013570s ]
+SQL: SELECT `cname`,`cid` FROM `group_category` WHERE ( `pid` = 0 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.005140s ]
+SQL: SELECT `pid` FROM `group_category` WHERE ( `cid` = 1 ) AND ( `display` = 1 ) LIMIT 1   [ RunTime:0.000656s ]
+SQL: SELECT `cname`,`cid` FROM `group_category` WHERE ( `pid` = 1 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.000717s ]
+SQL: SHOW COLUMNS FROM `group_locality` [ RunTime:0.006198s ]
+SQL: SELECT `lname`,`lid` FROM `group_locality` WHERE ( `pid` = 0 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.002925s ]
+SQL: SELECT `pid` FROM `group_locality` WHERE ( `lid` = 1 ) AND ( `display` = 1 ) LIMIT 1   [ RunTime:0.000421s ]
+SQL: SELECT `lname`,`lid` FROM `group_locality` WHERE ( `pid` = 1 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.000495s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: webInfo G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 11 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 217 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 218 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 219 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 220 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 221 行.
+NOTIC: [8] Undefined variable: page G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 333 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.076690s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.076786s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.009545s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.009394s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.009400s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.009567s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.038139s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.009889s ]
+INFO: [ view_end ] --END-- [ RunTime:0.009977s ]
+
+[ 2015-01-14T21:43:24+08:00 ] 127.0.0.1 /qingguo/group.php/Index/index/cid/0/lid/1/price/0-0
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.009578s ]
+INFO: [ route_check ] --END-- [ RunTime:0.009695s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.009301s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009399s ]
+SQL: SHOW COLUMNS FROM `group_category` [ RunTime:0.013646s ]
+SQL: SELECT `cname`,`cid` FROM `group_category` WHERE ( `pid` = 0 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.005843s ]
+SQL: SELECT `pid` FROM `group_category` WHERE ( `cid` = 0 ) AND ( `display` = 1 ) LIMIT 1   [ RunTime:0.000408s ]
+SQL: SELECT `cname`,`cid` FROM `group_category` WHERE ( `pid` = 0 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.000460s ]
+SQL: SHOW COLUMNS FROM `group_locality` [ RunTime:0.006315s ]
+SQL: SELECT `lname`,`lid` FROM `group_locality` WHERE ( `pid` = 0 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.002885s ]
+SQL: SELECT `pid` FROM `group_locality` WHERE ( `lid` = 1 ) AND ( `display` = 1 ) LIMIT 1   [ RunTime:0.000415s ]
+SQL: SELECT `lname`,`lid` FROM `group_locality` WHERE ( `pid` = 1 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.000472s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: webInfo G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 11 行.
+NOTIC: [8] Undefined variable: sonCategory G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 191 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 217 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 218 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 219 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 220 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 221 行.
+NOTIC: [8] Undefined variable: page G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 333 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.076299s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.076391s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.009609s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.009097s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.009401s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.009411s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.037744s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.010223s ]
+INFO: [ view_end ] --END-- [ RunTime:0.010319s ]
+
+[ 2015-01-14T21:43:27+08:00 ] 127.0.0.1 /qingguo/group.php/Index/index/cid/0/lid/7/price/0-0
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.010713s ]
+INFO: [ route_check ] --END-- [ RunTime:0.010834s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.009901s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009987s ]
+SQL: SHOW COLUMNS FROM `group_category` [ RunTime:0.013342s ]
+SQL: SELECT `cname`,`cid` FROM `group_category` WHERE ( `pid` = 0 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.005170s ]
+SQL: SELECT `pid` FROM `group_category` WHERE ( `cid` = 0 ) AND ( `display` = 1 ) LIMIT 1   [ RunTime:0.000724s ]
+SQL: SELECT `cname`,`cid` FROM `group_category` WHERE ( `pid` = 0 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.000892s ]
+SQL: SHOW COLUMNS FROM `group_locality` [ RunTime:0.006287s ]
+SQL: SELECT `lname`,`lid` FROM `group_locality` WHERE ( `pid` = 0 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.002951s ]
+SQL: SELECT `pid` FROM `group_locality` WHERE ( `lid` = 7 ) AND ( `display` = 1 ) LIMIT 1   [ RunTime:0.000411s ]
+SQL: SELECT `lname`,`lid` FROM `group_locality` WHERE ( `pid` = 1 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.000489s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: webInfo G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 11 行.
+NOTIC: [8] Undefined variable: sonCategory G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 191 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 217 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 218 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 219 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 220 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 221 行.
+NOTIC: [8] Undefined variable: page G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 333 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.076223s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.076316s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.010562s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.009098s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.009177s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.009278s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.038335s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.009698s ]
+INFO: [ view_end ] --END-- [ RunTime:0.009788s ]
+
+[ 2015-01-14T21:43:30+08:00 ] 127.0.0.1 /qingguo/group.php/Index/index/cid/1/lid/7/price/0-0
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.009644s ]
+INFO: [ route_check ] --END-- [ RunTime:0.009767s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.009294s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009387s ]
+SQL: SHOW COLUMNS FROM `group_category` [ RunTime:0.005858s ]
+SQL: SELECT `cname`,`cid` FROM `group_category` WHERE ( `pid` = 0 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.002229s ]
+SQL: SELECT `pid` FROM `group_category` WHERE ( `cid` = 1 ) AND ( `display` = 1 ) LIMIT 1   [ RunTime:0.000400s ]
+SQL: SELECT `cname`,`cid` FROM `group_category` WHERE ( `pid` = 1 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.000411s ]
+SQL: SHOW COLUMNS FROM `group_locality` [ RunTime:0.006929s ]
+SQL: SELECT `lname`,`lid` FROM `group_locality` WHERE ( `pid` = 0 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.002133s ]
+SQL: SELECT `pid` FROM `group_locality` WHERE ( `lid` = 7 ) AND ( `display` = 1 ) LIMIT 1   [ RunTime:0.000367s ]
+SQL: SELECT `lname`,`lid` FROM `group_locality` WHERE ( `pid` = 1 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.000426s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: webInfo G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 11 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 217 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 218 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 219 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 220 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 221 行.
+NOTIC: [8] Undefined variable: page G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 333 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.076846s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.076938s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.009254s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.009627s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.009482s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.011400s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.039998s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.010382s ]
+INFO: [ view_end ] --END-- [ RunTime:0.010473s ]
+
+[ 2015-01-14T21:43:33+08:00 ] 127.0.0.1 /qingguo/group.php/Index/index/cid/2/lid/7/price/0-0
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.009730s ]
+INFO: [ route_check ] --END-- [ RunTime:0.009855s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.009270s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009361s ]
+SQL: SHOW COLUMNS FROM `group_category` [ RunTime:0.013996s ]
+SQL: SELECT `cname`,`cid` FROM `group_category` WHERE ( `pid` = 0 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.005520s ]
+SQL: SELECT `pid` FROM `group_category` WHERE ( `cid` = 2 ) AND ( `display` = 1 ) LIMIT 1   [ RunTime:0.000824s ]
+SQL: SELECT `cname`,`cid` FROM `group_category` WHERE ( `pid` = 1 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.000949s ]
+SQL: SHOW COLUMNS FROM `group_locality` [ RunTime:0.009142s ]
+SQL: SELECT `lname`,`lid` FROM `group_locality` WHERE ( `pid` = 0 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.000763s ]
+SQL: SELECT `pid` FROM `group_locality` WHERE ( `lid` = 7 ) AND ( `display` = 1 ) LIMIT 1   [ RunTime:0.000469s ]
+SQL: SELECT `lname`,`lid` FROM `group_locality` WHERE ( `pid` = 1 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.000520s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: webInfo G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 11 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 217 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 218 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 219 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 220 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 221 行.
+NOTIC: [8] Undefined variable: page G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 333 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.084749s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.084848s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.009156s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.009523s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.008894s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.009240s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.037052s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.009546s ]
+INFO: [ view_end ] --END-- [ RunTime:0.009634s ]
+
+[ 2015-01-14T21:43:35+08:00 ] 127.0.0.1 /qingguo/group.php/Index/index/cid/0/lid/7/price/0-0
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.009581s ]
+INFO: [ route_check ] --END-- [ RunTime:0.009702s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.009281s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009382s ]
+SQL: SHOW COLUMNS FROM `group_category` [ RunTime:0.014443s ]
+SQL: SELECT `cname`,`cid` FROM `group_category` WHERE ( `pid` = 0 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.005255s ]
+SQL: SELECT `pid` FROM `group_category` WHERE ( `cid` = 0 ) AND ( `display` = 1 ) LIMIT 1   [ RunTime:0.000848s ]
+SQL: SELECT `cname`,`cid` FROM `group_category` WHERE ( `pid` = 0 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.000966s ]
+SQL: SHOW COLUMNS FROM `group_locality` [ RunTime:0.005684s ]
+SQL: SELECT `lname`,`lid` FROM `group_locality` WHERE ( `pid` = 0 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.002281s ]
+SQL: SELECT `pid` FROM `group_locality` WHERE ( `lid` = 7 ) AND ( `display` = 1 ) LIMIT 1   [ RunTime:0.000342s ]
+SQL: SELECT `lname`,`lid` FROM `group_locality` WHERE ( `pid` = 1 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.000404s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: webInfo G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 11 行.
+NOTIC: [8] Undefined variable: sonCategory G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 191 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 217 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 218 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 219 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 220 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 221 行.
+NOTIC: [8] Undefined variable: page G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 333 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.079219s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.079310s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.009111s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.009188s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.009215s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.009407s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.037140s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.011493s ]
+INFO: [ view_end ] --END-- [ RunTime:0.011585s ]
+
+[ 2015-01-14T21:43:39+08:00 ] 127.0.0.1 /qingguo/group.php/Index/index/cid/0/lid/10/price/0-0
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.009485s ]
+INFO: [ route_check ] --END-- [ RunTime:0.009596s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.009098s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009177s ]
+SQL: SHOW COLUMNS FROM `group_category` [ RunTime:0.014650s ]
+SQL: SELECT `cname`,`cid` FROM `group_category` WHERE ( `pid` = 0 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.006149s ]
+SQL: SELECT `pid` FROM `group_category` WHERE ( `cid` = 0 ) AND ( `display` = 1 ) LIMIT 1   [ RunTime:0.000982s ]
+SQL: SELECT `cname`,`cid` FROM `group_category` WHERE ( `pid` = 0 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.001084s ]
+SQL: SHOW COLUMNS FROM `group_locality` [ RunTime:0.006142s ]
+SQL: SELECT `lname`,`lid` FROM `group_locality` WHERE ( `pid` = 0 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.002888s ]
+SQL: SELECT `pid` FROM `group_locality` WHERE ( `lid` = 10 ) AND ( `display` = 1 ) LIMIT 1   [ RunTime:0.000310s ]
+SQL: SELECT `lname`,`lid` FROM `group_locality` WHERE ( `pid` = 10 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.000417s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: webInfo G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 11 行.
+NOTIC: [8] Undefined variable: sonCategory G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 191 行.
+NOTIC: [8] Undefined variable: sonLocality G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 202 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 217 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 218 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 219 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 220 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 221 行.
+NOTIC: [8] Undefined variable: page G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 333 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.077905s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.077997s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.009413s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.009562s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.009701s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.009239s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.038189s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.011367s ]
+INFO: [ view_end ] --END-- [ RunTime:0.011457s ]
+
+[ 2015-01-14T21:43:41+08:00 ] 127.0.0.1 /qingguo/group.php/Index/index/cid/1/lid/10/price/0-0
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.009443s ]
+INFO: [ route_check ] --END-- [ RunTime:0.009557s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.009163s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009243s ]
+SQL: SHOW COLUMNS FROM `group_category` [ RunTime:0.012972s ]
+SQL: SELECT `cname`,`cid` FROM `group_category` WHERE ( `pid` = 0 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.005274s ]
+SQL: SELECT `pid` FROM `group_category` WHERE ( `cid` = 1 ) AND ( `display` = 1 ) LIMIT 1   [ RunTime:0.001158s ]
+SQL: SELECT `cname`,`cid` FROM `group_category` WHERE ( `pid` = 1 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.000974s ]
+SQL: SHOW COLUMNS FROM `group_locality` [ RunTime:0.006089s ]
+SQL: SELECT `lname`,`lid` FROM `group_locality` WHERE ( `pid` = 0 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.002898s ]
+SQL: SELECT `pid` FROM `group_locality` WHERE ( `lid` = 10 ) AND ( `display` = 1 ) LIMIT 1   [ RunTime:0.000411s ]
+SQL: SELECT `lname`,`lid` FROM `group_locality` WHERE ( `pid` = 10 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.000472s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: webInfo G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 11 行.
+NOTIC: [8] Undefined variable: sonLocality G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 202 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 217 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 218 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 219 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 220 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 221 行.
+NOTIC: [8] Undefined variable: page G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 333 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.081916s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.082008s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.009558s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.009231s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.008912s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.009425s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.037346s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.012060s ]
+INFO: [ view_end ] --END-- [ RunTime:0.012155s ]
+
+[ 2015-01-14T21:43:44+08:00 ] 127.0.0.1 /qingguo/group.php/Index/index/cid/2/lid/10/price/0-0
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.009542s ]
+INFO: [ route_check ] --END-- [ RunTime:0.009659s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.009159s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009239s ]
+SQL: SHOW COLUMNS FROM `group_category` [ RunTime:0.013982s ]
+SQL: SELECT `cname`,`cid` FROM `group_category` WHERE ( `pid` = 0 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.005470s ]
+SQL: SELECT `pid` FROM `group_category` WHERE ( `cid` = 2 ) AND ( `display` = 1 ) LIMIT 1   [ RunTime:0.000833s ]
+SQL: SELECT `cname`,`cid` FROM `group_category` WHERE ( `pid` = 1 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.000979s ]
+SQL: SHOW COLUMNS FROM `group_locality` [ RunTime:0.006154s ]
+SQL: SELECT `lname`,`lid` FROM `group_locality` WHERE ( `pid` = 0 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.002743s ]
+SQL: SELECT `pid` FROM `group_locality` WHERE ( `lid` = 10 ) AND ( `display` = 1 ) LIMIT 1   [ RunTime:0.000410s ]
+SQL: SELECT `lname`,`lid` FROM `group_locality` WHERE ( `pid` = 10 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.000472s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: webInfo G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 11 行.
+NOTIC: [8] Undefined variable: sonLocality G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 202 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 217 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 218 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 219 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 220 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 221 行.
+NOTIC: [8] Undefined variable: page G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 333 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.080879s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.080978s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.009311s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.009476s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.009070s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.009292s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.037372s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.010199s ]
+INFO: [ view_end ] --END-- [ RunTime:0.010290s ]
+
+[ 2015-01-14T21:43:46+08:00 ] 127.0.0.1 /qingguo/group.php/Index/index/cid/2/lid/1/price/0-0
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.009493s ]
+INFO: [ route_check ] --END-- [ RunTime:0.009606s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.009121s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009196s ]
+SQL: SHOW COLUMNS FROM `group_category` [ RunTime:0.017195s ]
+SQL: SELECT `cname`,`cid` FROM `group_category` WHERE ( `pid` = 0 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.001965s ]
+SQL: SELECT `pid` FROM `group_category` WHERE ( `cid` = 2 ) AND ( `display` = 1 ) LIMIT 1   [ RunTime:0.000745s ]
+SQL: SELECT `cname`,`cid` FROM `group_category` WHERE ( `pid` = 1 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.001208s ]
+SQL: SHOW COLUMNS FROM `group_locality` [ RunTime:0.006700s ]
+SQL: SELECT `lname`,`lid` FROM `group_locality` WHERE ( `pid` = 0 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.002879s ]
+SQL: SELECT `pid` FROM `group_locality` WHERE ( `lid` = 1 ) AND ( `display` = 1 ) LIMIT 1   [ RunTime:0.000443s ]
+SQL: SELECT `lname`,`lid` FROM `group_locality` WHERE ( `pid` = 1 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.000531s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: webInfo G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 11 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 217 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 218 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 219 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 220 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 221 行.
+NOTIC: [8] Undefined variable: page G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 333 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.075263s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.075365s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.009440s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.009130s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.009548s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.009531s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.037873s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.009704s ]
+INFO: [ view_end ] --END-- [ RunTime:0.009792s ]
+
+[ 2015-01-14T21:43:49+08:00 ] 127.0.0.1 /qingguo/group.php/Index/index/cid/2/lid/7/price/0-0
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.009607s ]
+INFO: [ route_check ] --END-- [ RunTime:0.009730s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.009174s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009256s ]
+SQL: SHOW COLUMNS FROM `group_category` [ RunTime:0.013861s ]
+SQL: SELECT `cname`,`cid` FROM `group_category` WHERE ( `pid` = 0 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.005307s ]
+SQL: SELECT `pid` FROM `group_category` WHERE ( `cid` = 2 ) AND ( `display` = 1 ) LIMIT 1   [ RunTime:0.000491s ]
+SQL: SELECT `cname`,`cid` FROM `group_category` WHERE ( `pid` = 1 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.000564s ]
+SQL: SHOW COLUMNS FROM `group_locality` [ RunTime:0.007463s ]
+SQL: SELECT `lname`,`lid` FROM `group_locality` WHERE ( `pid` = 0 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.003130s ]
+SQL: SELECT `pid` FROM `group_locality` WHERE ( `lid` = 7 ) AND ( `display` = 1 ) LIMIT 1   [ RunTime:0.000814s ]
+SQL: SELECT `lname`,`lid` FROM `group_locality` WHERE ( `pid` = 1 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.000398s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: webInfo G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 11 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 217 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 218 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 219 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 220 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 221 行.
+NOTIC: [8] Undefined variable: page G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 333 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.075495s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.075583s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.009724s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.009485s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.009192s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.009309s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.037942s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.010377s ]
+INFO: [ view_end ] --END-- [ RunTime:0.010462s ]
+
+[ 2015-01-14T21:44:03+08:00 ] 127.0.0.1 /qingguo/group.php/Index/index/cid/1/lid/7/price/0-0
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.009601s ]
+INFO: [ route_check ] --END-- [ RunTime:0.009714s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.009699s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009784s ]
+SQL: SHOW COLUMNS FROM `group_category` [ RunTime:0.022100s ]
+SQL: SELECT `cname`,`cid` FROM `group_category` WHERE ( `pid` = 0 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.001695s ]
+SQL: SELECT `pid` FROM `group_category` WHERE ( `cid` = 1 ) AND ( `display` = 1 ) LIMIT 1   [ RunTime:0.001008s ]
+SQL: SELECT `cname`,`cid` FROM `group_category` WHERE ( `pid` = 1 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.002168s ]
+SQL: SHOW COLUMNS FROM `group_locality` [ RunTime:0.009072s ]
+SQL: SELECT `lname`,`lid` FROM `group_locality` WHERE ( `pid` = 0 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.000912s ]
+SQL: SELECT `pid` FROM `group_locality` WHERE ( `lid` = 7 ) AND ( `display` = 1 ) LIMIT 1   [ RunTime:0.000344s ]
+SQL: SELECT `lname`,`lid` FROM `group_locality` WHERE ( `pid` = 1 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.000385s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: webInfo G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 11 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 217 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 218 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 219 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 220 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 221 行.
+NOTIC: [8] Undefined variable: page G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 333 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.074529s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.074621s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.009119s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.009075s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.008994s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.009109s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.036528s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.009463s ]
+INFO: [ view_end ] --END-- [ RunTime:0.009551s ]
+
+[ 2015-01-14T21:45:36+08:00 ] 127.0.0.1 /qingguo/group.php/Index/index/cid/1/lid/7/price/0-0
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.012656s ]
+INFO: [ route_check ] --END-- [ RunTime:0.012894s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.009963s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010071s ]
+SQL: SHOW COLUMNS FROM `group_category` [ RunTime:0.009648s ]
+SQL: SELECT `cname`,`cid` FROM `group_category` WHERE ( `pid` = 0 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.002365s ]
+SQL: SELECT `pid` FROM `group_category` WHERE ( `cid` = 1 ) AND ( `display` = 1 ) LIMIT 1   [ RunTime:0.000355s ]
+SQL: SELECT `cname`,`cid` FROM `group_category` WHERE ( `pid` = 1 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.000447s ]
+SQL: SHOW COLUMNS FROM `group_locality` [ RunTime:0.005542s ]
+SQL: SELECT `lname`,`lid` FROM `group_locality` WHERE ( `pid` = 0 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.002534s ]
+SQL: SELECT `pid` FROM `group_locality` WHERE ( `lid` = 7 ) AND ( `display` = 1 ) LIMIT 1   [ RunTime:0.000312s ]
+SQL: SELECT `lname`,`lid` FROM `group_locality` WHERE ( `pid` = 1 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.000402s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: webInfo G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 11 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 217 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 218 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 219 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 220 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 221 行.
+NOTIC: [8] Undefined variable: page G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 333 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.099570s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.099679s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.016091s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.011111s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.017160s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.011257s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.055924s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.009891s ]
+INFO: [ view_end ] --END-- [ RunTime:0.009984s ]
+
+[ 2015-01-14T21:45:37+08:00 ] 127.0.0.1 /qingguo/group.php/Index/index/cid/1/lid/7/price/0-0
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.011679s ]
+INFO: [ route_check ] --END-- [ RunTime:0.011858s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.009761s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009866s ]
+SQL: SHOW COLUMNS FROM `group_category` [ RunTime:0.013034s ]
+SQL: SELECT `cname`,`cid` FROM `group_category` WHERE ( `pid` = 0 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.000572s ]
+SQL: SELECT `pid` FROM `group_category` WHERE ( `cid` = 1 ) AND ( `display` = 1 ) LIMIT 1   [ RunTime:0.000239s ]
+SQL: SELECT `cname`,`cid` FROM `group_category` WHERE ( `pid` = 1 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.000410s ]
+SQL: SHOW COLUMNS FROM `group_locality` [ RunTime:0.010475s ]
+SQL: SELECT `lname`,`lid` FROM `group_locality` WHERE ( `pid` = 0 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.002539s ]
+SQL: SELECT `pid` FROM `group_locality` WHERE ( `lid` = 7 ) AND ( `display` = 1 ) LIMIT 1   [ RunTime:0.000727s ]
+SQL: SELECT `lname`,`lid` FROM `group_locality` WHERE ( `pid` = 1 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.000497s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: webInfo G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 11 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 217 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 218 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 219 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 220 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 221 行.
+NOTIC: [8] Undefined variable: page G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 333 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.076184s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.076286s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.009309s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.009810s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.009318s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.009752s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.038437s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.011516s ]
+INFO: [ view_end ] --END-- [ RunTime:0.011609s ]
+
+[ 2015-01-14T21:45:38+08:00 ] 127.0.0.1 /qingguo/group.php/Index/index/cid/1/lid/7/price/0-0
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.010790s ]
+INFO: [ route_check ] --END-- [ RunTime:0.010918s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.009284s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009387s ]
+SQL: SHOW COLUMNS FROM `group_category` [ RunTime:0.005081s ]
+SQL: SELECT `cname`,`cid` FROM `group_category` WHERE ( `pid` = 0 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.002789s ]
+SQL: SELECT `pid` FROM `group_category` WHERE ( `cid` = 1 ) AND ( `display` = 1 ) LIMIT 1   [ RunTime:0.001022s ]
+SQL: SELECT `cname`,`cid` FROM `group_category` WHERE ( `pid` = 1 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.000987s ]
+SQL: SHOW COLUMNS FROM `group_locality` [ RunTime:0.009964s ]
+SQL: SELECT `lname`,`lid` FROM `group_locality` WHERE ( `pid` = 0 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.001704s ]
+SQL: SELECT `pid` FROM `group_locality` WHERE ( `lid` = 7 ) AND ( `display` = 1 ) LIMIT 1   [ RunTime:0.001660s ]
+SQL: SELECT `lname`,`lid` FROM `group_locality` WHERE ( `pid` = 1 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.000752s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: webInfo G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 11 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 217 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 218 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 219 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 220 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 221 行.
+NOTIC: [8] Undefined variable: page G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 333 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.080958s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.081110s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.009298s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.010485s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.008955s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.009244s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.038298s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.010636s ]
+INFO: [ view_end ] --END-- [ RunTime:0.010728s ]
+
+[ 2015-01-14T21:48:11+08:00 ] 127.0.0.1 /qingguo/group.php/Index/index/cid/2/lid/7/price/0-0
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.009887s ]
+INFO: [ route_check ] --END-- [ RunTime:0.010021s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.009344s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009444s ]
+SQL: SHOW COLUMNS FROM `group_category` [ RunTime:0.023239s ]
+SQL: SELECT `cname`,`cid` FROM `group_category` WHERE ( `pid` = 0 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.003975s ]
+SQL: SELECT `pid` FROM `group_category` WHERE ( `cid` = 2 ) AND ( `display` = 1 ) LIMIT 1   [ RunTime:0.000557s ]
+SQL: SELECT `cname`,`cid` FROM `group_category` WHERE ( `pid` = 1 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.000979s ]
+SQL: SHOW COLUMNS FROM `group_locality` [ RunTime:0.006674s ]
+SQL: SELECT `lname`,`lid` FROM `group_locality` WHERE ( `pid` = 0 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.002624s ]
+SQL: SELECT `pid` FROM `group_locality` WHERE ( `lid` = 7 ) AND ( `display` = 1 ) LIMIT 1   [ RunTime:0.000275s ]
+SQL: SELECT `lname`,`lid` FROM `group_locality` WHERE ( `pid` = 1 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.000401s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: webInfo G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 11 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 217 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 218 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 219 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 220 行.
+NOTIC: [8] Undefined variable: orderUrl G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 221 行.
+NOTIC: [8] Undefined variable: page G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 333 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.079345s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.079456s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.009634s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.009161s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.008922s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.009114s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.037071s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.009479s ]
+INFO: [ view_end ] --END-- [ RunTime:0.009563s ]
+

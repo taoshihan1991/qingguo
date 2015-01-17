@@ -11,6 +11,7 @@
 define('APP_NAME','Group');
 define('APP_PATH','./Group/');          
 define('ROOT_PATH', str_replace("\\", '/', dirname(__FILE__)));
+define('ROOT_URL', 'http://'.$_SERVER['HTTP_HOST'].dirname($_SERVER['SCRIPT_NAME']).'/');
 define('APP_DEBUG',true);
 require('./ThinkPHP/ThinkPHP.php');
 ?>

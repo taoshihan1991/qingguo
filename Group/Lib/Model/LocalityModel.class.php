@@ -17,5 +17,13 @@ class LocalityModel extends Model {
         $result=$this->field('pid')->where(array('lid'=>$lid,'display'=>1))->find();
         return $result['pid'];
     }
+    /**
+    * 获取所有的子地区
+    */
+    public function getSonLocality($lid){
+        $result=$this->field('lid')->where(array('pid'=>$lid,'display'=>1))->select();
+        $result[]=array('lid'=>$lid);
+        return $result;
+    }
 
 }

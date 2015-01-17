@@ -1,0 +1,497 @@
+[ 2015-01-17T17:24:02+08:00 ] 127.0.0.1 /qingguo/groupManage.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.010491s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010609s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.086838s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.086947s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.009736s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.009604s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.010423s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.010256s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.040289s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.010051s ]
+INFO: [ view_end ] --END-- [ RunTime:0.010135s ]
+
+[ 2015-01-17T17:24:03+08:00 ] 127.0.0.1 /qingguo/groupManage.php/index/welcome
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.015540s ]
+INFO: [ route_check ] --END-- [ RunTime:0.015674s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.012270s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012383s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.101215s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.101331s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.009849s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.009664s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.008897s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.010735s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.039378s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.009656s ]
+INFO: [ view_end ] --END-- [ RunTime:0.009735s ]
+
+[ 2015-01-17T17:24:07+08:00 ] 127.0.0.1 /qingguo/groupManage.php/goods/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.009857s ]
+INFO: [ route_check ] --END-- [ RunTime:0.009972s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.009843s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009945s ]
+NOTIC: [8] Undefined index: gid G:\php\htdocs\qingguo\Gmanage\Lib\Action\GoodsAction.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `group_goods` [ RunTime:0.012977s ]
+SQL: SHOW COLUMNS FROM `group_category` [ RunTime:0.005102s ]
+SQL: SHOW COLUMNS FROM `group_locality` [ RunTime:0.004839s ]
+SQL: SHOW COLUMNS FROM `group_shop` [ RunTime:0.004633s ]
+SQL: SELECT COUNT(*) AS tp_count FROM group_goods goods  JOIN group_category category ON goods.cid=category.cid  JOIN group_locality locality ON goods.lid=locality.lid  JOIN group_shop shop ON goods.shopid=shop.shopid LIMIT 1   [ RunTime:0.068344s ]
+SQL: SELECT goods.gid AS gid,goods.shopid AS shopid,goods.cid AS cid,goods.lid AS lid,goods.main_title AS main_title,goods.sub_title AS sub_title,goods.price AS price,goods.old_price AS old_price,goods.buy AS buy,goods.goods_img AS goods_img,category.cname AS cname,locality.lname AS lname,shop.shopname AS shopname FROM group_goods goods  JOIN group_category category ON goods.cid=category.cid  JOIN group_locality locality ON goods.lid=locality.lid  JOIN group_shop shop ON goods.shopid=shop.shopid LIMIT 0,1   [ RunTime:0.000622s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.106103s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.106227s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.009578s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.009420s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.009446s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.009813s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.038498s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.009327s ]
+INFO: [ view_end ] --END-- [ RunTime:0.009398s ]
+
+[ 2015-01-17T17:24:12+08:00 ] 127.0.0.1 /qingguo/groupManage.php/shop/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.009634s ]
+INFO: [ route_check ] --END-- [ RunTime:0.009757s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.009455s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009557s ]
+SQL: SHOW COLUMNS FROM `group_shop` [ RunTime:0.012441s ]
+NOTIC: [8] Undefined index: shopid G:\php\htdocs\qingguo\Gmanage\Lib\Action\ShopAction.class.php 第 14 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `group_shop` LIMIT 1   [ RunTime:0.003041s ]
+SQL: SELECT * FROM `group_shop` LIMIT 0,1   [ RunTime:0.000963s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.110611s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.110795s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.009284s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.009899s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.008910s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.009234s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.037573s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.009645s ]
+INFO: [ view_end ] --END-- [ RunTime:0.009726s ]
+
+[ 2015-01-17T17:24:16+08:00 ] 127.0.0.1 /qingguo/groupManage.php/goods/add/shopid/2
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.009545s ]
+INFO: [ route_check ] --END-- [ RunTime:0.009664s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.009251s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009353s ]
+NOTIC: [8] Undefined index: gid G:\php\htdocs\qingguo\Gmanage\Lib\Action\GoodsAction.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `group_shop` [ RunTime:0.006651s ]
+SQL: SELECT * FROM `group_shop` WHERE ( `shopid` = 2 ) LIMIT 1   [ RunTime:0.002287s ]
+SQL: SHOW COLUMNS FROM `group_category` [ RunTime:0.007013s ]
+SQL: SELECT * FROM `group_category`  [ RunTime:0.002351s ]
+NOTIC: [8] Undefined index:  G:\php\htdocs\qingguo\ThinkPHP\Extend\Library\ORG\Util\Data.class.php 第 121 行.
+NOTIC: [8] Undefined index:  G:\php\htdocs\qingguo\ThinkPHP\Extend\Library\ORG\Util\Data.class.php 第 121 行.
+NOTIC: [8] Undefined index:  G:\php\htdocs\qingguo\ThinkPHP\Extend\Library\ORG\Util\Data.class.php 第 121 行.
+NOTIC: [8] Undefined index:  G:\php\htdocs\qingguo\ThinkPHP\Extend\Library\ORG\Util\Data.class.php 第 121 行.
+NOTIC: [8] Undefined index:  G:\php\htdocs\qingguo\ThinkPHP\Extend\Library\ORG\Util\Data.class.php 第 121 行.
+SQL: SHOW COLUMNS FROM `group_locality` [ RunTime:0.004987s ]
+SQL: SELECT * FROM `group_locality`  [ RunTime:0.001878s ]
+NOTIC: [8] Undefined index:  G:\php\htdocs\qingguo\ThinkPHP\Extend\Library\ORG\Util\Data.class.php 第 121 行.
+NOTIC: [8] Undefined index:  G:\php\htdocs\qingguo\ThinkPHP\Extend\Library\ORG\Util\Data.class.php 第 121 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.091364s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.091531s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.017864s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.009395s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.009212s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.009865s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.046754s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.009626s ]
+INFO: [ view_end ] --END-- [ RunTime:0.009705s ]
+
+[ 2015-01-17T17:24:19+08:00 ] 127.0.0.1 /qingguo/groupManage.php/goods/add/shopid/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.010021s ]
+INFO: [ route_check ] --END-- [ RunTime:0.010170s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.009434s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009538s ]
+NOTIC: [8] Undefined index: gid G:\php\htdocs\qingguo\Gmanage\Lib\Action\GoodsAction.class.php 第 14 行.
+NOTIC: [8] Undefined index: shopid G:\php\htdocs\qingguo\Gmanage\Lib\Action\GoodsAction.class.php 第 136 行.
+SQL: SHOW COLUMNS FROM `group_shop` [ RunTime:0.005795s ]
+SQL: SELECT * FROM `group_shop` WHERE ( `shopid` = 0 ) LIMIT 1   [ RunTime:0.002303s ]
+SQL: SHOW COLUMNS FROM `group_category` [ RunTime:0.005998s ]
+SQL: SELECT * FROM `group_category`  [ RunTime:0.002109s ]
+NOTIC: [8] Undefined index:  G:\php\htdocs\qingguo\ThinkPHP\Extend\Library\ORG\Util\Data.class.php 第 121 行.
+NOTIC: [8] Undefined index:  G:\php\htdocs\qingguo\ThinkPHP\Extend\Library\ORG\Util\Data.class.php 第 121 行.
+NOTIC: [8] Undefined index:  G:\php\htdocs\qingguo\ThinkPHP\Extend\Library\ORG\Util\Data.class.php 第 121 行.
+NOTIC: [8] Undefined index:  G:\php\htdocs\qingguo\ThinkPHP\Extend\Library\ORG\Util\Data.class.php 第 121 行.
+NOTIC: [8] Undefined index:  G:\php\htdocs\qingguo\ThinkPHP\Extend\Library\ORG\Util\Data.class.php 第 121 行.
+SQL: SHOW COLUMNS FROM `group_locality` [ RunTime:0.004512s ]
+SQL: SELECT * FROM `group_locality`  [ RunTime:0.001637s ]
+NOTIC: [8] Undefined index:  G:\php\htdocs\qingguo\ThinkPHP\Extend\Library\ORG\Util\Data.class.php 第 121 行.
+NOTIC: [8] Undefined index:  G:\php\htdocs\qingguo\ThinkPHP\Extend\Library\ORG\Util\Data.class.php 第 121 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.067499s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.067604s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.009370s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.009041s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.009120s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.009187s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.036923s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.009640s ]
+INFO: [ view_end ] --END-- [ RunTime:0.009723s ]
+
+[ 2015-01-17T17:25:39+08:00 ] 127.0.0.1 /qingguo/groupManage.php/common/uploadGoodsImg
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.009472s ]
+INFO: [ route_check ] --END-- [ RunTime:0.009586s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.009195s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009277s ]
+NOTIC: [2] md5_file(./Uploads/Goods/2015_01/54ba2a930904b.jpg) [<a href='function.md5-file'>function.md5-file</a>]: failed to open stream: No such file or directory G:\php\htdocs\qingguo\ThinkPHP\Extend\Library\ORG\Net\UploadFile.class.php 第 203 行.
+
+[ 2015-01-17T17:25:57+08:00 ] 127.0.0.1 /qingguo/groupManage.php/goods/add
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.009456s ]
+INFO: [ route_check ] --END-- [ RunTime:0.009576s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.009117s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009211s ]
+NOTIC: [8] Undefined index: gid G:\php\htdocs\qingguo\Gmanage\Lib\Action\GoodsAction.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `group_goods` [ RunTime:0.022258s ]
+SQL: INSERT INTO `group_goods` (`shopid`,`cid`,`lid`,`main_title`,`sub_title`,`price`,`old_price`,`goods_img`) VALUES (2,7,10,'自助烤肉美味好吃','自助烤肉美味好吃','10','12','/Uploads/Goods/2015_01/max_54ba2a930904b.jpg,/Uploads/Goods/2015_01/medium_54ba2a930904b.jpg,/Uploads/Goods/2015_01/mini_54ba2a930904b.jpg') [ RunTime:0.218007s ]
+SQL: SHOW COLUMNS FROM `group_goods_detail` [ RunTime:0.110492s ]
+SQL: INSERT INTO `group_goods_detail` (`detail`,`goods_server`,`goods_id`) VALUES ('<p>自助烤肉美味好吃</p>','a:2:{i:0;s:1:\"1\";i:1;s:1:\"2\";}',1) [ RunTime:0.085611s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: error G:\php\htdocs\qingguo\Gmanage\Runtime\Cache\601939d8f47d76133e8112da531d3a21.php 第 61 行.
+NOTIC: [8] Undefined variable: error G:\php\htdocs\qingguo\Gmanage\Runtime\Cache\601939d8f47d76133e8112da531d3a21.php 第 65 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.136956s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.137213s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.022855s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.010801s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.010097s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.009538s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.053578s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.009476s ]
+INFO: [ view_end ] --END-- [ RunTime:0.009557s ]
+
+[ 2015-01-17T17:26:00+08:00 ] 127.0.0.1 /qingguo/groupManage.php/goods/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.009426s ]
+INFO: [ route_check ] --END-- [ RunTime:0.009553s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.009145s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009244s ]
+NOTIC: [8] Undefined index: gid G:\php\htdocs\qingguo\Gmanage\Lib\Action\GoodsAction.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `group_goods` [ RunTime:0.016947s ]
+SQL: SHOW COLUMNS FROM `group_category` [ RunTime:0.005426s ]
+SQL: SHOW COLUMNS FROM `group_locality` [ RunTime:0.004629s ]
+SQL: SHOW COLUMNS FROM `group_shop` [ RunTime:0.004536s ]
+SQL: SELECT COUNT(*) AS tp_count FROM group_goods goods  JOIN group_category category ON goods.cid=category.cid  JOIN group_locality locality ON goods.lid=locality.lid  JOIN group_shop shop ON goods.shopid=shop.shopid LIMIT 1   [ RunTime:0.032524s ]
+SQL: SELECT goods.gid AS gid,goods.shopid AS shopid,goods.cid AS cid,goods.lid AS lid,goods.main_title AS main_title,goods.sub_title AS sub_title,goods.price AS price,goods.old_price AS old_price,goods.buy AS buy,goods.goods_img AS goods_img,category.cname AS cname,locality.lname AS lname,shop.shopname AS shopname FROM group_goods goods  JOIN group_category category ON goods.cid=category.cid  JOIN group_locality locality ON goods.lid=locality.lid  JOIN group_shop shop ON goods.shopid=shop.shopid LIMIT 0,1   [ RunTime:0.000623s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.064223s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.064415s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.009095s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.009531s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.009227s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.009241s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.037334s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.009357s ]
+INFO: [ view_end ] --END-- [ RunTime:0.009430s ]
+
+[ 2015-01-17T20:41:39+08:00 ] 127.0.0.1 /qingguo/groupManage.php/goods/edit/gid/1
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.010159s ]
+INFO: [ route_check ] --END-- [ RunTime:0.010316s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.009804s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009906s ]
+SQL: SHOW COLUMNS FROM `group_category` [ RunTime:0.015889s ]
+SQL: SELECT * FROM `group_category`  [ RunTime:0.001488s ]
+NOTIC: [8] Undefined index:  G:\php\htdocs\qingguo\ThinkPHP\Extend\Library\ORG\Util\Data.class.php 第 121 行.
+NOTIC: [8] Undefined index:  G:\php\htdocs\qingguo\ThinkPHP\Extend\Library\ORG\Util\Data.class.php 第 121 行.
+NOTIC: [8] Undefined index:  G:\php\htdocs\qingguo\ThinkPHP\Extend\Library\ORG\Util\Data.class.php 第 121 行.
+NOTIC: [8] Undefined index:  G:\php\htdocs\qingguo\ThinkPHP\Extend\Library\ORG\Util\Data.class.php 第 121 行.
+NOTIC: [8] Undefined index:  G:\php\htdocs\qingguo\ThinkPHP\Extend\Library\ORG\Util\Data.class.php 第 121 行.
+SQL: SHOW COLUMNS FROM `group_locality` [ RunTime:0.004957s ]
+SQL: SELECT * FROM `group_locality`  [ RunTime:0.001464s ]
+NOTIC: [8] Undefined index:  G:\php\htdocs\qingguo\ThinkPHP\Extend\Library\ORG\Util\Data.class.php 第 121 行.
+NOTIC: [8] Undefined index:  G:\php\htdocs\qingguo\ThinkPHP\Extend\Library\ORG\Util\Data.class.php 第 121 行.
+SQL: SHOW COLUMNS FROM `group_goods_detail` [ RunTime:0.076274s ]
+SQL: SELECT * FROM `group_goods_detail` WHERE ( `goods_id` = 1 ) LIMIT 1   [ RunTime:0.024718s ]
+SQL: SHOW COLUMNS FROM `group_goods` [ RunTime:0.005941s ]
+SQL: SHOW COLUMNS FROM `group_category` [ RunTime:0.006856s ]
+SQL: SHOW COLUMNS FROM `group_locality` [ RunTime:0.008312s ]
+SQL: SHOW COLUMNS FROM `group_shop` [ RunTime:0.004641s ]
+SQL: SELECT goods.gid AS gid,goods.shopid AS shopid,goods.cid AS cid,goods.lid AS lid,goods.main_title AS main_title,goods.sub_title AS sub_title,goods.price AS price,goods.old_price AS old_price,goods.buy AS buy,goods.goods_img AS goods_img,category.cname AS cname,locality.lname AS lname,shop.shopname AS shopname FROM group_goods goods  JOIN group_category category ON goods.cid=category.cid  JOIN group_locality locality ON goods.lid=locality.lid  JOIN group_shop shop ON goods.shopid=shop.shopid WHERE ( goods.gid = 1 ) LIMIT 1   [ RunTime:0.001679s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.115018s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.115224s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.009115s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.010559s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.009848s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.009203s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.038971s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.009524s ]
+INFO: [ view_end ] --END-- [ RunTime:0.009604s ]
+
+[ 2015-01-17T20:41:45+08:00 ] 127.0.0.1 /qingguo/groupManage.php/goods/edit/gid/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.012150s ]
+INFO: [ route_check ] --END-- [ RunTime:0.012270s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.009799s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009891s ]
+NOTIC: [8] Undefined index: gid G:\php\htdocs\qingguo\Gmanage\Lib\Action\GoodsAction.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `group_category` [ RunTime:0.011223s ]
+SQL: SELECT * FROM `group_category`  [ RunTime:0.004861s ]
+NOTIC: [8] Undefined index:  G:\php\htdocs\qingguo\ThinkPHP\Extend\Library\ORG\Util\Data.class.php 第 121 行.
+NOTIC: [8] Undefined index:  G:\php\htdocs\qingguo\ThinkPHP\Extend\Library\ORG\Util\Data.class.php 第 121 行.
+NOTIC: [8] Undefined index:  G:\php\htdocs\qingguo\ThinkPHP\Extend\Library\ORG\Util\Data.class.php 第 121 行.
+NOTIC: [8] Undefined index:  G:\php\htdocs\qingguo\ThinkPHP\Extend\Library\ORG\Util\Data.class.php 第 121 行.
+NOTIC: [8] Undefined index:  G:\php\htdocs\qingguo\ThinkPHP\Extend\Library\ORG\Util\Data.class.php 第 121 行.
+SQL: SHOW COLUMNS FROM `group_locality` [ RunTime:0.005638s ]
+SQL: SELECT * FROM `group_locality`  [ RunTime:0.001943s ]
+NOTIC: [8] Undefined index:  G:\php\htdocs\qingguo\ThinkPHP\Extend\Library\ORG\Util\Data.class.php 第 121 行.
+NOTIC: [8] Undefined index:  G:\php\htdocs\qingguo\ThinkPHP\Extend\Library\ORG\Util\Data.class.php 第 121 行.
+SQL: SHOW COLUMNS FROM `group_goods_detail` [ RunTime:0.004439s ]
+SQL: SELECT * FROM `group_goods_detail` WHERE ( `goods_id` = 0 ) LIMIT 1   [ RunTime:0.001905s ]
+SQL: SHOW COLUMNS FROM `group_goods` [ RunTime:0.004952s ]
+SQL: SHOW COLUMNS FROM `group_category` [ RunTime:0.006041s ]
+SQL: SHOW COLUMNS FROM `group_locality` [ RunTime:0.005656s ]
+SQL: SHOW COLUMNS FROM `group_shop` [ RunTime:0.005077s ]
+SQL: SELECT goods.gid AS gid,goods.shopid AS shopid,goods.cid AS cid,goods.lid AS lid,goods.main_title AS main_title,goods.sub_title AS sub_title,goods.price AS price,goods.old_price AS old_price,goods.buy AS buy,goods.goods_img AS goods_img,category.cname AS cname,locality.lname AS lname,shop.shopname AS shopname FROM group_goods goods  JOIN group_category category ON goods.cid=category.cid  JOIN group_locality locality ON goods.lid=locality.lid  JOIN group_shop shop ON goods.shopid=shop.shopid WHERE ( goods.gid = 0 ) LIMIT 1   [ RunTime:0.001264s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: gid G:\php\htdocs\qingguo\Gmanage\Runtime\Cache\762ef86a5170c305305b11dda784753d.php 第 26 行.
+NOTIC: [8] Undefined index: shopid G:\php\htdocs\qingguo\Gmanage\Runtime\Cache\762ef86a5170c305305b11dda784753d.php 第 39 行.
+NOTIC: [8] Undefined index: shopname G:\php\htdocs\qingguo\Gmanage\Runtime\Cache\762ef86a5170c305305b11dda784753d.php 第 39 行.
+NOTIC: [8] Undefined index: cid G:\php\htdocs\qingguo\Gmanage\Runtime\Cache\762ef86a5170c305305b11dda784753d.php 第 46 行.
+NOTIC: [8] Undefined index: cname G:\php\htdocs\qingguo\Gmanage\Runtime\Cache\762ef86a5170c305305b11dda784753d.php 第 46 行.
+NOTIC: [8] Undefined index: lid G:\php\htdocs\qingguo\Gmanage\Runtime\Cache\762ef86a5170c305305b11dda784753d.php 第 56 行.
+NOTIC: [8] Undefined index: lname G:\php\htdocs\qingguo\Gmanage\Runtime\Cache\762ef86a5170c305305b11dda784753d.php 第 56 行.
+NOTIC: [8] Undefined index: main_title G:\php\htdocs\qingguo\Gmanage\Runtime\Cache\762ef86a5170c305305b11dda784753d.php 第 64 行.
+NOTIC: [8] Undefined index: sub_title G:\php\htdocs\qingguo\Gmanage\Runtime\Cache\762ef86a5170c305305b11dda784753d.php 第 69 行.
+NOTIC: [8] Undefined index: price G:\php\htdocs\qingguo\Gmanage\Runtime\Cache\762ef86a5170c305305b11dda784753d.php 第 74 行.
+NOTIC: [8] Undefined index: old_price G:\php\htdocs\qingguo\Gmanage\Runtime\Cache\762ef86a5170c305305b11dda784753d.php 第 79 行.
+NOTIC: [8] Undefined index: goods_img G:\php\htdocs\qingguo\Gmanage\Runtime\Cache\762ef86a5170c305305b11dda784753d.php 第 85 行.
+NOTIC: [8] Undefined index: goods_img G:\php\htdocs\qingguo\Gmanage\Runtime\Cache\762ef86a5170c305305b11dda784753d.php 第 86 行.
+NOTIC: [8] Undefined index: goods_img G:\php\htdocs\qingguo\Gmanage\Runtime\Cache\762ef86a5170c305305b11dda784753d.php 第 87 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, boolean given G:\php\htdocs\qingguo\Gmanage\Runtime\Cache\762ef86a5170c305305b11dda784753d.php 第 121 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, boolean given G:\php\htdocs\qingguo\Gmanage\Runtime\Cache\762ef86a5170c305305b11dda784753d.php 第 121 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, boolean given G:\php\htdocs\qingguo\Gmanage\Runtime\Cache\762ef86a5170c305305b11dda784753d.php 第 121 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.104791s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.104914s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.009218s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.009153s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.010495s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.009618s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.038720s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.009325s ]
+INFO: [ view_end ] --END-- [ RunTime:0.009399s ]
+
+[ 2015-01-17T20:49:35+08:00 ] 127.0.0.1 /qingguo/groupManage.php/shop/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.009990s ]
+INFO: [ route_check ] --END-- [ RunTime:0.010112s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.009585s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009672s ]
+SQL: SHOW COLUMNS FROM `group_shop` [ RunTime:0.005864s ]
+NOTIC: [8] Undefined index: shopid G:\php\htdocs\qingguo\Gmanage\Lib\Action\ShopAction.class.php 第 14 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `group_shop` LIMIT 1   [ RunTime:0.042330s ]
+SQL: SELECT * FROM `group_shop` LIMIT 0,1   [ RunTime:0.000513s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.080974s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.081076s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.009139s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.009012s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.008859s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.009090s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.036350s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.009249s ]
+INFO: [ view_end ] --END-- [ RunTime:0.009335s ]
+
+[ 2015-01-17T20:49:39+08:00 ] 127.0.0.1 /qingguo/groupManage.php/goods/add/shopid/2
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.009569s ]
+INFO: [ route_check ] --END-- [ RunTime:0.009683s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.009439s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009533s ]
+NOTIC: [8] Undefined index: gid G:\php\htdocs\qingguo\Gmanage\Lib\Action\GoodsAction.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `group_shop` [ RunTime:0.012255s ]
+SQL: SELECT * FROM `group_shop` WHERE ( `shopid` = 2 ) LIMIT 1   [ RunTime:0.004341s ]
+SQL: SHOW COLUMNS FROM `group_category` [ RunTime:0.005442s ]
+SQL: SELECT * FROM `group_category`  [ RunTime:0.002249s ]
+NOTIC: [8] Undefined index:  G:\php\htdocs\qingguo\ThinkPHP\Extend\Library\ORG\Util\Data.class.php 第 121 行.
+NOTIC: [8] Undefined index:  G:\php\htdocs\qingguo\ThinkPHP\Extend\Library\ORG\Util\Data.class.php 第 121 行.
+NOTIC: [8] Undefined index:  G:\php\htdocs\qingguo\ThinkPHP\Extend\Library\ORG\Util\Data.class.php 第 121 行.
+NOTIC: [8] Undefined index:  G:\php\htdocs\qingguo\ThinkPHP\Extend\Library\ORG\Util\Data.class.php 第 121 行.
+NOTIC: [8] Undefined index:  G:\php\htdocs\qingguo\ThinkPHP\Extend\Library\ORG\Util\Data.class.php 第 121 行.
+SQL: SHOW COLUMNS FROM `group_locality` [ RunTime:0.005830s ]
+SQL: SELECT * FROM `group_locality`  [ RunTime:0.000420s ]
+NOTIC: [8] Undefined index:  G:\php\htdocs\qingguo\ThinkPHP\Extend\Library\ORG\Util\Data.class.php 第 121 行.
+NOTIC: [8] Undefined index:  G:\php\htdocs\qingguo\ThinkPHP\Extend\Library\ORG\Util\Data.class.php 第 121 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.105866s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.105966s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.009500s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.010448s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.011800s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.009525s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.041515s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.010715s ]
+INFO: [ view_end ] --END-- [ RunTime:0.010800s ]
+
+[ 2015-01-17T20:49:41+08:00 ] 127.0.0.1 /qingguo/groupManage.php/goods/add/shopid/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.009474s ]
+INFO: [ route_check ] --END-- [ RunTime:0.009598s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.009203s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009300s ]
+NOTIC: [8] Undefined index: gid G:\php\htdocs\qingguo\Gmanage\Lib\Action\GoodsAction.class.php 第 14 行.
+NOTIC: [8] Undefined index: shopid G:\php\htdocs\qingguo\Gmanage\Lib\Action\GoodsAction.class.php 第 136 行.
+SQL: SHOW COLUMNS FROM `group_shop` [ RunTime:0.007384s ]
+SQL: SELECT * FROM `group_shop` WHERE ( `shopid` = 0 ) LIMIT 1   [ RunTime:0.002392s ]
+SQL: SHOW COLUMNS FROM `group_category` [ RunTime:0.004710s ]
+SQL: SELECT * FROM `group_category`  [ RunTime:0.001644s ]
+NOTIC: [8] Undefined index:  G:\php\htdocs\qingguo\ThinkPHP\Extend\Library\ORG\Util\Data.class.php 第 121 行.
+NOTIC: [8] Undefined index:  G:\php\htdocs\qingguo\ThinkPHP\Extend\Library\ORG\Util\Data.class.php 第 121 行.
+NOTIC: [8] Undefined index:  G:\php\htdocs\qingguo\ThinkPHP\Extend\Library\ORG\Util\Data.class.php 第 121 行.
+NOTIC: [8] Undefined index:  G:\php\htdocs\qingguo\ThinkPHP\Extend\Library\ORG\Util\Data.class.php 第 121 行.
+NOTIC: [8] Undefined index:  G:\php\htdocs\qingguo\ThinkPHP\Extend\Library\ORG\Util\Data.class.php 第 121 行.
+SQL: SHOW COLUMNS FROM `group_locality` [ RunTime:0.005803s ]
+SQL: SELECT * FROM `group_locality`  [ RunTime:0.001737s ]
+NOTIC: [8] Undefined index:  G:\php\htdocs\qingguo\ThinkPHP\Extend\Library\ORG\Util\Data.class.php 第 121 行.
+NOTIC: [8] Undefined index:  G:\php\htdocs\qingguo\ThinkPHP\Extend\Library\ORG\Util\Data.class.php 第 121 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.066093s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.066198s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.009022s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.008945s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.008852s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.008997s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.036052s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.009223s ]
+INFO: [ view_end ] --END-- [ RunTime:0.009298s ]
+
+[ 2015-01-17T20:52:36+08:00 ] 127.0.0.1 /qingguo/groupManage.php/common/uploadGoodsImg
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.009519s ]
+INFO: [ route_check ] --END-- [ RunTime:0.009644s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.009232s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009330s ]
+NOTIC: [2] md5_file(./Uploads/Goods/2015_01/54ba5b131cbd7.jpg) [<a href='function.md5-file'>function.md5-file</a>]: failed to open stream: No such file or directory G:\php\htdocs\qingguo\ThinkPHP\Extend\Library\ORG\Net\UploadFile.class.php 第 203 行.
+
+[ 2015-01-17T20:52:45+08:00 ] 127.0.0.1 /qingguo/groupManage.php/goods/add
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.010470s ]
+INFO: [ route_check ] --END-- [ RunTime:0.010596s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.010218s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010315s ]
+NOTIC: [8] Undefined index: gid G:\php\htdocs\qingguo\Gmanage\Lib\Action\GoodsAction.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `group_goods` [ RunTime:0.006363s ]
+SQL: INSERT INTO `group_goods` (`shopid`,`cid`,`lid`,`main_title`,`sub_title`,`price`,`old_price`,`goods_img`) VALUES (2,2,10,'小馋熊涮涮锅','小馋熊涮涮锅','123','156','/Uploads/Goods/2015_01/max_54ba5b131cbd7.jpg,/Uploads/Goods/2015_01/medium_54ba5b131cbd7.jpg,/Uploads/Goods/2015_01/mini_54ba5b131cbd7.jpg') [ RunTime:0.145625s ]
+SQL: SHOW COLUMNS FROM `group_goods_detail` [ RunTime:0.006211s ]
+SQL: INSERT INTO `group_goods_detail` (`detail`,`goods_server`,`goods_id`) VALUES ('<p>小馋熊涮涮锅</p>','a:2:{i:0;s:1:\"1\";i:1;s:1:\"2\";}',2) [ RunTime:0.051442s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: error G:\php\htdocs\qingguo\Gmanage\Runtime\Cache\601939d8f47d76133e8112da531d3a21.php 第 61 行.
+NOTIC: [8] Undefined variable: error G:\php\htdocs\qingguo\Gmanage\Runtime\Cache\601939d8f47d76133e8112da531d3a21.php 第 65 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.092745s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.092861s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.009490s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.009404s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.008865s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.009138s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.037160s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.009330s ]
+INFO: [ view_end ] --END-- [ RunTime:0.009414s ]
+
+[ 2015-01-17T20:52:54+08:00 ] 127.0.0.1 /qingguo/groupManage.php/goods/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.009383s ]
+INFO: [ route_check ] --END-- [ RunTime:0.009498s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.009213s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009306s ]
+NOTIC: [8] Undefined index: gid G:\php\htdocs\qingguo\Gmanage\Lib\Action\GoodsAction.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `group_goods` [ RunTime:0.006684s ]
+SQL: SHOW COLUMNS FROM `group_category` [ RunTime:0.005485s ]
+SQL: SHOW COLUMNS FROM `group_locality` [ RunTime:0.004569s ]
+SQL: SHOW COLUMNS FROM `group_shop` [ RunTime:0.004610s ]
+SQL: SELECT COUNT(*) AS tp_count FROM group_goods goods  JOIN group_category category ON goods.cid=category.cid  JOIN group_locality locality ON goods.lid=locality.lid  JOIN group_shop shop ON goods.shopid=shop.shopid LIMIT 1   [ RunTime:0.001796s ]
+SQL: SELECT goods.gid AS gid,goods.shopid AS shopid,goods.cid AS cid,goods.lid AS lid,goods.main_title AS main_title,goods.sub_title AS sub_title,goods.price AS price,goods.old_price AS old_price,goods.buy AS buy,goods.goods_img AS goods_img,category.cname AS cname,locality.lname AS lname,shop.shopname AS shopname FROM group_goods goods  JOIN group_category category ON goods.cid=category.cid  JOIN group_locality locality ON goods.lid=locality.lid  JOIN group_shop shop ON goods.shopid=shop.shopid LIMIT 0,1   [ RunTime:0.001024s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.079979s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.080108s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.009496s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.009090s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.008774s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.009722s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.037313s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.009897s ]
+INFO: [ view_end ] --END-- [ RunTime:0.009979s ]
+
+[ 2015-01-17T20:53:09+08:00 ] 127.0.0.1 /qingguo/groupManage.php/goods/index/p/2
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.011280s ]
+INFO: [ route_check ] --END-- [ RunTime:0.011410s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.010044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010142s ]
+NOTIC: [8] Undefined index: gid G:\php\htdocs\qingguo\Gmanage\Lib\Action\GoodsAction.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `group_goods` [ RunTime:0.010975s ]
+SQL: SHOW COLUMNS FROM `group_category` [ RunTime:0.006310s ]
+SQL: SHOW COLUMNS FROM `group_locality` [ RunTime:0.004808s ]
+SQL: SHOW COLUMNS FROM `group_shop` [ RunTime:0.006415s ]
+SQL: SELECT COUNT(*) AS tp_count FROM group_goods goods  JOIN group_category category ON goods.cid=category.cid  JOIN group_locality locality ON goods.lid=locality.lid  JOIN group_shop shop ON goods.shopid=shop.shopid LIMIT 1   [ RunTime:0.000833s ]
+SQL: SELECT goods.gid AS gid,goods.shopid AS shopid,goods.cid AS cid,goods.lid AS lid,goods.main_title AS main_title,goods.sub_title AS sub_title,goods.price AS price,goods.old_price AS old_price,goods.buy AS buy,goods.goods_img AS goods_img,category.cname AS cname,locality.lname AS lname,shop.shopname AS shopname FROM group_goods goods  JOIN group_category category ON goods.cid=category.cid  JOIN group_locality locality ON goods.lid=locality.lid  JOIN group_shop shop ON goods.shopid=shop.shopid LIMIT 1,1   [ RunTime:0.000712s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.068187s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.068298s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.009605s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.009150s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.009418s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.009457s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.037875s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.009991s ]
+INFO: [ view_end ] --END-- [ RunTime:0.010080s ]
+

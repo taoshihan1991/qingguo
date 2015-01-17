@@ -16,5 +16,13 @@ class CategoryModel extends Model {
         $result=$this->field('pid')->where(array('cid'=>$cid,'display'=>1))->find();
         return $result['pid'];
     }
+    /**
+    * 获取所有的子分类
+    */
+    public function getSonCategory($cid){
+        $result=$this->field('cid')->where(array('pid'=>$cid,'display'=>1))->select();
+        $result[]=array('cid'=>$cid);
+        return $result;
+    }
 
 }

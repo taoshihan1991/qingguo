@@ -54,12 +54,11 @@
 		<div class='position'>
 			<!-- 分类相关 -->
 			<div class='category'>
-				<a class='active' href="__ROOT__">首页</a>
-				<a href="http://localhost/hdtg/index.php/Index/Index/category/cid/11">美食</a>
-				<a href="http://localhost/hdtg/index.php/Index/Index/category/cid/13">电影</a>
-				<a href="http://localhost/hdtg/index.php/Index/Index/category/cid/14">KTV</a>
-				<a href="http://localhost/hdtg/index.php/Index/Index/category/cid/15">酒店</a>
-				<a href="http://localhost/hdtg/index.php/Index/Index/category/cid/16">休闲娱乐</a>
+				<a <if condition="!$_GET['cid']">class="active"</if> href="__ROOT__">首页</a>
+				<foreach name="nav" item="v">
+				<a <if condition="$_GET['cid']==$v['cid']">class="active"</if> href="{:U('index',array('cid'=>$v['cid']))}">{$v.cname}</a>
+				</foreach>
+
 			</div>
 			<!-- 用户相关 -->
 			<div id="user-relevance" class='user-relevance'>

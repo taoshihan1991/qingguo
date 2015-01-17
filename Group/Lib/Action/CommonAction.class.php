@@ -5,6 +5,7 @@
 * @time 2015年1月12日22:13:02
 */
 class CommonAction extends Action {
+	protected $db;
 	/**
 	* 初始化
 	*/
@@ -13,6 +14,16 @@ class CommonAction extends Action {
 		if(method_exists($this, '_auto')){
 			$this->_auto();
 		}
+		/*导航栏*/
+		$this->setNav();
+	}
+	/**
+	* 设置导航栏
+	*/
+	private function setNav(){
+		$db=D('Category');
+		$nav=$db->getCategoryLevel(0);
+		$this->assign('nav',$nav);
 	}
 
 }
