@@ -1,0 +1,65 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>管理员管理</title>
+<include file="Public:common"/>
+
+
+</head>
+
+<body>
+
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr bgcolor="#353c44">
+                <td width="4%" height="19"><img src="__PUBLIC__/images/tb.gif" width="14" height="14" /></td>
+              </tr>
+</table>
+
+
+
+<form name="addNEWS" id="AddPro" method="post" action="<{:U('admin/modify')}>" >
+<input name="id" type="hidden" value="<{$v.id}>"/>
+<table width="90%"  class="table" style="margin:0 auto;width:90%;">
+      <tr>
+        <td width="10%">用户名：</td>
+        <td>  <input name="ad_name" type="text" value="<{$v.ad_name}>"/></td>
+      </tr>
+
+	   <tr>
+        <td width="10%">密码：</td>
+        <td>  <input name="ad_pass" type="text" value="<{$v.ad_pass}>"/></td>
+      </tr>
+ <tr>
+         <td width="10%">类别：</td>
+        <td>
+          <select name="state">
+				<if condition="$_SESSION['admin']['state']==0">
+					<option value="1" <if condition="$v['state']==1">selected</if>>一级管理员</option>
+					<option value="2" <if condition="$v['state']==2">selected</if>>二级管理员</option>
+				</if>
+				<if condition="$_SESSION['admin']['state']==1">
+					<option value="2" <if condition="$v['state']==2">selected</if>>二级管理员</option>
+				</if>
+
+				
+				
+		  </select>
+        </td>
+      </tr>
+
+	
+	  <tr>
+        <td width="10%"></td>
+        <td>  <input type="submit" name="Submit" value="提交" class="btn btn-primary"/>
+          <input type="reset" name="Submit2" value="重置"  class="btn btn-warning"/></td>
+      </tr>
+</table>
+</form>
+
+
+
+
+
+</body>
+</html>

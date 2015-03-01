@@ -8,6 +8,7 @@ class IndexAction extends CommonAction {
 	private $cid;//分类id
 	private $lid;//地区id
 	private $price;//价格
+	private $order;//排序
 	/**
 	* 初始化
 	*/
@@ -15,6 +16,7 @@ class IndexAction extends CommonAction {
     	$this->cid=intval($_GET['cid']);
     	$this->lid=intval($_GET['lid']);
     	$this->price=isset($_GET['price']) ? $_GET['price'] : '0~0';
+    	$this->order=isset($_GET['order']) ? $_GET['order'] : 'gid~desc';
     	$this->db=D('GoodsView');
     }
 	/**
@@ -30,7 +32,11 @@ class IndexAction extends CommonAction {
     	//设置价格筛选模板
     	$this->setPrice();
 
+    	//设置排序
+    	$this->setOrderUrl();
+
     	//查询商品
+    	$this->setOrder();
     	$this->setSearchWhere();
     	$total=$this->db->getGoodsTotal();
     	import('ORG.Util.Page');
@@ -38,8 +44,6 @@ class IndexAction extends CommonAction {
     	$goods=$this->db->getGoodsAll($page);
     	$this->assign('goods',$goods);
     	$this->assign('page',$page->show());
-    
-
 
     	$this->display();
     }
@@ -77,6 +81,25 @@ class IndexAction extends CommonAction {
 				$this->db->conditions['goods.price']=array('gt',$price[0]);
 			}
 		}
+	}
+	 /**
+	* 设置查询排序	
+	*/
+	private function setOrder(){
+		$arr=explode('~',$this->order);
+		$this->db->order='goods.'.$arr[0].' '.$arr[1];
+	}
+	 /**
+	* 设置排序条件
+	*/
+	private function setOrderUrl(){
+		$orderArr=array();
+		$orderArr['d']=U('index',array('cid'=>$this->cid,'lid'=>$this->lid,'price'=>$this->price,'order'=>'gid~desc'));
+		$orderArr['b_d']=U('index',array('cid'=>$this->cid,'lid'=>$this->lid,'price'=>$this->price,'order'=>'buy~desc'));
+		$orderArr['p_d']=U('index',array('cid'=>$this->cid,'lid'=>$this->lid,'price'=>$this->price,'order'=>'price~desc'));
+		$orderArr['p_a']=U('index',array('cid'=>$this->cid,'lid'=>$this->lid,'price'=>$this->price,'order'=>'price~asc'));
+		$orderArr['g_d']=U('index',array('cid'=>$this->cid,'lid'=>$this->lid,'price'=>$this->price,'order'=>'gid~desc'));
+		$this->assign('orderUrl',$orderArr);
 	}
     /**
 	* 设置分类模板

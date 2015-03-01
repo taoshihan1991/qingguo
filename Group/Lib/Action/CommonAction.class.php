@@ -16,6 +16,7 @@ class CommonAction extends Action {
 		}
 		/*导航栏*/
 		$this->setNav();
+		$this->assign('userIsLogin',$_SESSION[C('RBAC_AUTH_KEY')]);
 	}
 	/**
 	* 设置导航栏

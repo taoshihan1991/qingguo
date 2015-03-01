@@ -1,0 +1,78 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>管理员管理</title>
+<include file="Public:common"/>
+
+<!--kindeditor-->
+<link rel="stylesheet" href="__PUBLIC__/kindeditor/themes/default/default.css" />
+<script charset="utf-8" src="__PUBLIC__/kindeditor/kindeditor-min.js"></script>
+<script charset="utf-8" src="__PUBLIC__/kindeditor/lang/zh_CN.js"></script>
+<script>
+			var editor;
+			KindEditor.ready(function(K) {
+				editor = K.create('textarea[name="content"]', {
+					allowFileManager : true
+				});
+
+				K('#submit').click(function(e) {
+					var str=editor.html();
+					$('#content').html(str);
+				});
+
+				K('#image1').click(function() {
+					editor.loadPlugin('image', function() {
+						editor.plugin.imageDialog({
+							imageUrl : K('#url1').val(),
+							clickFn : function(url, title, width, height, border, align) {
+								K('#url1').val(url);
+								editor.hideDialog();
+							}
+						});
+					});
+				});
+				
+			});
+		</script>
+<!--kindeditor-->
+</head>
+
+<body>
+
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr bgcolor="#353c44">
+                <td width="4%" height="19"><img src="__PUBLIC__/images/tb.gif" width="14" height="14" /></td>
+              </tr>
+</table>
+
+
+
+<form name="addNEWS" id="AddPro" method="post" action="<{:U('Attr/modify')}>" >
+<input type="hidden" name="id" value="<{$v.id}>" />
+<table width="90%"  class="table" style="margin:0 auto;width:90%;">
+      <tr>
+        <td width="10%">名称：</td>
+        <td>  <input name="name" type="text" id="title" value="<{$v.name}>" /></td>
+      </tr>
+
+	  <tr>
+        <td width="10%">颜色：</td>
+        <td>  <input name="color" type="text" value="<{$v.color}>"/></td>
+      </tr>
+
+
+	  <tr>
+        <td width="10%"></td>
+        <td>  <input type="submit" name="Submit" value="提交" class="btn btn-primary"/>
+          <input type="reset" name="Submit2" value="重置"  class="btn btn-warning"/></td>
+      </tr>
+</table>
+</form>
+
+
+
+
+
+</body>
+</html>

@@ -54,6 +54,7 @@ $(function(){
 	},function(){
 		$(this).find('.menu').hide();
 	})
+
 })
 
 

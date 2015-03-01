@@ -125,7 +125,7 @@
 	height:56px;
 	float:left;
 	line-height:56px;
-	font-size:34px;
+	font-size:30px;
 	color:#FFF;
 }
 #content .content-left  .buy-intro .discount-price span{
@@ -360,7 +360,6 @@
 	height:251px;
 	border:1px solid #e0e0e0;
 	float:left;
-	background:url(../images/map.png);
 }
 #content .content-left .detail .shop-site .box .info{
 	width:300px;

@@ -1,0 +1,173 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>管理员管理</title>
+<include file="Public:common"/>
+
+
+
+<link rel="stylesheet" href="__PUBLIC__css/hdjs.css" />
+<script type="text/javascript" src="__PUBLIC__js/hdjs.js"></script>
+<script>
+ $(document).ready(function(){  
+    $("#test").validate({
+						 // 验证规则
+						 username: {
+							 rule: {
+								required: true
+							 },
+							   error: {
+								 required: " 请输入用户名"
+							 },
+
+							 success: "填写正确"
+						},
+
+
+						 password: {
+							 rule: {
+								required: true
+							 },
+							   error: {
+								 required: " 请输入密码"
+							 },
+
+							 success: "填写正确"
+						},
+
+						address: {
+							 rule: {
+								required: true
+							 },
+							   error: {
+								 required: " 请输入地址"
+							 },
+
+							 success: "填写正确"
+						},
+
+
+						shenfen: {
+							 rule: {
+								required: true
+							 },
+							   error: {
+								 required: " 请输入身份证号"
+							 },
+
+							 success: "填写正确"
+						},
+
+	
+						
+						tel: {
+							 rule: {
+								phone: true,
+								required: true
+							 },
+							   error: {
+								 phone: "手机号码格式不正确",
+								 required: " 请输入手机号码"
+							 },
+							 success: "填写正确"
+						},
+
+
+
+						 })
+
+
+});  
+ </script>
+
+</head>
+
+<body>
+
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr bgcolor="#353c44">
+                <td width="4%" height="19"><img src="__PUBLIC__/images/tb.gif" width="14" height="14" /></td>
+              </tr>
+</table>
+
+
+
+<form  id='test' method="post" action="<{:U('User/insert')}>" >
+<table width="90%"  class="table" style="margin:0 auto;width:90%;">
+
+	  <tr>
+        <td width="10%">所属分类：</td>
+        <td>
+			<select  name="level">
+			
+				<option value='0'>业主</option> 
+				<option value='1'>员工</option> 
+
+
+			</select>
+		</td>
+      </tr>
+
+	  <tr>
+        <td width="10%">所属区域：</td>
+        <td>
+			<select  name="classid">
+				
+				<foreach name="list" item="v">
+					<option value='<{$v.id}>'>
+					<for start="0" end="$v['lev']" >
+										&nbsp;&nbsp;
+										</for>|-
+					<{$v.name}></option> 
+				</foreach>
+
+
+
+			</select>
+		</td>
+      </tr>
+
+      <tr>
+        <td width="10%">用户名：</td>
+        <td>  <input name="username" type="text"/></td>
+      </tr>
+
+
+	  <tr>
+        <td width="10%">密码：</td>
+        <td>  <input name="password" type="text"/></td>
+      </tr>
+
+	  <tr>
+        <td width="10%">姓名：</td>
+        <td>  <input name="truename" type="text"/></td>
+      </tr>
+
+	   <tr>
+        <td width="10%">地址：</td>
+        <td>  <input name="address" type="text"/></td>
+      </tr>
+
+
+
+	  <tr>
+        <td width="10%">身份证：</td>
+        <td>  <input name="shenfen" type="text"/></td>
+      </tr>
+
+
+	  <tr>
+        <td width="10%"></td>
+        <td>  <input type="submit" name="Submit" value="提交" class="btn btn-primary"/>
+          <input type="reset" name="Submit2" value="重置"  class="btn btn-warning"/></td>
+      </tr>
+</table>
+</form>
+
+
+
+
+
+</body>
+</html>

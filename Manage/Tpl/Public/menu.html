@@ -1,0 +1,203 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+
+
+
+
+
+
+
+<script type="text/javascript" src="__PUBLIC__/js/jquery2.js"></script>
+<script type="text/javascript" src="__PUBLIC__/js/jquery.easing.js"></script>
+<script type="text/javascript" src="__PUBLIC__/js/jquery.dimensions.js"></script>
+<script type="text/javascript" src="__PUBLIC__/js/jquery.accordion.js"></script>
+<script language="javascript">
+	jQuery().ready(function(){
+		jQuery('#navigation').accordion({
+			header: '.head',
+			navigation1: true, 
+			event: 'click',
+			fillSpace: true,
+			animated: 'bounceslide'
+		});
+	});
+</script>
+<style type="text/css">
+<!--
+body {
+	margin:0px;
+	padding:0px;
+	font-size: 12px;
+}
+a{
+	color:#000000
+}
+a:hover{
+	color:#FF0000}
+a:visited{
+	color:#000000}
+#navigation {
+	margin:0px;
+	padding:0px;
+	width:147px;
+	height:100%;
+	overflow:auto;
+}
+#navigation a.head {
+	cursor:pointer;
+	background:url(__PUBLIC__/images/main_34.gif) no-repeat scroll;
+	display:block;
+	font-weight:bold;
+	margin:0px;
+	padding:5px 0 5px;
+	text-align:center;
+	font-size:12px;
+	text-decoration:none;
+}
+#navigation ul {
+	border-width:0px;
+	margin:0px;
+	padding:0px;
+	text-indent:0px;
+}
+#navigation li {
+	list-style:none; display:inline;
+}
+#navigation li a {
+  text-align:left;	  
+}
+#navigation li li a {
+	display:block;
+	font-size:12px;
+	text-decoration: none;
+	text-align:center;
+	padding:3px;
+}
+#navigation li .nLi a {
+	display:block;
+	font-size:12px;
+	text-decoration: none;
+	text-align:left;
+	padding:3px;
+	padding-left:10px;
+}
+#navigation li div a {
+	display:inline;
+	line-height:25px;
+	font-size:12px;
+	text-decoration: none;
+	text-align:center;
+	padding:3px;
+	padding-left:20px;
+}
+#navigation li li a:hover {
+	background:url(__PUBLIC__/images/tab_bg.gif) repeat-x;
+		border:solid 1px #adb9c2;
+}
+-->
+</style>
+
+
+</head>
+<body>
+
+<div  style="height:100%;">
+  <ul id="navigation" class="unstyled">
+
+
+<if condition="$_SESSION['admin']['state']==0 || $_SESSION['admin']['state']==1">
+    <li> <a class="head">综 合 管 理</a>
+      <ul>
+        <li><a href="<{:U('Public/main')}>" target="rightFrame">管理首页 <img src="__PUBLIC__/images/icon.jpg" width="7" height="5" border="0"> 管理</a></li>
+        <li><a href="<{:U('Config/index')}>" target="rightFrame">网站设置 <img src="__PUBLIC__/images/icon.jpg" width="7" height="5" border="0"> 设置</a></li>
+      
+			<li><a href="/index.php" target="rightFrame">静态首页 <img src="__PUBLIC__/images/icon.jpg" width="7" height="5" border="0"> 生成</a></li>
+		<li><a href="<{:U('Public/clearCache')}>" target="rightFrame">清理缓存 <img src="__PUBLIC__/images/icon.jpg" width="7" height="5" border="0"> 清理</a></li>
+		
+      </ul>
+    </li>    
+
+    <li> <a class="head">单 页 管 理</a>
+      <ul>
+        <li><a href="<{:U('About/index')}>" target="rightFrame">所有单页 <img src="__PUBLIC__/images/icon.jpg" width="7" height="5" border="0"> 管理</a></li>
+        <li><a href="<{:U('About/add')}>" target="rightFrame">添加单页 <img src="__PUBLIC__/images/icon.jpg" width="7" height="5" border="0"> 添加</a></li>
+        <li><a href="<{:U('Wish/index')}>" target="rightFrame">许愿墙管理 <img src="__PUBLIC__/images/icon.jpg" width="7" height="5" border="0"> 管理</a></li>
+      </ul>
+    </li> 
+ </if>    
+     <li> <a class="head">文 章 管 理</a>
+      <ul>
+		<li><a href="<{:U('Xw/userclass')}>" target="rightFrame">所属区域 <img src="__PUBLIC__/images/icon.jpg" width="7" height="5" border="0">  查看</a></li>
+        <li><a href="<{:U('Xwclass/index')}>" target="rightFrame">所有分类 <img src="__PUBLIC__/images/icon.jpg" width="7" height="5" border="0"> 管理</a></li>
+        <li><a href="<{:U('Xw/index')}>" target="rightFrame">所有文章 <img src="__PUBLIC__/images/icon.jpg" width="7" height="5" border="0"> 管理</a></li>
+        <li><a href="<{:U('Xw/add')}>" target="rightFrame">添加文章 <img src="__PUBLIC__/images/icon.jpg" width="7" height="5" border="0"> 添加</a></li>
+      </ul>
+    </li> 
+
+	 <li> <a class="head">属 性 管 理</a>
+      <ul>
+      	<li><a href="<{:U('Attr/index')}>" target="rightFrame">管理属性 <img src="__PUBLIC__/images/icon.jpg" width="7" height="5" border="0"> 管理</a></li>
+
+        <li><a href="<{:U('Attr/add')}>" target="rightFrame">添加属性 <img src="__PUBLIC__/images/icon.jpg" width="7" height="5" border="0"> 添加</a></li>
+
+      </ul>
+    </li>
+
+
+	<li> <a class="head">会 员  管 理</a>
+      <ul>
+
+
+        <li><a href="<{:U('User/index')}>" target="rightFrame">所有会员 <img src="__PUBLIC__/images/icon.jpg" width="7" height="5" border="0"> 管理</a></li>
+        <li><a href="<{:U('User/add')}>" target="rightFrame">添加会员 <img src="__PUBLIC__/images/icon.jpg" width="7" height="5" border="0"> 添加</a></li>
+		<li><a href="<{:U('User/consume')}>" target="rightFrame">登陆记录 <img src="__PUBLIC__/images/icon.jpg" width="7" height="5" border="0"> 管理</a></li>
+      </ul>
+    </li>
+
+    <li> <a class="head">数 据 管 理</a>
+      <ul> 
+	  <li><a href="<{:U('Baksql/tablist')}>" target="rightFrame">数据库 <img src="__PUBLIC__/images/icon.jpg" width="7" height="5" border="0"> 备份</a></li>
+		<li><a href="<{:U('Baksql/index')}>" target="rightFrame">数据库 <img src="__PUBLIC__/images/icon.jpg" width="7" height="5" border="0"> 还原</a></li>
+      </ul>
+    </li>
+
+
+	
+
+	<li> <a class="head">微 信 平 台</a>
+       <ul>
+        <li><a href="<{:U('Weixin/index')}>" target="rightFrame">自动回复 <img src="__PUBLIC__/images/icon.jpg" width="7" height="5" border="0"> 管理</a></li>
+		<li><a href="<{:U('Weixin/add')}>" target="rightFrame">自动回复 <img src="__PUBLIC__/images/icon.jpg" width="7" height="5" border="0"> 添加</a></li>
+		<li><a href="<{:U('Weixin/message')}>" target="rightFrame">微信消息 <img src="__PUBLIC__/images/icon.jpg" width="7" height="5" border="0"> 管理</a></li>
+		
+      </ul>
+    </li>
+
+	<li> <a class="head">管 理 员 管 理</a>
+      <ul>
+        <li><a href="<{:U('Admin/index')}>" target="rightFrame">管理员 <img src="__PUBLIC__/images/icon.jpg" width="7" height="5" border="0"> 管理</a></li>
+		<li><a href="<{:U('Admin/add')}>" target="rightFrame">管理员 <img src="__PUBLIC__/images/icon.jpg" width="7" height="5" border="0"> 添加</a></li>
+		<li><a href="<{:U('Admin/passupdate')}>" target="rightFrame">管理密码 <img src="__PUBLIC__/images/icon.jpg" width="7" height="5" border="0"> 修改</a></li>
+      </ul>
+    </li>
+
+	
+
+	<li> <a class="head">上 传 文 件 管 理</a>
+      <ul>
+        <li><a href="<{:U('File/index')}>" target="rightFrame">文件夹管理器 <img src="__PUBLIC__/images/icon.jpg" width="7" height="5" border="0"> 管理</a></li>
+		
+      </ul>
+    </li>
+
+	<li> <a class="head">版 本 信 息</a>
+      <ul>
+        <li><a href="http://Www.zhde.cn" target="_blank">智得网络</a></li>
+      </ul>
+    </li>
+  </ul>
+</div>
+</body>
+</html>

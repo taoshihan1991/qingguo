@@ -1,0 +1,115 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>管理员管理</title>
+
+
+<include file="Public:common"/>
+<SCRIPT type="text/javascript">
+function CheckAll(form)
+{
+  for (var ii=0;ii<form.elements.length;ii++)
+    {
+    var e = form.elements[ii];
+    if (e.Name != "chkAll")
+       e.checked = form.chkAll.checked;
+    }
+}
+function Checked()
+{
+	var jj = 0
+	for(ii=0;ii < document.form.elements.length;ii++){
+		if(document.form.elements[ii].name == "adid[]"){
+			if(document.form.elements[ii].checked){
+				jj++;
+			}
+		}
+	}
+	return jj;
+}
+
+function DelAll()
+{
+	if(Checked()  <= 0){
+
+		$('#myModal').modal("show")
+	}	
+	else{
+		if(confirm("确定要删除选择的信息吗？\n此操作不可以恢复！")){
+			form.action="<{:U('Shop/betchdel')}>";
+			form.submit();
+		}
+	}
+}
+
+
+</SCRIPT>
+</head>
+
+<body>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr bgcolor="#353c44">
+                <td width="4%" height="19"><img src="__PUBLIC__/images/tb.gif" width="14" height="14" /></td>
+              </tr>
+</table>
+
+
+
+	<form id="bs" name=form method=post action="?action=xg"> 
+	<table width="100%"  class="table table-hover table-bordered">
+      <tr class="success" bgcolor="#d3eaef">
+        <td>编号</td>
+        <td>表名</td>
+        <td>存储引擎</td>
+        <td>编码</td>
+        <td>使用空间</td>
+	    <td>创建时间</td>
+      <td>更新时间</td>
+        <td width="15%">操作</td>
+       
+      </tr>
+
+<foreach name="list" item="v">
+      <tr>
+		
+        <td><span class="badge badge-warning"><{$key}></span></td>
+        <td><{$v.Name}></td>
+        <td><{$v.Engine}></td>
+        <td><{$v.Collation}></td>
+        <td><{$v.Data_length}></td>
+        <td><{$v.Create_time}></td>
+        <td><{$v.Update_time}></td>
+        <td><a href="<{:U('baksql/backtables',array('tab'=>$v['Name']))}>" class="btn btn-primary btn-small">备份</a>&nbsp;&nbsp;&nbsp;&nbsp; <a href="<{:U('baksql/youhua',array('tab'=>$v['Name']))}>" class="btn btn-danger btn-small" title="谨慎操作">优化</a></td>
+       
+      </tr>
+</foreach>
+      <tr>
+        <td height="30" bgcolor="#FFFFFF">&nbsp;</td>
+        <td height="30" colspan="7" align="right" bgcolor="#FFFFFF" class="STYLE6"><a href="<{:U('baksql/backall')}>" class="btn btn-primary btn-small">数据库备份</a></td>
+        </tr>
+    </table>
+	</form>
+
+
+
+
+
+<div class="modal hide fade" id="myModal">
+  <div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+    <h3>警告</h3>
+  </div>
+  <div class="modal-body">
+    <p>您至少选择1条信息！</p>
+  </div>
+  <div class="modal-footer">
+    <a href="#" class="btn"  data-dismiss="modal">关闭</a>
+  </div>
+</div>
+
+
+
+
+</body>
+</html>

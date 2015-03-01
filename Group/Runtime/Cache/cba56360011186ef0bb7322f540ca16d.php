@@ -55,20 +55,15 @@
 			<!-- 分类相关 -->
 			<div class='category'>
 				<a <?php if(!$_GET['cid']): ?>class="active"<?php endif; ?> href="__ROOT__">首页</a>
-				<?php if(is_array($nav)): foreach($nav as $key=>$v): ?><a <?php if($_GET['cid']==$v['cid']): ?>class="active"<?php endif; ?> href="<?php echo U('index',array('cid'=>$v['cid']));?>"><?php echo ($v["cname"]); ?></a><?php endforeach; endif; ?>
+				<?php if(is_array($nav)): foreach($nav as $key=>$v): ?><a <?php if($_GET['cid']==$v['cid']): ?>class="active"<?php endif; ?> href="<?php echo U('Index/index',array('cid'=>$v['cid']));?>"><?php echo ($v["cname"]); ?></a><?php endforeach; endif; ?>
 
 			</div>
 			<!-- 用户相关 -->
 			<div id="user-relevance" class='user-relevance'>
-				
-				<!--登录注册-->
-					<div class='user-nav login-reg'>
-						<a class='title' href="">注册</a>
+				<?php if($userIsLogin): ?><div class='user-nav login-reg'>
+						<a class='title' href="<?php echo U('Login/quit');?>">退出</a>
 					</div>
-					<div class='user-nav login-reg'>	
-						<a class='title' href="">登录</a>
-					</div>
-				<!--我的团购 -->	
+					<!--我的团购 -->	
 					<div class='user-nav my-hdtg '>
 						<a class='title' href="">我的团购</a>
 						<ul class="menu">
@@ -81,6 +76,16 @@
 							<li><a href="">账户设置</a></li>
 						</ul>
 					</div>
+				<?php else: ?>
+					<!--登录注册-->
+					<div class='user-nav login-reg'>
+						<a class='title' href="<?php echo U('Login/register');?>">注册</a>
+					</div>
+					<div class='user-nav login-reg'>	
+						<a class='title' href="<?php echo U('Login/index');?>">登录</a>
+					</div><?php endif; ?>
+
+				
 				<!-- 最近浏览 -->	
 					<div  class='user-nav recent-view '>
 						<a class='title' href="">最近浏览</a>
@@ -212,10 +217,10 @@
 			<div class='screen'>
 				<div>
 					<a class='active' href="<?php echo ($orderUrl["d"]); ?>">默认排序</a>
-					<a href="<?php echo ($orderUrl["b"]); ?>">销量<b></b></a>
+					<a href="<?php echo ($orderUrl["b_d"]); ?>">销量<b></b></a>
 					<a href="<?php echo ($orderUrl["p_d"]); ?>">价格<b></b></a>
 					<a  href="<?php echo ($orderUrl["p_a"]); ?>">价格<b style="background-position:-45px -16px;"></b></a>
-					<a style="border:0;" href="<?php echo ($orderUrl["t"]); ?>">发布时间<b></b></a>
+					<a style="border:0;" href="<?php echo ($orderUrl["g_d"]); ?>">发布时间<b></b></a>
 				</div>
 			</div>
 		</div>	
@@ -303,6 +308,4 @@
 		<p>本demo不用于任何商业目的，仅供学习与交流</p>
 	</div>
 	</body>
-</html>
-</body>
 </html>

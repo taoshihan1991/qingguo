@@ -1,0 +1,182 @@
+	<include file="Common:header"/>
+<!-- 载入公共头部文件结束 -->
+	<link href="../Public/css/detail.css" type="text/css" rel="stylesheet" >
+	<div id="map" class='position'>
+		<a href="{:U('Index/index',array('lid'=>$info['lid']))}">{$info.lname}</a><span>»</span><a href="{:U('Index/index',array('cid'=>$info['cid']))}">{$info.cname}</a><span>»</span><a>{$info.shopname}</a>	</div>
+	<div id="content" class='position' style="height:3000px;">
+		<div class='content-left'>
+			<div class="goods-intro">
+				<div class='goods-title'>
+					<h1>{$info.main_title}</h1>
+					<h3>{$info.sub_title}</h3>
+				</div>
+				<div class='deal-intro'>
+					<div class='buy-intro'>
+						<div class='price'>
+							<div class='discount-price'>
+								<span>¥</span>{$info.price}
+							</div>
+							<div class='cost-price'>
+								<span class='discount'>{$info.zhekou}折</span>
+								门店价<b>¥{$info.old_price}</b>
+							</div>
+						</div>
+						<div class='deal-buy-cart'>
+							<a href="{:U('Member/buy',array('gid'=>$info['gid']))}" class='buy'></a>
+							<a href="{:U('Cart/index',array('gid'=>$info['gid']))}" class='cart'></a>
+						</div>
+						<div class='purchased'>
+							<p class='people'>
+								<span>{$info.buy}</span>人已团购
+							</p>
+							<p class='time'>
+								剩余<span>3</span>天以上
+							</p>
+						</div>
+						<ul class='refund-intro'>
+							<foreach name="info.goods_server" item="v">
+							<li>
+								<span class='ico'>{$v.img}</span>
+								<span class='text'>{$v.name}</span>
+							</li>
+							</foreach>
+					
+						</ul>
+					</div>
+					<div class='image-intro'>
+						<img src="{:getPicUrl($info['goods_img'],'max')}"/>
+					</div>
+				</div>
+				<div class='collect'>
+					<a class='collect-link' href=''><i></i>收藏本单</a>
+					
+					<div class='share'>
+						
+					</div>
+					
+				</div>
+			</div>
+			<div class='detail'>
+				<ul class='plot-points'>
+					<li class='active'><a href="#shop-site">商家位置</a></li>
+					<li><a href="#details">本单详情</a></li>
+					<li><a href="#comment">消费评价</a></li>
+				</ul>
+				<div id="shop-site" class='shop-site'>
+					<p class='site-title'>商家位置</p>
+					<div class='box'>
+						<div class='map' id="Bmap">
+							
+						</div>
+						<div class='info'>
+							<h3>{$info.shopname}</h3>
+							<dl>
+								<dt>地址:</dt>
+								<dd>{$info.shopaddress}</dd>
+							</dl>
+							<dl>
+								<dt>公交:</dt>
+								<dd>{$info.metroaddress}</dd>
+							</dl>
+							<dl>
+								<dt>电话:</dt>
+								<dd>{$info.shoptel}</dd>
+							</dl>
+						</div>
+					</div>
+				</div>
+				<div id="details"  class='details'>
+					{$info.detail}
+				</div>
+				<div id="comment" class='comment'>
+					<div class='comment-list-title'>
+						<span>全部评价</span>
+						<a class='order-time' href="">按时间<i></i></a>
+					</div>
+					<div class='comment-list'>
+						<div class='list-con'>
+							<div class='con-top'>
+								<span class='username'>sdas</span>
+								<span class='time'>评价于:<em>2013-08-04</em></span>
+							</div>
+							<p>
+								说是香草拿铁不是很苦，结果根本不是想象中的味道！像速溶冲调！还要另加五元？有此一说吗？银座店环境一般！
+							</p>
+						</div>
+						
+					</div>
+					<div class='comment-page'>
+						<a href="">1</a>
+						<a href="">1</a>
+						<a href="">1</a>
+						<a href="">1</a>
+						<a href="">1</a>
+						<a href="">1</a>
+					</div>
+				</div>
+			</div>
+		
+		</div>
+		<div class='content-right'>
+			<div class='recommend'>
+				<h3 class='recommend-title'>
+					看过本团购的用户还看了
+				</h3>
+				<div class='recommend-goods'>
+					<a class='goods-image' href="">
+						<img alt="图像加载失败.." src="http://p0.meituan.net/200.121/deal/__5738304__3391447.jpg">
+					</a>
+					<h4>
+						<a href="">【五道口】上岛咖啡：双人下午茶套餐，美味齐分享</a>
+					</h4>
+					<p>
+						<strong>¥39.8</strong>
+						<span class='cost-price'>门店价<del>144</del></span>
+						<span class='num'>
+							<span>173</span>
+							 人已团购
+						</span>
+					</p>
+				</div>
+			</div>
+		</div>
+		
+		
+		
+	</div>		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- 载入公共底部文件开始 --> 
+	<include file="Common:footer"/>
+<!-- 载入公共底部文件结束 -->
+
+					<!--百度地图实例-->
+					<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=nZs75slzWpQGsIaloDGpGCGA"></script>
+					<script type="text/javascript">
+						// 百度地图API功能
+						var map = new BMap.Map("Bmap");
+						map.enableScrollWheelZoom(true);
+						var point=new BMap.Point(<?php echo $info['shopcoord'];?>);
+						map.centerAndZoom(point,20);
+						var marker = new BMap.Marker(point);  // 创建标注
+						map.addOverlay(marker);               // 将标注添加到地图中
+						marker.setAnimation(BMAP_ANIMATION_BOUNCE); //跳动的动画
+						var cr = new BMap.CopyrightControl({anchor: BMAP_ANCHOR_TOP_RIGHT});   //设置版权控件位置
+						map.addControl(cr); //添加版权控件
+
+						var bs = map.getBounds();   //返回地图可视区域
+						cr.addCopyright({id: 1, content: "<a href='http://www.tshgrw.cn' style='font-size:14px;text-decoration:none;color: #1e9999;'>青果网旗下团购系统</a>", bounds: bs});
+					</script>
+					<!--//百度地图实例-->

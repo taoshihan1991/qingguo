@@ -1,0 +1,104 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>管理员管理</title>
+<include file="Public:common"/>
+</head>
+<!--kindeditor-->
+<link rel="stylesheet" href="__PUBLIC__/kindeditor/themes/default/default.css" />
+<script charset="utf-8" src="__PUBLIC__/kindeditor/kindeditor-min.js"></script>
+<script charset="utf-8" src="__PUBLIC__/kindeditor/lang/zh_CN.js"></script>
+<script>
+			var editor;
+			KindEditor.ready(function(K) {
+				editor = K.create('textarea[name="content1"]', {
+					allowFileManager : true
+				});
+
+				K('#submit').click(function(e) {
+					var str=editor.html();
+					$('#content').html(str);
+				});
+
+				K('#image1').click(function() {
+					editor.loadPlugin('image', function() {
+						editor.plugin.imageDialog({
+							imageUrl : K('#url1').val(),
+							clickFn : function(url, title, width, height, border, align) {
+								K('#url1').val(url);
+								editor.hideDialog();
+							}
+						});
+					});
+				});
+				
+			});
+		</script>
+<!--kindeditor-->
+<body>
+
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr bgcolor="#353c44">
+                <td width="4%" height="19"><img src="__PUBLIC__/images/tb.gif" width="14" height="14" /></td>
+              </tr>
+</table>
+
+
+
+<form name="addNEWS" id="AddPro" method="post" action="<{:U('Weixin/insert')}>" >
+<table width="90%"  class="table" style="margin:0 auto;width:90%;">
+	<tr>
+        <td width="10%">配置：</td>
+        <td style="font-size:14px;">  微信公众平台配置 token:zhide &nbsp;&nbsp;&nbsp;url:http://<?php echo $_SERVER['HTTP_HOST'];?>/index.php/api/</td>
+      </tr>
+      <tr>
+        <td width="10%">关键词：</td>
+        <td>  <input name="keywords" type="text" id="title"/>
+		*如果选关注时回复，则为多图文列表，关键词请填“关注回复”，并且填上标题、图片和链接地址
+		</td>
+      </tr>
+	 <tr>
+        <td width="10%">标题：</td>
+        <td>  <input name="title" type="text" id="title"/></td>
+      </tr>
+	  <tr>
+        <td>图片：</td>
+        <td> <span id="picdr" style="padding-right:2px;">
+		<input type="text" id="url1" value="" name="pic1"/> <input type="button" id="image1" value="选择图片" class="btn btn-primary"/> 注意:如果只回复文本请把图片留空，选关注回复请必填，图片名字不要用汉字</span></td>
+      </tr>
+	   <tr>
+        <td width="10%">链接：</td>
+        <td>  <input name="url" type="text" value=""/></td>
+      </tr>
+
+	 <tr>
+         <td width="10%">类别：</td>
+        <td>
+          <select name="state">
+				<option value="0">关键词回复</option>
+				<option value="1">关注时回复</option>
+		  </select>
+        </td>
+      </tr>
+	  <tr>
+        <td width="10%">回复文本：</td>
+        <td>  <textarea id="elm1" name="content" rows="10" cols="4"  style="width:70%"></textarea>
+			<div style="display:none;"><textarea name="content1" cols="40" rows="10" style="display:none;"></textarea></div>
+		</td>
+      </tr>
+	  <tr>
+        <td width="10%"></td>
+        <td>  <input type="submit" name="Submit" value="提交" class="btn btn-primary"/>
+          <input type="reset" name="Submit2" value="重置"  class="btn btn-warning"/></td>
+      </tr>
+</table>
+</form>
+
+
+
+
+
+</body>
+</html>
+

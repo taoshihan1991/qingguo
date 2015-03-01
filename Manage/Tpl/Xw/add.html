@@ -1,0 +1,117 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>管理员管理</title>
+<include file="Public:common"/>
+
+<!--kindeditor-->
+<link rel="stylesheet" href="__PUBLIC__/kindeditor/themes/default/default.css" />
+<script charset="utf-8" src="__PUBLIC__/kindeditor/kindeditor-min.js"></script>
+<script charset="utf-8" src="__PUBLIC__/kindeditor/lang/zh_CN.js"></script>
+<script>
+			var editor;
+			KindEditor.ready(function(K) {
+				editor = K.create('textarea[name="content"]', {
+					allowFileManager : true
+				});
+
+				K('#submit').click(function(e) {
+					var str=editor.html();
+					$('#content').html(str);
+				});
+
+				K('#image1').click(function() {
+					editor.loadPlugin('image', function() {
+						editor.plugin.imageDialog({
+							imageUrl : K('#url1').val(),
+							clickFn : function(url, title, width, height, border, align) {
+								K('#url1').val(url);
+								editor.hideDialog();
+							}
+						});
+					});
+				});
+				
+			});
+		</script>
+<!--kindeditor-->
+</head>
+
+<body>
+
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr bgcolor="#353c44">
+                <td width="4%" height="19"><img src="__PUBLIC__/images/tb.gif" width="14" height="14" /></td>
+              </tr>
+</table>
+
+
+
+<form name="addNEWS" id="AddPro" method="post" action="<{:U('Xw/insert')}>" >
+<table width="90%"  class="table" style="margin:0 auto;width:90%;">
+      <tr>
+        <td width="10%">标题：</td>
+        <td>  <input name="title" type="text" id="title"/></td>
+      </tr>
+
+	  <tr>
+        <td width="10%">外链：</td>
+        <td>  <input name="link" type="text" value=""/></td>
+      </tr>
+
+       <tr>
+        <td width="10%">属性：</td>
+        <td>  
+        <foreach name="attr" item="v">
+        <input name="attr[]" type="checkbox" value="<{$v.id}>"/>&nbsp;&nbsp; <{$v.name}>&nbsp;&nbsp;&nbsp;&nbsp;
+        </foreach>
+        </td>
+      </tr>
+
+
+	  <tr>
+        <td>图片：</td>
+        <td> <span id="picdr" style="padding-right:2px;">
+		<input type="text" id="url1" value="" name="pic1"/> <input type="button" id="image1" value="选择图片" class="btn btn-primary"/>（网络图片 + 本地上传）</span></td>
+      </tr>
+	  <tr>
+        <td width="10%">分类：</td>
+        <td>
+			<select  name="topid">
+			<foreach name="xwClass" item="v">
+				<option value='<{$v.id}>'><for start="0" end="$v['lev']" >
+										&nbsp;&nbsp;
+										</for>|-<{$v.classname}></option> 
+			</foreach>
+			</select>
+		</td>
+      </tr>
+		<tr>
+        <td width="10%">点击数：</td>
+        <td>  <input name="hits" type="text" value=""/></td>
+      </tr>
+
+      	<tr>
+        <td width="10%">tag标签：</td>
+        <td>  <input name="tag" type="text" value=""/>（以英文逗号","分割）</td>
+      </tr>
+	 
+	  <tr>
+        <td width="10%">内容：</td>
+        <td>  <textarea id="elm1" name="content" rows="20" cols="5"  style="width:98%"></textarea></td>
+      </tr>
+	  <tr>
+        <td width="10%"></td>
+        <td>  <input type="submit" name="Submit" value="提交" class="btn btn-primary"/>
+          <input type="reset" name="Submit2" value="重置"  class="btn btn-warning"/></td>
+      </tr>
+</table>
+</form>
+
+
+
+
+
+</body>
+</html>

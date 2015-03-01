@@ -1,0 +1,636 @@
+[ 2014-02-18T08:57:17+08:00 ] 127.0.0.1 /zhide.php?m=public&a=end
+ERR: 模板不存在[./Manage/Tpl/Public/end.html]
+
+[ 2014-02-18T09:04:21+08:00 ] 127.0.0.1 /zhide.php?m=public&a=end
+ERR: 模板不存在[./Manage/Tpl/Public/end.html]
+
+[ 2014-02-18T09:11:41+08:00 ] 127.0.0.1 /zhide.php?m=file&a=connect&cmd=open&target=l1_aW1hZ2VcMjAxNDAyMTc&init=1&tree=1&_=1392685901299
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000302s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000389s ]
+NOTIC: [2] include(/elfinder/php/connector.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory F:\PHPnow\htdocs\youxin\Manage\Lib\Action\FileAction.class.php 第 12 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening '/elfinder/php/connector.php' for inclusion (include_path='.;C:\php5\pear;F:\PHPnow\htdocs\youxin\ThinkPHP/Extend/Vendor/') F:\PHPnow\htdocs\youxin\Manage\Lib\Action\FileAction.class.php 第 12 行.
+
+[ 2014-02-18T09:12:00+08:00 ] 127.0.0.1 /zhide.php?m=file&a=connect&cmd=open&target=&init=1&tree=1&_=1392685920964
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000819s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000907s ]
+NOTIC: [2] include(/elfinder/php/connector.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory F:\PHPnow\htdocs\youxin\Manage\Lib\Action\FileAction.class.php 第 12 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening '/elfinder/php/connector.php' for inclusion (include_path='.;C:\php5\pear;F:\PHPnow\htdocs\youxin\ThinkPHP/Extend/Vendor/') F:\PHPnow\htdocs\youxin\Manage\Lib\Action\FileAction.class.php 第 12 行.
+
+[ 2014-02-18T09:12:08+08:00 ] 127.0.0.1 /zhide.php?m=file&a=connect&cmd=open&target=&init=1&tree=1&_=1392685928213
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000814s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000903s ]
+
+[ 2014-02-18T09:12:21+08:00 ] 127.0.0.1 /zhide.php?m=file&a=connect&cmd=open&target=&init=1&tree=1&_=1392685941595
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000300s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000385s ]
+NOTIC: [2] include(/elfinder/php/connector.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory F:\PHPnow\htdocs\youxin\Manage\Lib\Action\FileAction.class.php 第 12 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening '/elfinder/php/connector.php' for inclusion (include_path='.;C:\php5\pear;F:\PHPnow\htdocs\youxin\ThinkPHP/Extend/Vendor/') F:\PHPnow\htdocs\youxin\Manage\Lib\Action\FileAction.class.php 第 12 行.
+
+[ 2014-02-18T09:12:23+08:00 ] 127.0.0.1 /zhide.php?m=file&a=connect&cmd=open&target=&init=1&tree=1&_=1392685943681
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000302s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000387s ]
+NOTIC: [2] include(/elfinder/php/connector.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory F:\PHPnow\htdocs\youxin\Manage\Lib\Action\FileAction.class.php 第 12 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening '/elfinder/php/connector.php' for inclusion (include_path='.;C:\php5\pear;F:\PHPnow\htdocs\youxin\ThinkPHP/Extend/Vendor/') F:\PHPnow\htdocs\youxin\Manage\Lib\Action\FileAction.class.php 第 12 行.
+
+[ 2014-02-18T09:12:33+08:00 ] 127.0.0.1 /zhide.php?m=file&a=connect&cmd=open&target=&init=1&tree=1&_=1392685953759
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000301s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000385s ]
+
+[ 2014-02-18T09:12:50+08:00 ] 127.0.0.1 /zhide.php?m=file&a=connect&cmd=open&target=&init=1&tree=1&_=1392685970864
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000299s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000385s ]
+NOTIC: [2] include(/elfinder/php/connector.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory F:\PHPnow\htdocs\youxin\Manage\Lib\Action\FileAction.class.php 第 12 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening '/elfinder/php/connector.php' for inclusion (include_path='.;C:\php5\pear;F:\PHPnow\htdocs\youxin\ThinkPHP/Extend/Vendor/') F:\PHPnow\htdocs\youxin\Manage\Lib\Action\FileAction.class.php 第 12 行.
+
+[ 2014-02-18T09:13:41+08:00 ] 127.0.0.1 /zhide.php?m=file&a=connect&cmd=open&target=l1_XA&init=1&tree=1&_=1392686021252
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000818s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000907s ]
+
+[ 2014-02-18T09:14:26+08:00 ] 127.0.0.1 /zhide.php?m=file&a=connect&cmd=open&target=&init=1&tree=1&_=1392686066129
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000303s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000391s ]
+
+[ 2014-02-18T09:14:41+08:00 ] 127.0.0.1 /zhide.php?m=file&a=connect&cmd=open&target=&init=1&tree=1&_=1392686081067
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000813s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000900s ]
+
+[ 2014-02-18T09:14:48+08:00 ] 127.0.0.1 /zhide.php?m=file&a=connect&cmd=open&target=&init=1&tree=1&_=1392686088884
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000299s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000384s ]
+
+[ 2014-02-18T09:14:58+08:00 ] 127.0.0.1 /zhide.php?m=file&a=connect&cmd=open&target=&init=1&tree=1&_=1392686098056
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000308s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000396s ]
+NOTIC: [2] include(/elfinder/php/connector.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory F:\PHPnow\htdocs\youxin\Manage\Lib\Action\FileAction.class.php 第 12 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening '/elfinder/php/connector.php' for inclusion (include_path='.;C:\php5\pear;F:\PHPnow\htdocs\youxin\ThinkPHP/Extend/Vendor/') F:\PHPnow\htdocs\youxin\Manage\Lib\Action\FileAction.class.php 第 12 行.
+
+[ 2014-02-18T09:15:06+08:00 ] 127.0.0.1 /zhide.php?m=file&a=connect&cmd=open&target=&init=1&tree=1&_=1392686106057
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000304s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000390s ]
+
+[ 2014-02-18T09:16:34+08:00 ] 127.0.0.1 /zhide.php?m=file&a=connect&cmd=open&target=&init=1&tree=1&_=1392686194317
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000839s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000932s ]
+
+[ 2014-02-18T09:18:01+08:00 ] 127.0.0.1 /zhide.php?m=file&a=connect&cmd=open&target=&init=1&tree=1&_=1392686281839
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000810s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000896s ]
+
+[ 2014-02-18T09:18:21+08:00 ] 127.0.0.1 /zhide.php?m=file&a=connect&cmd=parents&target=l1_XA&_=1392686301466
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000613s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000732s ]
+
+[ 2014-02-18T09:18:21+08:00 ] 127.0.0.1 /zhide.php?m=file&a=connect&cmd=open&init=1&target=l1_XA&tree=1&_=1392686301464
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000588s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000703s ]
+
+[ 2014-02-18T09:18:44+08:00 ] 127.0.0.1 /zhide.php?m=file&a=connect&cmd=parents&target=l1_XA&_=1392686324579
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001566s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001687s ]
+
+[ 2014-02-18T09:18:44+08:00 ] 127.0.0.1 /zhide.php?m=file&a=connect&cmd=open&init=1&target=l1_XA&tree=1&_=1392686324578
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001496s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001615s ]
+
+[ 2014-02-18T09:18:47+08:00 ] 127.0.0.1 /zhide.php?m=file&a=connect&cmd=open&target=l1_XA&init=1&tree=1&_=1392686326901
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000302s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000390s ]
+
+[ 2014-02-18T09:18:51+08:00 ] 127.0.0.1 /zhide.php?m=file&a=connect&cmd=open&target=l1_XA&init=1&tree=1&_=1392686331668
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000302s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000387s ]
+
+[ 2014-02-18T09:20:37+08:00 ] 127.0.0.1 /zhide.php?m=file&a=connect&cmd=open&target=&init=1&tree=1&_=1392686436887
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000319s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000412s ]
+
+[ 2014-02-18T09:20:38+08:00 ] 127.0.0.1 /zhide.php?m=file&a=connect&cmd=open&target=l1_XA&init=1&tree=1&_=1392686438181
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000359s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000458s ]
+
+[ 2014-02-18T09:20:39+08:00 ] 127.0.0.1 /zhide.php?m=file&a=connect&cmd=open&target=l1_XA&init=1&tree=1&_=1392686439096
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000300s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000386s ]
+
+[ 2014-02-18T09:20:40+08:00 ] 127.0.0.1 /zhide.php?m=file&a=connect&cmd=open&target=l1_XA&init=1&tree=1&_=1392686439970
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000299s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000385s ]
+
+[ 2014-02-18T09:21:39+08:00 ] 127.0.0.1 /zhide.php?m=file&a=connect&cmd=open&target=l1_XA&init=1&tree=1&_=1392686499858
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000596s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000832s ]
+
+[ 2014-02-18T09:21:58+08:00 ] 127.0.0.1 /zhide.php?m=file&a=connect&cmd=open&target=l1_XA&init=1&tree=1&_=1392686518687
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000318s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000412s ]
+
+[ 2014-02-18T09:21:59+08:00 ] 127.0.0.1 /zhide.php?m=file&a=connect&cmd=open&target=l1_XA&init=1&tree=1&_=1392686519687
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000330s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000421s ]
+
+[ 2014-02-18T09:22:26+08:00 ] 127.0.0.1 /zhide.php?m=file&a=connect&cmd=open&target=l1_XA&init=1&tree=1&_=1392686546226
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000318s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000406s ]
+
+[ 2014-02-18T09:22:27+08:00 ] 127.0.0.1 /zhide.php?m=file&a=connect&cmd=open&target=l1_XA&init=1&tree=1&_=1392686547056
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000307s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000395s ]
+
+[ 2014-02-18T09:22:58+08:00 ] 127.0.0.1 /zhide.php?m=file&a=connect&cmd=open&target=l1_XA&init=1&tree=1&_=1392686578177
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000311s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000411s ]
+
+[ 2014-02-18T09:22:58+08:00 ] 127.0.0.1 /zhide.php?m=file&a=connect&cmd=open&target=l1_XA&init=1&tree=1&_=1392686578956
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000441s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000558s ]
+
+[ 2014-02-18T09:23:53+08:00 ] 127.0.0.1 /zhide.php?m=file&a=connect&cmd=open&target=l1_XA&init=1&tree=1&_=1392686633269
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000300s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000382s ]
+
+[ 2014-02-18T09:23:54+08:00 ] 127.0.0.1 /zhide.php?m=file&a=connect&cmd=open&target=l1_XA&init=1&tree=1&_=1392686634270
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000326s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000418s ]
+
+[ 2014-02-18T09:23:55+08:00 ] 127.0.0.1 /zhide.php?m=file&a=connect&cmd=open&target=l1_MjAxNDAyMTc&_=1392686635320
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000441s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000559s ]
+
+[ 2014-02-18T09:24:11+08:00 ] 127.0.0.1 /zhide.php?m=file&a=connect&cmd=open&target=l1_MjAxNDAyMTc&init=1&tree=1&_=1392686651122
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000298s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000380s ]
+
+[ 2014-02-18T09:24:17+08:00 ] 127.0.0.1 /zhide.php?m=file&a=connect&cmd=open&target=&init=1&tree=1&_=1392686657562
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000301s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000383s ]
+
+[ 2014-02-18T09:24:19+08:00 ] 127.0.0.1 /zhide.php?m=file&a=connect&cmd=open&target=l1_aW1hZ2U&_=1392686659578
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000441s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000557s ]
+
+[ 2014-02-18T09:24:25+08:00 ] 127.0.0.1 /zhide.php?m=file&a=connect&cmd=rm&targets%5B%5D=l1_aW1hZ2VcMjAxNDAyMTc&_=1392686665832
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000457s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000580s ]
+
+[ 2014-02-18T09:24:27+08:00 ] 127.0.0.1 /zhide.php?m=file&a=connect&cmd=open&target=l1_bWVkaWE&_=1392686667108
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001224s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001347s ]
+
+[ 2014-02-18T09:24:28+08:00 ] 127.0.0.1 /zhide.php?m=file&a=connect&cmd=open&target=l1_XA&_=1392686668218
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000446s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000563s ]
+
+[ 2014-02-18T09:24:31+08:00 ] 127.0.0.1 /zhide.php?m=file&a=connect&cmd=rm&targets%5B%5D=l1_bWVkaWE&_=1392686670905
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000575s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000703s ]
+
+[ 2014-02-18T09:24:33+08:00 ] 127.0.0.1 /zhide.php?m=file&a=connect&cmd=rm&targets%5B%5D=l1_aW1hZ2U&_=1392686672915
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001232s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001358s ]
+
+[ 2014-02-18T09:24:35+08:00 ] 127.0.0.1 /zhide.php?m=file&a=connect&cmd=rm&targets%5B%5D=l1_MjAxNDAyMTc&_=1392686675154
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000813s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000897s ]
+
+[ 2014-02-18T09:24:42+08:00 ] 127.0.0.1 /zhide.php?m=file&a=connect&cmd=open&target=l1_XA&init=1&tree=1&_=1392686682002
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000323s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000415s ]
+
+[ 2014-02-18T09:25:18+08:00 ] 127.0.0.1 /zhide.php?m=file&a=connect&cmd=open&target=l1_XA&init=1&tree=1&_=1392686718380
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000403s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000496s ]
+
+[ 2014-02-18T09:25:51+08:00 ] 127.0.0.1 /zhide.php?m=file&a=connect&cmd=open&target=l1_XA&init=1&tree=1&_=1392686751325
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000382s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000485s ]
+
+[ 2014-02-18T09:25:54+08:00 ] 127.0.0.1 /zhide.php?m=file&a=connect&cmd=open&target=l1_MjAxNDAyMTg&_=1392686754131
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000445s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000562s ]
+
+[ 2014-02-18T09:25:54+08:00 ] 127.0.0.1 /zhide.php?m=file&a=connect&cmd=tmb&targets%5B%5D=l1_MjAxNDAyMThcMjAxNDAyMTgwMTI1MzNfMzk0NjguanBn&_=1392686754189
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000297s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000378s ]
+
+[ 2014-02-18T09:25:57+08:00 ] 127.0.0.1 /zhide.php?m=file&a=connect&cmd=open&target=l1_XA&_=1392686757473
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000448s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000571s ]
+
+[ 2014-02-18T09:25:58+08:00 ] 127.0.0.1 /zhide.php?m=file&a=connect&cmd=open&target=l1_aW1hZ2U&_=1392686758460
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000449s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000571s ]
+
+[ 2014-02-18T09:26:00+08:00 ] 127.0.0.1 /zhide.php?m=file&a=connect&cmd=open&target=l1_XA&_=1392686760161
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000447s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000569s ]
+
+[ 2014-02-18T09:27:09+08:00 ] 127.0.0.1 /zhide.php?m=file&a=connect&cmd=open&target=l1_XA&init=1&tree=1&_=1392686829610
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000310s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000402s ]
+
+[ 2014-02-18T09:27:33+08:00 ] 127.0.0.1 /zhide.php?m=file&a=connect&cmd=open&target=l1_MjAxNDAyMTg&_=1392686853476
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000450s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000573s ]
+
+[ 2014-02-18T09:28:11+08:00 ] 127.0.0.1 /zhide.php?m=file&a=connect&cmd=open&target=l1_MjAxNDAyMTg&init=1&tree=1&_=1392686891080
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000300s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000385s ]
+
+[ 2014-02-18T09:28:11+08:00 ] 127.0.0.1 /zhide.php?m=file&a=connect&cmd=tmb&targets%5B%5D=l1_MjAxNDAyMThcMjAxNDAyMTgwMTI3NDZfMTAwNzQuanBn&_=1392686891246
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000816s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000907s ]
+
+[ 2014-02-18T09:28:23+08:00 ] 127.0.0.1 /zhide.php?m=file&a=connect&cmd=open&target=l1_MjAxNDAyMTg&init=1&tree=1&_=1392686903148
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000299s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000385s ]
+
+[ 2014-02-18T09:28:48+08:00 ] 127.0.0.1 /zhide.php?m=file&a=connect&cmd=open&target=l1_MjAxNDAyMTg&init=1&tree=1&_=1392686928885
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000298s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000383s ]
+
+[ 2014-02-18T09:28:51+08:00 ] 127.0.0.1 /zhide.php?m=file&a=connect&cmd=open&target=l1_aW1hZ2U&_=1392686930969
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000299s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000383s ]
+
+[ 2014-02-18T09:28:51+08:00 ] 127.0.0.1 /zhide.php?m=file&a=connect&cmd=open&target=l1_MjAxNDAyMTg&_=1392686931844
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000300s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000384s ]
+
+[ 2014-02-18T09:28:54+08:00 ] 127.0.0.1 /zhide.php?m=file&a=connect&cmd=open&target=l1_XA&_=1392686934047
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000444s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000564s ]
+
+[ 2014-02-18T09:30:04+08:00 ] 127.0.0.1 /zhide.php?m=file&a=connect&cmd=open&target=l1_XA&init=1&tree=1&_=1392687004492
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000331s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000427s ]
+
+[ 2014-02-18T09:36:19+08:00 ] 127.0.0.1 /zhide.php?m=public&a=end
+ERR: 模板不存在[./Manage/Tpl/Public/end.html]
+
+[ 2014-02-18T09:36:24+08:00 ] 127.0.0.1 /zhide.php?m=admin&a=index
+ERR: 无法加载模块:Admin
+
+[ 2014-02-18T09:49:14+08:00 ] 127.0.0.1 /zhide.php?m=public&a=end
+ERR: 模板不存在[./Manage/Tpl/Public/end.html]
+
+[ 2014-02-18T09:50:21+08:00 ] 127.0.0.1 /zhide.php?m=public&a=end
+ERR: 模板不存在[./Manage/Tpl/Public/end.html]
+
+[ 2014-02-18T09:53:44+08:00 ] 127.0.0.1 /zhide.php?m=public&a=end
+ERR: 模板不存在[./Manage/Tpl/Public/end.html]
+
+[ 2014-02-18T09:54:09+08:00 ] 127.0.0.1 /zhide.php?m=public&a=index
+ERR: 非法操作:index
+
+[ 2014-02-18T09:54:23+08:00 ] 127.0.0.1 /zhide.php?m=public&a=index
+ERR: 非法操作:index
+
+[ 2014-02-18T09:56:02+08:00 ] 127.0.0.1 /zhide.php?m=public&a=end
+ERR: 模板不存在[./Manage/Tpl/Public/end.html]
+
+[ 2014-02-18T09:56:06+08:00 ] 127.0.0.1 /zhide.php?m=file&a=connect&cmd=open&target=l1_XA&init=1&tree=1&_=1392688565957
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000419s ]
+
+[ 2014-02-18T09:59:18+08:00 ] 127.0.0.1 /zhide.php?m=public&a=end
+ERR: 模板不存在[./Manage/Tpl/Public/end.html]
+
+[ 2014-02-18T10:00:46+08:00 ] 127.0.0.1 /zhide.php?m=file&a=connect&cmd=open&target=l1_XA&init=1&tree=1&_=1392688846708
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000307s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000393s ]
+
+[ 2014-02-18T10:00:48+08:00 ] 127.0.0.1 /zhide.php?m=file&a=connect&cmd=open&target=l1_MjAxNDAyMTg&_=1392688848808
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000442s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000558s ]
+
+[ 2014-02-18T10:00:50+08:00 ] 127.0.0.1 /zhide.php?m=file&a=connect&cmd=open&target=l1_MjAxNDAyMTg&init=1&tree=1&_=1392688850697
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000298s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000380s ]
+
+[ 2014-02-18T10:01:32+08:00 ] 127.0.0.1 /zhide.php?m=public&a=end
+ERR: 模板不存在[./Manage/Tpl/Public/end.html]
+
+[ 2014-02-18T10:02:08+08:00 ] 127.0.0.1 /zhide.php?m=public&a=end
+ERR: 模板不存在[./Manage/Tpl/Public/end.html]
+
+[ 2014-02-18T10:06:22+08:00 ] 127.0.0.1 /zhide.php?m=file&a=connect&cmd=open&target=l1_MjAxNDAyMTg&init=1&tree=1&_=1392689182388
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000331s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000421s ]
+
+[ 2014-02-18T10:22:34+08:00 ] 127.0.0.1 /zhide.php?m=public&a=end
+ERR: 模板不存在[./Manage/Tpl/Public/end.html]
+
+[ 2014-02-18T10:22:42+08:00 ] 127.0.0.1 /zhide.php?m=public&a=end
+ERR: 模板不存在[./Manage/Tpl/Public/end.html]
+
+[ 2014-02-18T10:22:56+08:00 ] 127.0.0.1 /zhide.php?m=public&a=end
+ERR: 模板不存在[./Manage/Tpl/Public/end.html]
+
+[ 2014-02-18T10:23:26+08:00 ] 127.0.0.1 /zhide.php?m=public&a=end
+ERR: 模板不存在[./Manage/Tpl/Public/end.html]
+
+[ 2014-02-18T10:23:52+08:00 ] 127.0.0.1 /zhide.php?m=public&a=end
+ERR: 模板不存在[./Manage/Tpl/Public/end.html]
+
+[ 2014-02-18T10:24:24+08:00 ] 127.0.0.1 /zhide.php?m=public&a=end
+ERR: 模板不存在[./Manage/Tpl/Public/end.html]
+
+[ 2014-02-18T10:24:30+08:00 ] 127.0.0.1 /zhide.php?m=public&a=end
+ERR: 模板不存在[./Manage/Tpl/Public/end.html]
+
+[ 2014-02-18T10:24:44+08:00 ] 127.0.0.1 /zhide.php?m=public&a=end
+ERR: 模板不存在[./Manage/Tpl/Public/end.html]
+
+[ 2014-02-18T10:25:03+08:00 ] 127.0.0.1 /zhide.php?m=file&a=connect&cmd=open&target=l1_MjAxNDAyMTg&init=1&tree=1&_=1392690302898
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000353s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000455s ]
+
+[ 2014-02-18T10:25:08+08:00 ] 127.0.0.1 /zhide.php?m=file&a=connect&cmd=open&init=1&target=l1_MjAxNDAyMTg&tree=1&_=1392690308051
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000451s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000569s ]
+
+[ 2014-02-18T10:25:08+08:00 ] 127.0.0.1 /zhide.php?m=file&a=connect&cmd=parents&target=l1_MjAxNDAyMTg&_=1392690308058
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000464s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000579s ]
+
+[ 2014-02-18T10:25:30+08:00 ] 127.0.0.1 /zhide.php?m=file&a=connect&cmd=open&target=l1_aW1hZ2U&_=1392690330116
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000442s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000558s ]
+
+[ 2014-02-18T10:25:31+08:00 ] 127.0.0.1 /zhide.php?m=file&a=connect&cmd=open&target=l1_MjAxNDAyMTg&_=1392690331421
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000442s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000560s ]
+
+[ 2014-02-18T10:25:45+08:00 ] 127.0.0.1 /zhide.php?m=file&a=connect&cmd=open&target=l1_XA&_=1392690345897
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000503s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000660s ]
+
+[ 2014-02-18T10:37:56+08:00 ] 127.0.0.1 /zhide.php?m=file&a=connect&cmd=open&target=l1_XA&init=1&tree=1&_=1392691076786
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000321s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000410s ]
+
+[ 2014-02-18T10:37:59+08:00 ] 127.0.0.1 /zhide.php?m=file&a=connect&cmd=open&target=l1_aW1hZ2U&_=1392691079256
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000477s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000601s ]
+
+[ 2014-02-18T10:38:00+08:00 ] 127.0.0.1 /zhide.php?m=file&a=connect&cmd=open&target=l1_MjAxNDAyMTg&_=1392691080278
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000456s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000576s ]
+
+[ 2014-02-18T10:38:00+08:00 ] 127.0.0.1 /zhide.php?m=file&a=connect&cmd=tmb&targets%5B%5D=l1_MjAxNDAyMThcMjAxNDAyMTgwMjM3NDFfNDc2NzQuanBn&_=1392691080374
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000342s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000432s ]
+
+[ 2014-02-18T10:48:01+08:00 ] 127.0.0.1 /zhide.php?m=file&a=connect&cmd=open&target=l1_MjAxNDAyMTg&init=1&tree=1&_=1392691681541
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000330s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000425s ]
+
+[ 2014-02-18T10:48:02+08:00 ] 127.0.0.1 /zhide.php?m=file&a=connect&cmd=tmb&targets%5B%5D=l1_MjAxNDAyMThcMjAxNDAyMTgwMjM4NTRfNzMzNjMuanBn&targets%5B%5D=l1_MjAxNDAyMThcMjAxNDAyMTgwMjQ1MzFfODIxODUuanBn&targets%5B%5D=l1_MjAxNDAyMThcMjAxNDAyMTgwMjQ3NDZfOTMxMjIuanBn&_=1392691681850
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000307s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000396s ]
+
+[ 2014-02-18T10:48:29+08:00 ] 127.0.0.1 /zhide.php?m=file&a=connect&cmd=rm&targets%5B%5D=l1_MjAxNDAyMThcMjAxNDAyMTgwMTI1MzNfMzk0NjguanBn&targets%5B%5D=l1_MjAxNDAyMThcMjAxNDAyMTgwMTI3NDZfMTAwNzQuanBn&targets%5B%5D=l1_MjAxNDAyMThcMjAxNDAyMTgwMjM3NDFfNDc2NzQuanBn&targets%5B%5D=l1_MjAxNDAyMThcMjAxNDAyMTgwMjM4NTRfNzMzNjMuanBn&targets%5B%5D=l1_MjAxNDAyMThcMjAxNDAyMTgwMjQ1MzFfODIxODUuanBn&targets%5B%5D=l1_MjAxNDAyMThcMjAxNDAyMTgwMjQ3NDZfOTMxMjIuanBn&_=1392691709486
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000827s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000919s ]
+
+[ 2014-02-18T10:49:47+08:00 ] 127.0.0.1 /zhide.php?m=file&a=connect&cmd=open&target=l1_MjAxNDAyMTg&init=1&tree=1&_=1392691787511
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000391s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000498s ]
+
+[ 2014-02-18T10:50:06+08:00 ] 127.0.0.1 /zhide.php?m=file&a=connect&cmd=open&target=l1_MjAxNDAyMTg&init=1&tree=1&_=1392691806142
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000352s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000462s ]
+
+[ 2014-02-18T10:50:06+08:00 ] 127.0.0.1 /zhide.php?m=file&a=connect&cmd=tmb&targets%5B%5D=l1_MjAxNDAyMThcMjAxNDAyMTgwMjUwMDFfNjM5MTIuanBn&_=1392691806351
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000300s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000385s ]
+
+[ 2014-02-18T10:51:02+08:00 ] 127.0.0.1 /zhide.php?m=file&a=connect&cmd=open&target=l1_MjAxNDAyMTg&init=1&tree=1&_=1392691862424
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000328s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000424s ]
+
+[ 2014-02-18T10:51:02+08:00 ] 127.0.0.1 /zhide.php?m=file&a=connect&cmd=tmb&targets%5B%5D=l1_MjAxNDAyMThcMjAxNDAyMTgwMjUwNDlfMjkzMDAuanBn&_=1392691862705
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000874s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000981s ]
+
+[ 2014-02-18T11:01:49+08:00 ] 127.0.0.1 /zhide.php?m=file&a=connect&cmd=open&target=l1_MjAxNDAyMTg&init=1&tree=1&_=1392692509618
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000372s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000469s ]
+
+[ 2014-02-18T11:01:50+08:00 ] 127.0.0.1 /zhide.php?m=file&a=connect&cmd=tmb&targets%5B%5D=l1_MjAxNDAyMThcMjAxNDAyMTgwMjU0MzZfMTQ2ODIuanBn&targets%5B%5D=l1_MjAxNDAyMThcMjAxNDAyMTgwMjU5MjJfOTcwNTIuanBn&targets%5B%5D=l1_MjAxNDAyMThcMjAxNDAyMTgwMzAwMzBfMzA4NjUuanBn&targets%5B%5D=l1_MjAxNDAyMThcMjAxNDAyMTgwMzAxMzhfNjkzNzguanBn&_=1392692509941
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001107s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001211s ]
+
+[ 2014-02-18T11:14:17+08:00 ] 127.0.0.1 /zhide.php?m=file&a=connect&cmd=open&target=l1_MjAxNDAyMTg&init=1&tree=1&_=1392693257090
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000358s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000453s ]
+
+[ 2014-02-18T11:14:18+08:00 ] 127.0.0.1 /zhide.php?m=file&a=connect&cmd=tmb&targets%5B%5D=l1_MjAxNDAyMThcMjAxNDAyMTgwMzAzMjlfNDc0MjQuanBn&targets%5B%5D=l1_MjAxNDAyMThcMjAxNDAyMTgwMzA1MThfNjU3NDQuanBn&targets%5B%5D=l1_MjAxNDAyMThcMjAxNDAyMTgwMzA1MzlfNzg4MjEuanBn&targets%5B%5D=l1_MjAxNDAyMThcMjAxNDAyMTgwMzA3NDVfMjUzMTIuanBn&targets%5B%5D=l1_MjAxNDAyMThcMjAxNDAyMTgwMzA4MThfNTE1NjQuanBn&_=1392693257414
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000601s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000701s ]
+
+[ 2014-02-18T11:14:18+08:00 ] 127.0.0.1 /zhide.php?m=file&a=connect&cmd=tmb&targets%5B%5D=l1_MjAxNDAyMThcMjAxNDAyMTgwMzEzMjhfOTM0OTMuanBn&targets%5B%5D=l1_MjAxNDAyMThcMjAxNDAyMTgwMzE0MDhfNDMxNzguanBn&_=1392693258215
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000316s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000409s ]
+
+[ 2014-02-18T11:14:23+08:00 ] 127.0.0.1 /zhide.php?m=file&a=connect&cmd=rm&targets%5B%5D=l1_MjAxNDAyMThcMjAxNDAyMTgwMzE0MDhfNDMxNzguanBn&_=1392693263434
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000301s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000388s ]
+
+[ 2014-02-18T11:14:30+08:00 ] 127.0.0.1 /zhide.php?m=file&a=connect&cmd=rm&targets%5B%5D=l1_MjAxNDAyMThcMjAxNDAyMTgwMjUwMDFfNjM5MTIuanBn&targets%5B%5D=l1_MjAxNDAyMThcMjAxNDAyMTgwMjUwNDlfMjkzMDAuanBn&targets%5B%5D=l1_MjAxNDAyMThcMjAxNDAyMTgwMjU0MzZfMTQ2ODIuanBn&targets%5B%5D=l1_MjAxNDAyMThcMjAxNDAyMTgwMjU5MjJfOTcwNTIuanBn&targets%5B%5D=l1_MjAxNDAyMThcMjAxNDAyMTgwMzAwMzBfMzA4NjUuanBn&targets%5B%5D=l1_MjAxNDAyMThcMjAxNDAyMTgwMzAxMzhfNjkzNzguanBn&targets%5B%5D=l1_MjAxNDAyMThcMjAxNDAyMTgwMzAzMjlfNDc0MjQuanBn&targets%5B%5D=l1_MjAxNDAyMThcMjAxNDAyMTgwMzA1MThfNjU3NDQuanBn&targets%5B%5D=l1_MjAxNDAyMThcMjAxNDAyMTgwMzA1MzlfNzg4MjEuanBn&targets%5B%5D=l1_MjAxNDAyMThcMjAxNDAyMTgwMzA3NDVfMjUzMTIuanBn&targets%5B%5D=l1_MjAxNDAyMThcMjAxNDAyMTgwMzA4MThfNTE1NjQuanBn&targets%5B%5D=l1_MjAxNDAyMThcMjAxNDAyMTgwMzEzMjhfOTM0OTMuanBn&_=1392693270592
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000838s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000931s ]
+
+[ 2014-02-18T11:14:59+08:00 ] 127.0.0.1 /zhide.php?m=file&a=connect&cmd=open&target=l1_MjAxNDAyMTg&init=1&tree=1&_=1392693299398
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000342s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000433s ]
+
+[ 2014-02-18T11:14:59+08:00 ] 127.0.0.1 /zhide.php?m=file&a=connect&cmd=tmb&targets%5B%5D=l1_MjAxNDAyMThcMjAxNDAyMTgwMzE0NTVfNjcwNzkuanBn&_=1392693299555
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000302s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000390s ]
+
+[ 2014-02-18T11:15:21+08:00 ] 127.0.0.1 /zhide.php?m=file&a=connect&cmd=rm&targets%5B%5D=l1_MjAxNDAyMThcMjAxNDAyMTgwMzE0NTVfNjcwNzkuanBn&_=1392693321571
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000311s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000399s ]
+
+[ 2014-02-18T11:18:11+08:00 ] 127.0.0.1 /zhide.php?m=public&a=end
+ERR: 模板不存在[./Manage/Tpl/Public/end.html]
+
+[ 2014-02-18T11:34:03+08:00 ] 127.0.0.1 /zhide.php?m=about&a=add
+ERR: 非法操作:add
+
+[ 2014-02-18T11:34:42+08:00 ] 127.0.0.1 /zhide.php?m=about&a=add
+ERR: 非法操作:add
+
+[ 2014-02-18T11:35:15+08:00 ] 127.0.0.1 /zhide.php?m=about&a=add
+ERR: 模板不存在[./Manage/Tpl/About/add.html]
+
+[ 2014-02-18T11:52:40+08:00 ] 127.0.0.1 /zhide.php?m=public&a=end
+ERR: 模板不存在[./Manage/Tpl/Public/end.html]
+
+[ 2014-02-18T12:00:06+08:00 ] 127.0.0.1 /zhide.php?m=file&a=connect&cmd=open&target=l1_MjAxNDAyMTg&init=1&tree=1&_=1392696006786
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000347s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000445s ]
+
+[ 2014-02-18T12:00:07+08:00 ] 127.0.0.1 /zhide.php?m=file&a=connect&cmd=tmb&targets%5B%5D=l1_MjAxNDAyMThcMjAxNDAyMTgwMzQwNTJfNTgwNzYuanBn&targets%5B%5D=l1_MjAxNDAyMThcMjAxNDAyMTgwNDAwMDJfOTMzNTYuanBn&_=1392696007194
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000489s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000588s ]
+
+[ 2014-02-18T12:00:16+08:00 ] 127.0.0.1 /zhide.php?m=file&a=connect&cmd=rm&targets%5B%5D=l1_MjAxNDAyMThcMjAxNDAyMTgwNDAwMDJfOTMzNTYuanBn&_=1392696016507
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000306s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000393s ]
+
+[ 2014-02-18T12:00:20+08:00 ] 127.0.0.1 /zhide.php?m=file&a=connect&cmd=rm&targets%5B%5D=l1_MjAxNDAyMThcMjAxNDAyMTgwMzQwNTJfNTgwNzYuanBn&_=1392696019947
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000897s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000996s ]
+
+[ 2014-02-18T12:00:22+08:00 ] 127.0.0.1 /zhide.php?m=file&a=connect&cmd=open&target=l1_MjAxNDAyMTg&init=1&tree=1&_=1392696022221
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000341s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000441s ]
+
+[ 2014-02-18T14:01:39+08:00 ] 127.0.0.1 /zhide.php?m=public&a=end
+ERR: 模板不存在[./Manage/Tpl/Public/end.html]
+
+[ 2014-02-18T14:18:27+08:00 ] 127.0.0.1 /zhide.php?m=public&a=end
+ERR: 模板不存在[./Manage/Tpl/Public/end.html]
+
+[ 2014-02-18T14:30:26+08:00 ] 127.0.0.1 /zhide.php?m=file&a=connect&cmd=open&target=l1_MjAxNDAyMTg&init=1&tree=1&_=1392705026498
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000346s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000518s ]
+
+[ 2014-02-18T15:23:46+08:00 ] 127.0.0.1 /zhide.php?m=file&a=connect&cmd=open&target=l1_MjAxNDAyMTg&init=1&tree=1&_=1392708225912
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000340s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000435s ]
+
+[ 2014-02-18T15:23:46+08:00 ] 127.0.0.1 /zhide.php?m=file&a=connect&cmd=tmb&targets%5B%5D=l1_MjAxNDAyMThcMjAxNDAyMTgwNjMxNDBfNzU3MTcuanBn&targets%5B%5D=l1_MjAxNDAyMThcMjAxNDAyMTgwNjM3MDJfNTcyNDEuanBn&targets%5B%5D=l1_MjAxNDAyMThcMjAxNDAyMTgwNzE4MzhfMTE2MTcuanBn&_=1392708226243
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000319s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000404s ]
+
+[ 2014-02-18T15:26:12+08:00 ] 127.0.0.1 /zhide.php?m=public&a=end
+ERR: 模板不存在[./Manage/Tpl/Public/end.html]
+
+[ 2014-02-18T15:50:24+08:00 ] 127.0.0.1 /zhide.php?m=public&a=end
+ERR: 模板不存在[./Manage/Tpl/Public/end.html]
+
+[ 2014-02-18T15:51:20+08:00 ] 127.0.0.1 /zhide.php?m=file&a=connect&cmd=open&target=l1_MjAxNDAyMTg&init=1&tree=1&_=1392709880337
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000373s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000475s ]
+
+[ 2014-02-18T15:51:20+08:00 ] 127.0.0.1 /zhide.php?m=file&a=connect&cmd=tmb&targets%5B%5D=l1_MjAxNDAyMThcMjAxNDAyMTgwNzQzMDBfNzMzMzMuanBn&_=1392709880622
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000328s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000424s ]
+
+[ 2014-02-18T15:53:32+08:00 ] 127.0.0.1 /zhide.php?m=public&a=end
+ERR: 模板不存在[./Manage/Tpl/Public/end.html]
+
+[ 2014-02-18T16:38:43+08:00 ] 127.0.0.1 /zhide.php?m=public&a=end
+ERR: 模板不存在[./Manage/Tpl/Public/end.html]
+
+[ 2014-02-18T17:15:32+08:00 ] 127.0.0.1 /zhide.php?m=public&a=end
+ERR: 模板不存在[./Manage/Tpl/Public/end.html]
+

@@ -1,0 +1,1629 @@
+[ 2014-02-19T09:13:31+08:00 ] 127.0.0.1 /zhide.php?m=public&a=end
+ERR: 模板不存在[./Manage/Tpl/Public/end.html]
+
+[ 2014-02-19T11:04:36+08:00 ] 127.0.0.1 /zhide.php?m=public&a=end
+ERR: 模板不存在[./Manage/Tpl/Public/end.html]
+
+[ 2014-02-19T11:20:25+08:00 ] 127.0.0.1 /zhide.php?m=file&a=connect&cmd=open&target=l1_MjAxNDAyMTg&init=1&tree=1&_=1392780025117
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000491s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000592s ]
+
+[ 2014-02-19T11:20:25+08:00 ] 127.0.0.1 /zhide.php?m=file&a=connect&cmd=tmb&targets%5B%5D=l1_MjAxNDAyMThcMjAxNDAyMTgwNzU0MDVfMjI0ODMuanBn&_=1392780025527
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000345s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000433s ]
+
+[ 2014-02-19T13:14:24+08:00 ] 127.0.0.1 /zhide.php?m=public&a=end
+ERR: 模板不存在[./Manage/Tpl/Public/end.html]
+
+[ 2014-02-19T13:14:33+08:00 ] 127.0.0.1 /zhide.php?m=public&a=end
+ERR: 模板不存在[./Manage/Tpl/Public/end.html]
+
+[ 2014-02-19T13:14:35+08:00 ] 127.0.0.1 /zhide.php?m=public&a=end
+ERR: 模板不存在[./Manage/Tpl/Public/end.html]
+
+[ 2014-02-19T13:14:57+08:00 ] 127.0.0.1 /zhide.php?m=file&a=connect&cmd=open&target=l1_MjAxNDAyMTg&init=1&tree=1&_=1392786896943
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001480s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001584s ]
+
+[ 2014-02-19T13:34:24+08:00 ] 127.0.0.1 /zhide.php?m=public&a=end
+ERR: 模板不存在[./Manage/Tpl/Public/end.html]
+
+[ 2014-02-19T13:34:27+08:00 ] 127.0.0.1 /zhide.php?m=public&a=end
+ERR: 模板不存在[./Manage/Tpl/Public/end.html]
+
+[ 2014-02-19T16:45:32+08:00 ] 127.0.0.1 /zhide.php?m=public&a=end
+ERR: 模板不存在[./Manage/Tpl/Public/end.html]
+
+[ 2014-02-19T16:45:44+08:00 ] 127.0.0.1 /zhide.php?m=public&a=end
+ERR: 模板不存在[./Manage/Tpl/Public/end.html]
+
+[ 2014-02-19T16:56:29+08:00 ] 127.0.0.1 /zhide.php?m=about&a=add
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001230s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001375s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: v F:\PHPnow\htdocs\youxin\Manage\Runtime\Cache\5c7c3a8642c1b9781d0833e72c717c57.php 第 89 行.
+NOTIC: [8] Undefined variable: v F:\PHPnow\htdocs\youxin\Manage\Runtime\Cache\5c7c3a8642c1b9781d0833e72c717c57.php 第 93 行.
+NOTIC: [8] Undefined variable: v F:\PHPnow\htdocs\youxin\Manage\Runtime\Cache\5c7c3a8642c1b9781d0833e72c717c57.php 第 98 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009313s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009445s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000485s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000419s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000299s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000771s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002295s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000458s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000571s ]
+
+[ 2014-02-19T16:56:32+08:00 ] 127.0.0.1 /zhide.php?m=xw&a=index
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000460s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000605s ]
+SQL: SHOW COLUMNS FROM `tg_xw` [ RunTime:0.002899s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tg_xw` LIMIT 1   [ RunTime:0.000243s ]
+SQL: SELECT a.id,a.title,a.time,b.classname FROM tg_xw a LEFT JOIN tg_xwclass b on a.classid=b.id  ORDER BY a.id desc LIMIT 0,20   [ RunTime:0.000404s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016284s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016434s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000534s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000415s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000300s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000516s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002075s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000407s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000516s ]
+
+[ 2014-02-19T16:56:34+08:00 ] 127.0.0.1 /zhide.php?m=index&a=index
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000834s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001042s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008865s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009037s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000475s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000406s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000306s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000478s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002038s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000426s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000572s ]
+
+[ 2014-02-19T16:56:35+08:00 ] 127.0.0.1 /zhide.php?m=public&a=top
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000464s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000565s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009681s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009795s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000596s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000365s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000304s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000359s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001850s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000391s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000466s ]
+
+[ 2014-02-19T16:56:35+08:00 ] 127.0.0.1 /zhide.php?m=public&a=end
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000406s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000493s ]
+ERR: 模板不存在[./Manage/Tpl/Public/end.html]
+
+[ 2014-02-19T16:56:35+08:00 ] 127.0.0.1 /zhide.php?m=public&a=center
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001508s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001595s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013709s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013863s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001440s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000840s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001185s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000900s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004634s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000944s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001044s ]
+
+[ 2014-02-19T16:56:35+08:00 ] 127.0.0.1 /zhide.php?m=public&a=main
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000326s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000444s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016145s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016279s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001040s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000854s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000813s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001006s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004003s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000902s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000993s ]
+
+[ 2014-02-19T16:56:35+08:00 ] 127.0.0.1 /zhide.php?m=public&a=menu
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000319s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000427s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013171s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013308s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000566s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000364s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000259s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000387s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001843s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000335s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000417s ]
+
+[ 2014-02-19T16:56:38+08:00 ] 127.0.0.1 /zhide.php?m=about&a=index
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000525s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000685s ]
+SQL: SHOW COLUMNS FROM `tg_about` [ RunTime:0.002620s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tg_about` LIMIT 1   [ RunTime:0.001426s ]
+SQL: SELECT * FROM `tg_about` ORDER BY id asc LIMIT 0,20   [ RunTime:0.000455s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014126s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014271s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000611s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000423s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000303s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000486s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002142s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000398s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000509s ]
+
+[ 2014-02-19T16:56:43+08:00 ] 127.0.0.1 /zhide.php?m=xwclass&a=index
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000462s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000605s ]
+SQL: SHOW COLUMNS FROM `tg_xwclass` [ RunTime:0.002797s ]
+SQL: SELECT * FROM `tg_xwclass` ORDER BY xh desc,id desc  [ RunTime:0.001149s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.018315s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018467s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000574s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000573s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000313s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000532s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002320s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000493s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000631s ]
+
+[ 2014-02-19T16:56:44+08:00 ] 127.0.0.1 /zhide.php?m=xw&a=index
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000459s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000607s ]
+SQL: SHOW COLUMNS FROM `tg_xw` [ RunTime:0.003125s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tg_xw` LIMIT 1   [ RunTime:0.000275s ]
+SQL: SELECT a.id,a.title,a.time,b.classname FROM tg_xw a LEFT JOIN tg_xwclass b on a.classid=b.id  ORDER BY a.id desc LIMIT 0,20   [ RunTime:0.000435s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015166s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015318s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000637s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000439s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000302s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000488s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002186s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000398s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000509s ]
+
+[ 2014-02-19T16:56:47+08:00 ] 127.0.0.1 /zhide.php?m=xw&a=add
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000459s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000599s ]
+SQL: SHOW COLUMNS FROM `tg_xwclass` [ RunTime:0.002529s ]
+SQL: SELECT * FROM `tg_xwclass` ORDER BY xh desc,id desc  [ RunTime:0.001073s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012563s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012709s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000518s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000415s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000311s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000483s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002037s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000401s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000513s ]
+
+[ 2014-02-19T16:56:50+08:00 ] 127.0.0.1 /zhide.php?m=cp&a=index
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000455s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000634s ]
+SQL: SHOW COLUMNS FROM `tg_cp` [ RunTime:0.002588s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tg_cp` LIMIT 1   [ RunTime:0.000354s ]
+SQL: SELECT a.id,a.title,a.time,b.classname FROM tg_Cp a LEFT JOIN tg_Cpclass b on a.classid=b.id  ORDER BY a.id desc LIMIT 0,20   [ RunTime:0.000526s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.018581s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018738s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000589s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000441s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000300s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000557s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002202s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001592s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001841s ]
+
+[ 2014-02-19T16:56:54+08:00 ] 127.0.0.1 /zhide.php?m=key&a=index
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000485s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000635s ]
+SQL: SHOW COLUMNS FROM `tg_keyword` [ RunTime:0.002444s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tg_keyword` LIMIT 1   [ RunTime:0.000257s ]
+SQL: SELECT * FROM `tg_keyword` LIMIT 0,20   [ RunTime:0.000405s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014648s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014810s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000534s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000429s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000301s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000494s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002073s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000400s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000509s ]
+
+[ 2014-02-19T16:56:58+08:00 ] 127.0.0.1 /zhide.php?m=link&a=index
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000629s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000786s ]
+SQL: SHOW COLUMNS FROM `tg_link` [ RunTime:0.002619s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tg_link` LIMIT 1   [ RunTime:0.000313s ]
+SQL: SELECT * FROM `tg_link` LIMIT 0,20   [ RunTime:0.000303s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014990s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015149s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000525s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000415s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000308s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000485s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002045s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000421s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000545s ]
+
+[ 2014-02-19T16:57:31+08:00 ] 127.0.0.1 /zhide.php?m=link&a=add
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001466s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.017144s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017302s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001385s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001256s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001145s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001348s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005490s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001233s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001351s ]
+
+[ 2014-02-19T16:57:34+08:00 ] 127.0.0.1 /zhide.php?m=admin&a=index
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000469s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000657s ]
+SQL: SHOW COLUMNS FROM `tg_admin` [ RunTime:0.003073s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tg_admin` LIMIT 1   [ RunTime:0.000318s ]
+SQL: SELECT * FROM `tg_admin` LIMIT 0,20   [ RunTime:0.000357s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013967s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014118s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000553s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000413s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000324s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000483s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002090s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000594s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000718s ]
+
+[ 2014-02-19T16:57:36+08:00 ] 127.0.0.1 /zhide.php?m=admin&a=update&id=1
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000671s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000884s ]
+SQL: SHOW COLUMNS FROM `tg_admin` [ RunTime:0.002667s ]
+SQL: SELECT * FROM `tg_admin` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.001226s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.039875s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040203s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000591s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000474s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000306s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000481s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002203s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000399s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000509s ]
+
+[ 2014-02-19T16:57:39+08:00 ] 127.0.0.1 /zhide.php?m=admin&a=modify
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000473s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000618s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009894s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010061s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000494s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000407s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000305s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000484s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000446s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000576s ]
+
+[ 2014-02-19T16:57:41+08:00 ] 127.0.0.1 /zhide.php?m=admin&a=index
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000466s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000607s ]
+SQL: SHOW COLUMNS FROM `tg_admin` [ RunTime:0.002599s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tg_admin` LIMIT 1   [ RunTime:0.000248s ]
+SQL: SELECT * FROM `tg_admin` LIMIT 0,20   [ RunTime:0.000206s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014885s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015033s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000601s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000430s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000303s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000527s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002183s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000482s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000618s ]
+
+[ 2014-02-19T16:57:46+08:00 ] 127.0.0.1 /zhide.php?m=public&a=end
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000438s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000541s ]
+ERR: 模板不存在[./Manage/Tpl/Public/end.html]
+
+[ 2014-02-19T16:57:49+08:00 ] 127.0.0.1 /zhide.php?m=public&a=end
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000428s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000533s ]
+ERR: 模板不存在[./Manage/Tpl/Public/end.html]
+
+[ 2014-02-19T16:57:51+08:00 ] 127.0.0.1 /zhide.php?m=public&a=end
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000346s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000446s ]
+ERR: 模板不存在[./Manage/Tpl/Public/end.html]
+
+[ 2014-02-19T16:57:53+08:00 ] 127.0.0.1 /zhide.php?m=public&a=end
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000313s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000412s ]
+ERR: 模板不存在[./Manage/Tpl/Public/end.html]
+
+[ 2014-02-19T16:57:55+08:00 ] 127.0.0.1 /zhide.php?m=public&a=end
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000323s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000423s ]
+ERR: 模板不存在[./Manage/Tpl/Public/end.html]
+
+[ 2014-02-19T16:58:03+08:00 ] 127.0.0.1 /zhide.php?m=public&a=end
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000869s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000980s ]
+ERR: 模板不存在[./Manage/Tpl/Public/end.html]
+
+[ 2014-02-19T16:58:05+08:00 ] 127.0.0.1 /zhide.php?m=public&a=end
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000317s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000421s ]
+ERR: 模板不存在[./Manage/Tpl/Public/end.html]
+
+[ 2014-02-19T16:58:07+08:00 ] 127.0.0.1 /zhide.php?m=public&a=main
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000464s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000653s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010946s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011115s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000856s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000605s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000484s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000652s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002925s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000566s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000687s ]
+
+[ 2014-02-19T16:58:08+08:00 ] 127.0.0.1 /zhide.php?m=config&a=index
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000309s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000410s ]
+SQL: SHOW COLUMNS FROM `tg_setup` [ RunTime:0.001849s ]
+SQL: SELECT * FROM `tg_setup` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000439s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008075s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008187s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000347s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000283s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000322s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000417s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001589s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000282s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000359s ]
+
+[ 2014-02-19T16:58:16+08:00 ] 127.0.0.1 /zhide.php?m=file&a=index
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000458s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000600s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007166s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007333s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000620s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000475s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000312s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000518s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002332s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000440s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000587s ]
+
+[ 2014-02-19T16:58:17+08:00 ] 127.0.0.1 /zhide.php?m=file&a=connect&cmd=open&target=l1_MjAxNDAyMTg&init=1&tree=1&_=1392800297114
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000323s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000415s ]
+
+[ 2014-02-19T16:58:19+08:00 ] 127.0.0.1 /zhide.php?m=file&a=connect&cmd=open&target=l1_MjAxNDAyMTk&_=1392800299317
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000457s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000578s ]
+
+[ 2014-02-19T16:58:19+08:00 ] 127.0.0.1 /zhide.php?m=file&a=connect&cmd=tmb&targets%5B%5D=l1_MjAxNDAyMTlcMjAxNDAyMTkwNzIxMDdfMjI2MjguanBn&_=1392800299430
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000465s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000587s ]
+
+[ 2014-02-19T16:59:33+08:00 ] 127.0.0.1 /zhide.php?m=cp&a=index
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001233s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001376s ]
+SQL: SHOW COLUMNS FROM `tg_cp` [ RunTime:0.002675s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tg_cp` LIMIT 1   [ RunTime:0.000351s ]
+SQL: SELECT a.id,a.title,a.time,b.classname FROM tg_Cp a LEFT JOIN tg_Cpclass b on a.classid=b.id  ORDER BY a.id desc LIMIT 0,20   [ RunTime:0.000545s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.020642s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020791s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001408s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001215s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001107s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001599s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005674s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002163s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002428s ]
+
+[ 2014-02-19T16:59:37+08:00 ] 127.0.0.1 /zhide.php?m=cp&a=update&id=6
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000847s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000995s ]
+SQL: SHOW COLUMNS FROM `tg_cpclass` [ RunTime:0.002386s ]
+SQL: SELECT * FROM `tg_cpclass` ORDER BY xh desc,id desc  [ RunTime:0.000839s ]
+SQL: SHOW COLUMNS FROM `tg_cp` [ RunTime:0.002662s ]
+SQL: SELECT * FROM `tg_cp` WHERE ( id=6 ) LIMIT 1   [ RunTime:0.000747s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015059s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015212s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000514s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000423s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000305s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000488s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002040s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000399s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000507s ]
+
+[ 2014-02-19T16:59:59+08:00 ] 127.0.0.1 /zhide.php?m=cp&a=modify
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000459s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000600s ]
+SQL: SHOW COLUMNS FROM `tg_cp` [ RunTime:0.002632s ]
+SQL: UPDATE `tg_cp` SET `title`='asgh',`pic1`='/Upload/20140218/20140218063140_75717.jpg',`classid`=2,`content`='<img src=\"/Upload/201402/20140219085947_78128.jpg\" alt=\"\" />',`key`='asg',`ms`='asg',`time`=1392800399 WHERE ( id=6 ) [ RunTime:0.002462s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009885s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010059s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000475s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000412s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000308s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000525s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002036s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000416s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000527s ]
+
+[ 2014-02-19T17:00:00+08:00 ] 127.0.0.1 /zhide.php?m=cp&a=update&id=6
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000322s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000423s ]
+SQL: SHOW COLUMNS FROM `tg_cpclass` [ RunTime:0.001773s ]
+SQL: SELECT * FROM `tg_cpclass` ORDER BY xh desc,id desc  [ RunTime:0.001153s ]
+SQL: SHOW COLUMNS FROM `tg_cp` [ RunTime:0.002214s ]
+SQL: SELECT * FROM `tg_cp` WHERE ( id=6 ) LIMIT 1   [ RunTime:0.001117s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010480s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010606s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000363s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000278s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000209s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000352s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001416s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000268s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000350s ]
+
+[ 2014-02-19T17:01:24+08:00 ] 127.0.0.1 /zhide.php?m=xh&a=index
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000459s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000600s ]
+SQL: SHOW COLUMNS FROM `tg_xh` [ RunTime:0.002660s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tg_xh` LIMIT 1   [ RunTime:0.000411s ]
+SQL: SELECT * FROM `tg_xh` LIMIT 0,20   [ RunTime:0.000288s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015201s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015361s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000521s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000423s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000303s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000519s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002081s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000403s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000513s ]
+
+[ 2014-02-19T17:01:25+08:00 ] 127.0.0.1 /zhide.php?m=xh&a=add
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000322s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000431s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008500s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008632s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000803s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000425s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000326s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000348s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002205s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000276s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000351s ]
+
+[ 2014-02-19T17:01:30+08:00 ] 127.0.0.1 /zhide.php?m=cp&a=index
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000449s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000589s ]
+SQL: SHOW COLUMNS FROM `tg_cp` [ RunTime:0.003066s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tg_cp` LIMIT 1   [ RunTime:0.000628s ]
+SQL: SELECT a.id,a.title,a.time,b.classname FROM tg_Cp a LEFT JOIN tg_Cpclass b on a.classid=b.id  ORDER BY a.id desc LIMIT 0,20   [ RunTime:0.000490s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016054s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016208s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000597s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000450s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000301s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000507s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002169s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000798s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000998s ]
+
+[ 2014-02-19T17:01:32+08:00 ] 127.0.0.1 /zhide.php?m=cp&a=update&id=16
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000316s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000414s ]
+SQL: SHOW COLUMNS FROM `tg_cpclass` [ RunTime:0.001629s ]
+SQL: SELECT * FROM `tg_cpclass` ORDER BY xh desc,id desc  [ RunTime:0.000585s ]
+SQL: SHOW COLUMNS FROM `tg_cp` [ RunTime:0.001679s ]
+SQL: SELECT * FROM `tg_cp` WHERE ( id=16 ) LIMIT 1   [ RunTime:0.000595s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009064s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009176s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000374s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000282s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000202s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000334s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001408s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000267s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000340s ]
+
+[ 2014-02-19T17:01:54+08:00 ] 127.0.0.1 /zhide.php?m=cp&a=modify
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001451s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001570s ]
+SQL: SHOW COLUMNS FROM `tg_cp` [ RunTime:0.002086s ]
+SQL: UPDATE `tg_cp` SET `title`='卡卡卡卡卡卡卡',`pic1`='http://www.zggangguan.cn/upload/month_1306/20131329.jpg',`classid`=1,`content`='<img src=\"/Upload/image/201402/20140219090147_38111.jpg\" alt=\"\" />',`key`='',`ms`='',`time`=1392800514 WHERE ( id=16 ) [ RunTime:0.000931s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013842s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013989s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001295s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001223s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001085s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001271s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005202s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001249s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001366s ]
+
+[ 2014-02-19T17:01:55+08:00 ] 127.0.0.1 /zhide.php?m=cp&a=update&id=16
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000380s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000567s ]
+SQL: SHOW COLUMNS FROM `tg_cpclass` [ RunTime:0.001784s ]
+SQL: SELECT * FROM `tg_cpclass` ORDER BY xh desc,id desc  [ RunTime:0.001097s ]
+SQL: SHOW COLUMNS FROM `tg_cp` [ RunTime:0.001713s ]
+SQL: SELECT * FROM `tg_cp` WHERE ( id=16 ) LIMIT 1   [ RunTime:0.001202s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009374s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009502s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000362s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000287s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000209s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000334s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001404s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000282s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000387s ]
+
+[ 2014-02-19T17:02:57+08:00 ] 127.0.0.1 /zhide.php?m=cp&a=index
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000482s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000623s ]
+SQL: SHOW COLUMNS FROM `tg_cp` [ RunTime:0.002949s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tg_cp` LIMIT 1   [ RunTime:0.000362s ]
+SQL: SELECT a.id,a.title,a.time,b.classname FROM tg_Cp a LEFT JOIN tg_Cpclass b on a.classid=b.id  ORDER BY a.id desc LIMIT 0,20   [ RunTime:0.000557s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016490s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016644s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000593s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000423s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000390s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000517s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002249s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000838s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001092s ]
+
+[ 2014-02-19T17:02:59+08:00 ] 127.0.0.1 /zhide.php?m=cp&a=update&id=15
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000455s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000598s ]
+SQL: SHOW COLUMNS FROM `tg_cpclass` [ RunTime:0.002442s ]
+SQL: SELECT * FROM `tg_cpclass` ORDER BY xh desc,id desc  [ RunTime:0.000839s ]
+SQL: SHOW COLUMNS FROM `tg_cp` [ RunTime:0.002572s ]
+SQL: SELECT * FROM `tg_cp` WHERE ( id=15 ) LIMIT 1   [ RunTime:0.000739s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012315s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012478s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000513s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000421s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000386s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000523s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002207s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000452s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000570s ]
+
+[ 2014-02-19T17:03:34+08:00 ] 127.0.0.1 /zhide.php?m=cp&a=modify
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000485s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000644s ]
+SQL: SHOW COLUMNS FROM `tg_cp` [ RunTime:0.002748s ]
+SQL: UPDATE `tg_cp` SET `title`='fgfgfgffgfgffgfg',`pic1`='http://www.zggangguan.cn/upload/month_1306/20134950.jpg',`classid`=2,`content`='sdsdsds<img src=\"/Upload/image/201402/20140219090147_38111.jpg\" alt=\"\" /><img src=\"/Upload/image/201402/20140219090147_38111.jpg\" alt=\"\" />',`key`='sdsd',`ms`='sdsd',`time`=1392800614 WHERE ( id=15 ) [ RunTime:0.001454s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008022s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008187s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000941s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000435s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000302s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001047s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003065s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000443s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000558s ]
+
+[ 2014-02-19T17:03:35+08:00 ] 127.0.0.1 /zhide.php?m=cp&a=update&id=15
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000322s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000434s ]
+SQL: SHOW COLUMNS FROM `tg_cpclass` [ RunTime:0.001642s ]
+SQL: SELECT * FROM `tg_cpclass` ORDER BY xh desc,id desc  [ RunTime:0.000620s ]
+SQL: SHOW COLUMNS FROM `tg_cp` [ RunTime:0.002086s ]
+SQL: SELECT * FROM `tg_cp` WHERE ( id=15 ) LIMIT 1   [ RunTime:0.000588s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008692s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008803s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000641s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000290s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000205s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000332s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001693s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000283s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000359s ]
+
+[ 2014-02-19T17:03:42+08:00 ] 127.0.0.1 /zhide.php?m=cp&a=modify
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000562s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000737s ]
+SQL: SHOW COLUMNS FROM `tg_cp` [ RunTime:0.002560s ]
+SQL: UPDATE `tg_cp` SET `title`='fgfgfgffgfgffgfg',`pic1`='http://www.zggangguan.cn/upload/month_1306/20134950.jpg',`classid`=2,`content`='',`key`='sdsd',`ms`='sdsd',`time`=1392800622 WHERE ( id=15 ) [ RunTime:0.000786s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008067s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008234s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000605s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000432s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000300s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000515s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002172s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000407s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000517s ]
+
+[ 2014-02-19T17:03:44+08:00 ] 127.0.0.1 /zhide.php?m=cp&a=update&id=15
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000473s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000622s ]
+SQL: SHOW COLUMNS FROM `tg_cpclass` [ RunTime:0.002854s ]
+SQL: SELECT * FROM `tg_cpclass` ORDER BY xh desc,id desc  [ RunTime:0.000788s ]
+SQL: SHOW COLUMNS FROM `tg_cp` [ RunTime:0.002700s ]
+SQL: SELECT * FROM `tg_cp` WHERE ( id=15 ) LIMIT 1   [ RunTime:0.000747s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012587s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012749s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000511s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000432s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000305s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000516s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002083s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000400s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000511s ]
+
+[ 2014-02-19T17:03:46+08:00 ] 127.0.0.1 /zhide.php?m=file&a=index
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000317s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000416s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.005611s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005728s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000452s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000297s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000207s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000378s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001601s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000317s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000423s ]
+
+[ 2014-02-19T17:03:46+08:00 ] 127.0.0.1 /zhide.php?m=file&a=connect&cmd=open&target=l1_MjAxNDAyMTk&init=1&tree=1&_=1392800626742
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000320s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000418s ]
+
+[ 2014-02-19T17:03:48+08:00 ] 127.0.0.1 /zhide.php?m=file&a=connect&cmd=open&target=l1_XA&_=1392800628673
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000312s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000398s ]
+
+[ 2014-02-19T17:03:50+08:00 ] 127.0.0.1 /zhide.php?m=file&a=connect&cmd=open&target=l1_aW1hZ2U&_=1392800630329
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000641s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000777s ]
+
+[ 2014-02-19T17:03:51+08:00 ] 127.0.0.1 /zhide.php?m=file&a=connect&cmd=open&target=l1_aW1hZ2VcMjAxNDAy&_=1392800631607
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000446s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000565s ]
+
+[ 2014-02-19T17:03:52+08:00 ] 127.0.0.1 /zhide.php?m=file&a=connect&cmd=tmb&targets%5B%5D=l1_aW1hZ2VcMjAxNDAyXDIwMTQwMjE5MDkwMTQ3XzM4MTExLmpwZw&_=1392800631655
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000334s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000422s ]
+
+[ 2014-02-19T17:04:01+08:00 ] 127.0.0.1 /zhide.php?m=file&a=connect&cmd=rm&targets%5B%5D=l1_aW1hZ2VcMjAxNDAyXDIwMTQwMjE5MDkwMTQ3XzM4MTExLmpwZw&_=1392800641513
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001201s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001292s ]
+
+[ 2014-02-19T17:04:02+08:00 ] 127.0.0.1 /zhide.php?m=file&a=connect&cmd=open&target=l1_aW1hZ2U&_=1392800642777
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000474s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000600s ]
+
+[ 2014-02-19T17:04:04+08:00 ] 127.0.0.1 /zhide.php?m=file&a=connect&cmd=open&target=l1_MjAxNDAyMTk&_=1392800644617
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000447s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000571s ]
+
+[ 2014-02-19T17:04:05+08:00 ] 127.0.0.1 /zhide.php?m=file&a=connect&cmd=open&target=l1_MjAxNDAyMTg&_=1392800645063
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000831s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001042s ]
+
+[ 2014-02-19T17:04:05+08:00 ] 127.0.0.1 /zhide.php?m=file&a=connect&cmd=open&target=l1_MjAxNDAy&_=1392800645513
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000737s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000884s ]
+
+[ 2014-02-19T17:04:05+08:00 ] 127.0.0.1 /zhide.php?m=file&a=connect&cmd=tmb&targets%5B%5D=l1_MjAxNDAyXDIwMTQwMjE5MDg1OTQ3Xzc4MTI4LmpwZw&_=1392800645585
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000310s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000399s ]
+
+[ 2014-02-19T17:04:05+08:00 ] 127.0.0.1 /zhide.php?m=file&a=connect&cmd=open&target=l1_XA&_=1392800645948
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000420s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000953s ]
+
+[ 2014-02-19T17:04:07+08:00 ] 127.0.0.1 /zhide.php?m=file&a=index
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000461s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000611s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011514s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011681s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001670s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001215s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001185s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001592s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006254s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001222s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001395s ]
+
+[ 2014-02-19T17:04:08+08:00 ] 127.0.0.1 /zhide.php?m=file&a=connect&cmd=open&target=l1_XA&init=1&tree=1&_=1392800648345
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000308s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000394s ]
+
+[ 2014-02-19T17:04:14+08:00 ] 127.0.0.1 /zhide.php?m=cp&a=index
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000471s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000626s ]
+SQL: SHOW COLUMNS FROM `tg_cp` [ RunTime:0.002860s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tg_cp` LIMIT 1   [ RunTime:0.000279s ]
+SQL: SELECT a.id,a.title,a.time,b.classname FROM tg_Cp a LEFT JOIN tg_Cpclass b on a.classid=b.id  ORDER BY a.id desc LIMIT 0,20   [ RunTime:0.000483s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015987s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016142s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000634s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000435s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000300s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000536s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002231s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000822s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001076s ]
+
+[ 2014-02-19T17:04:17+08:00 ] 127.0.0.1 /zhide.php?m=cp&a=update&id=10
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000431s ]
+SQL: SHOW COLUMNS FROM `tg_cpclass` [ RunTime:0.001794s ]
+SQL: SELECT * FROM `tg_cpclass` ORDER BY xh desc,id desc  [ RunTime:0.001194s ]
+SQL: SHOW COLUMNS FROM `tg_cp` [ RunTime:0.001775s ]
+SQL: SELECT * FROM `tg_cp` WHERE ( id=10 ) LIMIT 1   [ RunTime:0.001172s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009632s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009744s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000350s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000293s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000204s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000328s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001388s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000267s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000343s ]
+
+[ 2014-02-19T17:04:43+08:00 ] 127.0.0.1 /zhide.php?m=cp&a=modify
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000897s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001009s ]
+SQL: SHOW COLUMNS FROM `tg_cp` [ RunTime:0.001810s ]
+SQL: UPDATE `tg_cp` SET `title`='荣誉2',`pic1`='http://www.zggangguan.cn//upload/month_1306/2013173.gif',`classid`=3,`content`='<img src=\"/Upload/image/201402/20140219090438_70314.jpg\" alt=\"\" />',`key`='',`ms`='',`time`=1392800683 WHERE ( id=10 ) [ RunTime:0.000783s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008617s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008740s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001143s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000864s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000722s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000843s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003796s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000786s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000862s ]
+
+[ 2014-02-19T17:04:44+08:00 ] 127.0.0.1 /zhide.php?m=cp&a=update&id=10
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000479s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000629s ]
+SQL: SHOW COLUMNS FROM `tg_cpclass` [ RunTime:0.002693s ]
+SQL: SELECT * FROM `tg_cpclass` ORDER BY xh desc,id desc  [ RunTime:0.001933s ]
+SQL: SHOW COLUMNS FROM `tg_cp` [ RunTime:0.002582s ]
+SQL: SELECT * FROM `tg_cp` WHERE ( id=10 ) LIMIT 1   [ RunTime:0.002501s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014329s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014490s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000575s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000461s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000761s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000518s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002657s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000425s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000539s ]
+
+[ 2014-02-19T17:04:53+08:00 ] 127.0.0.1 /zhide.php?m=cp&a=index
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000465s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000611s ]
+SQL: SHOW COLUMNS FROM `tg_cp` [ RunTime:0.003237s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tg_cp` LIMIT 1   [ RunTime:0.000343s ]
+SQL: SELECT a.id,a.title,a.time,b.classname FROM tg_Cp a LEFT JOIN tg_Cpclass b on a.classid=b.id  ORDER BY a.id desc LIMIT 0,20   [ RunTime:0.000538s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.017643s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017795s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000638s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000424s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000731s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000512s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002663s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000855s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001105s ]
+
+[ 2014-02-19T17:04:56+08:00 ] 127.0.0.1 /zhide.php?m=xw&a=index
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000451s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000590s ]
+SQL: SHOW COLUMNS FROM `tg_xw` [ RunTime:0.002718s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tg_xw` LIMIT 1   [ RunTime:0.000372s ]
+SQL: SELECT a.id,a.title,a.time,b.classname FROM tg_xw a LEFT JOIN tg_xwclass b on a.classid=b.id  ORDER BY a.id desc LIMIT 0,20   [ RunTime:0.000407s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015829s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015981s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000543s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000415s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000710s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000499s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002487s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000427s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000538s ]
+
+[ 2014-02-19T17:04:58+08:00 ] 127.0.0.1 /zhide.php?m=about&a=index
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000447s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000585s ]
+SQL: SHOW COLUMNS FROM `tg_about` [ RunTime:0.002471s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tg_about` LIMIT 1   [ RunTime:0.001099s ]
+SQL: SELECT * FROM `tg_about` ORDER BY id asc LIMIT 0,20   [ RunTime:0.000442s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015934s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016152s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000714s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000572s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001090s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000645s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003342s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000687s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000875s ]
+
+[ 2014-02-19T17:05:23+08:00 ] 127.0.0.1 /zhide.php?m=about&a=index
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002176s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002334s ]
+SQL: SHOW COLUMNS FROM `tg_about` [ RunTime:0.002490s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tg_about` LIMIT 1   [ RunTime:0.001340s ]
+SQL: SELECT * FROM `tg_about` ORDER BY id asc LIMIT 0,20   [ RunTime:0.000440s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.019150s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019294s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001468s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001375s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001242s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001442s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005851s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001803s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001929s ]
+
+[ 2014-02-19T17:05:26+08:00 ] 127.0.0.1 /zhide.php?m=config&a=index
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000933s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001105s ]
+SQL: SHOW COLUMNS FROM `tg_setup` [ RunTime:0.003161s ]
+SQL: SELECT * FROM `tg_setup` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.001690s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010641s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010791s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000513s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000475s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000308s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000492s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002138s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000420s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000531s ]
+
+[ 2014-02-19T17:05:28+08:00 ] 127.0.0.1 /zhide.php?m=public&a=main
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000306s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000420s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.006087s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006200s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000342s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000277s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000200s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000325s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001351s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000268s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000341s ]
+
+[ 2014-02-19T17:05:32+08:00 ] 127.0.0.1 /zhide.php?m=link&a=index
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000481s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000618s ]
+SQL: SHOW COLUMNS FROM `tg_link` [ RunTime:0.002275s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tg_link` LIMIT 1   [ RunTime:0.000357s ]
+SQL: SELECT * FROM `tg_link` LIMIT 0,20   [ RunTime:0.000356s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015740s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015887s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000503s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000415s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000368s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000514s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002123s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000404s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000517s ]
+
+[ 2014-02-19T17:11:17+08:00 ] 127.0.0.1 /zhide.php?m=public&a=main
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001240s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001420s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015744s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015915s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001313s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001226s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001100s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001266s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005228s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001261s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001383s ]
+
+[ 2014-02-19T17:11:52+08:00 ] 127.0.0.1 /zhide.php?m=config&a=index
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000829s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001105s ]
+SQL: SHOW COLUMNS FROM `tg_setup` [ RunTime:0.002765s ]
+SQL: SELECT * FROM `tg_setup` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.002090s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011852s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012010s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000535s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000438s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000326s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000535s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002166s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000414s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000535s ]
+
+[ 2014-02-19T17:11:58+08:00 ] 127.0.0.1 /zhide.php?m=xh&a=index
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000480s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000633s ]
+SQL: SHOW COLUMNS FROM `tg_xh` [ RunTime:0.002774s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tg_xh` LIMIT 1   [ RunTime:0.000302s ]
+SQL: SELECT * FROM `tg_xh` LIMIT 0,20   [ RunTime:0.000306s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.019516s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019669s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001375s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001210s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001109s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001312s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005329s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001193s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001307s ]
+
+[ 2014-02-19T17:12:03+08:00 ] 127.0.0.1 /zhide.php?m=xh&a=add
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002225s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002387s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011882s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012037s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000536s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000423s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000303s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000490s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002071s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000405s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000515s ]
+
+[ 2014-02-19T17:12:09+08:00 ] 127.0.0.1 /zhide.php?m=key&a=index
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000482s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000629s ]
+SQL: SHOW COLUMNS FROM `tg_keyword` [ RunTime:0.002407s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tg_keyword` LIMIT 1   [ RunTime:0.000324s ]
+SQL: SELECT * FROM `tg_keyword` LIMIT 0,20   [ RunTime:0.000260s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016808s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017264s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000699s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000422s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000783s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000537s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002764s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000413s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000525s ]
+
+[ 2014-02-19T17:12:12+08:00 ] 127.0.0.1 /zhide.php?m=link&a=index
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000304s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000401s ]
+SQL: SHOW COLUMNS FROM `tg_link` [ RunTime:0.001809s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tg_link` LIMIT 1   [ RunTime:0.000807s ]
+SQL: SELECT * FROM `tg_link` LIMIT 0,20   [ RunTime:0.000249s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010239s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010356s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000416s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000279s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000417s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000341s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001669s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000271s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000345s ]
+
+[ 2014-02-19T17:12:15+08:00 ] 127.0.0.1 /zhide.php?m=admin&a=index
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000563s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000794s ]
+SQL: SHOW COLUMNS FROM `tg_admin` [ RunTime:0.002439s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tg_admin` LIMIT 1   [ RunTime:0.000328s ]
+SQL: SELECT * FROM `tg_admin` LIMIT 0,20   [ RunTime:0.000266s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013794s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013951s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000615s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000425s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000316s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000497s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002170s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000410s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000521s ]
+
+[ 2014-02-19T17:12:20+08:00 ] 127.0.0.1 /zhide.php?m=file&a=index
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000452s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000594s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007573s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007739s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000522s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000419s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000311s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000494s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002138s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000719s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000867s ]
+
+[ 2014-02-19T17:12:21+08:00 ] 127.0.0.1 /zhide.php?m=file&a=connect&cmd=open&target=l1_XA&init=1&tree=1&_=1392801141360
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000349s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000446s ]
+
+[ 2014-02-19T17:14:37+08:00 ] 127.0.0.1 /zhide.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000878s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001288s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013309s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013489s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001311s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001211s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001090s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001263s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005200s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001467s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001585s ]
+
+[ 2014-02-19T17:14:41+08:00 ] 127.0.0.1 /zhide.php?m=public&a=login
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000471s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000618s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010411s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010826s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000898s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000535s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000843s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000531s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003161s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000487s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000606s ]
+
+[ 2014-02-19T17:14:41+08:00 ] 127.0.0.1 /zhide.php?m=public&a=checkCode
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000351s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000453s ]
+
+[ 2014-02-19T17:14:49+08:00 ] 127.0.0.1 /zhide.php?m=public&a=check
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000555s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000710s ]
+SQL: SHOW COLUMNS FROM `tg_admin` [ RunTime:0.002332s ]
+SQL: SELECT * FROM `tg_admin` WHERE ( ad_name='admin' ) LIMIT 1   [ RunTime:0.001840s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008896s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009097s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000496s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000443s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000315s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000490s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002090s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000491s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000634s ]
+
+[ 2014-02-19T17:14:52+08:00 ] 127.0.0.1 /zhide.php?m=index&a=index
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000463s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000607s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007447s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007615s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000500s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000439s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000454s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000502s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002245s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000406s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000546s ]
+
+[ 2014-02-19T17:14:52+08:00 ] 127.0.0.1 /zhide.php?m=public&a=center
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000376s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000472s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.006270s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006387s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000352s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000283s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000239s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000550s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001639s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000342s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000535s ]
+
+[ 2014-02-19T17:14:52+08:00 ] 127.0.0.1 /zhide.php?m=public&a=end
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000639s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000735s ]
+ERR: 模板不存在[./Manage/Tpl/Public/end.html]
+
+[ 2014-02-19T17:14:52+08:00 ] 127.0.0.1 /zhide.php?m=public&a=top
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000526s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000638s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008236s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008354s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000528s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000314s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000220s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000369s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001667s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000295s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000375s ]
+
+[ 2014-02-19T17:14:52+08:00 ] 127.0.0.1 /zhide.php?m=public&a=main
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000871s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000972s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012138s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012268s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000787s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000658s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000571s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000583s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002841s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000356s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000440s ]
+
+[ 2014-02-19T17:14:52+08:00 ] 127.0.0.1 /zhide.php?m=public&a=menu
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000908s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001004s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.018357s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018481s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001189s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001952s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001921s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001068s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006412s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000870s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000959s ]
+
+[ 2014-02-19T17:14:54+08:00 ] 127.0.0.1 /zhide.php?m=config&a=index
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000478s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000627s ]
+SQL: SHOW COLUMNS FROM `tg_setup` [ RunTime:0.002597s ]
+SQL: SELECT * FROM `tg_setup` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000760s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012833s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012986s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000775s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000550s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000315s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000493s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002472s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000421s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000538s ]
+
+[ 2014-02-19T17:14:56+08:00 ] 127.0.0.1 /zhide.php?m=about&a=index
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000478s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000616s ]
+SQL: SHOW COLUMNS FROM `tg_about` [ RunTime:0.002552s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tg_about` LIMIT 1   [ RunTime:0.000752s ]
+SQL: SELECT * FROM `tg_about` ORDER BY id asc LIMIT 0,20   [ RunTime:0.000474s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014177s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014325s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000520s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000466s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000308s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000483s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002205s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000403s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000514s ]
+
+[ 2014-02-19T17:14:58+08:00 ] 127.0.0.1 /zhide.php?m=about&a=add
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000451s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000591s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: v F:\PHPnow\htdocs\youxin\Manage\Runtime\Cache\5c7c3a8642c1b9781d0833e72c717c57.php 第 89 行.
+NOTIC: [8] Undefined variable: v F:\PHPnow\htdocs\youxin\Manage\Runtime\Cache\5c7c3a8642c1b9781d0833e72c717c57.php 第 93 行.
+NOTIC: [8] Undefined variable: v F:\PHPnow\htdocs\youxin\Manage\Runtime\Cache\5c7c3a8642c1b9781d0833e72c717c57.php 第 98 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011551s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011689s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000545s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000419s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000449s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000509s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002422s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000407s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000521s ]
+
+[ 2014-02-19T17:15:00+08:00 ] 127.0.0.1 /zhide.php?m=xw&a=index
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000461s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000601s ]
+SQL: SHOW COLUMNS FROM `tg_xw` [ RunTime:0.002674s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tg_xw` LIMIT 1   [ RunTime:0.000325s ]
+SQL: SELECT a.id,a.title,a.time,b.classname FROM tg_xw a LEFT JOIN tg_xwclass b on a.classid=b.id  ORDER BY a.id desc LIMIT 0,20   [ RunTime:0.000454s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015075s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015225s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000526s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000419s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000304s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000518s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002086s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000688s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000812s ]
+
+[ 2014-02-19T17:15:01+08:00 ] 127.0.0.1 /zhide.php?m=xwclass&a=index
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000423s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000576s ]
+SQL: SHOW COLUMNS FROM `tg_xwclass` [ RunTime:0.002684s ]
+SQL: SELECT * FROM `tg_xwclass` ORDER BY xh desc,id desc  [ RunTime:0.000817s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.017564s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017716s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000547s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000422s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000302s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000494s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002076s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000461s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000558s ]
+
+[ 2014-02-19T17:15:04+08:00 ] 127.0.0.1 /zhide.php?m=cp&a=index
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000311s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000412s ]
+SQL: SHOW COLUMNS FROM `tg_cp` [ RunTime:0.002084s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tg_cp` LIMIT 1   [ RunTime:0.000397s ]
+SQL: SELECT a.id,a.title,a.time,b.classname FROM tg_Cp a LEFT JOIN tg_Cpclass b on a.classid=b.id  ORDER BY a.id desc LIMIT 0,20   [ RunTime:0.000601s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.018184s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018362s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000854s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000702s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000315s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001276s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003506s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000653s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000780s ]
+
+[ 2014-02-19T17:15:35+08:00 ] 127.0.0.1 /zhide.php?m=cp&a=update&id=7
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000458s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000601s ]
+SQL: SHOW COLUMNS FROM `tg_cpclass` [ RunTime:0.002441s ]
+SQL: SELECT * FROM `tg_cpclass` ORDER BY xh desc,id desc  [ RunTime:0.001730s ]
+SQL: SHOW COLUMNS FROM `tg_cp` [ RunTime:0.002442s ]
+SQL: SELECT * FROM `tg_cp` WHERE ( id=7 ) LIMIT 1   [ RunTime:0.001429s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015632s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015787s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000917s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000449s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000303s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000499s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002490s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000460s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000573s ]
+
+[ 2014-02-19T17:15:39+08:00 ] 127.0.0.1 /zhide.php?m=public&a=main
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000487s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000635s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010025s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010260s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000965s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000431s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000305s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000486s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002514s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000431s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000542s ]
+
+[ 2014-02-19T17:15:41+08:00 ] 127.0.0.1 /zhide.php?m=config&a=index
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000392s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000539s ]
+SQL: SHOW COLUMNS FROM `tg_setup` [ RunTime:0.002556s ]
+SQL: SELECT * FROM `tg_setup` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.001052s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008247s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008357s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000463s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000301s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000204s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000327s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001509s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000277s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000351s ]
+

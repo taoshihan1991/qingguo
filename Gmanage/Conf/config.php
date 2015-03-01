@@ -26,7 +26,7 @@ $array = array(
 	 		'img'=>''
 	 	),
 	 	3=>array(
-	 		'name'=>'不支持随时退款',
+	 		'name'=>'不满意免单',
 	 		'img'=>''
 	 	)
 	 ),

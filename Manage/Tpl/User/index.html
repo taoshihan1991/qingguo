@@ -1,0 +1,88 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>管理员管理</title>
+
+
+<include file="Public:common"/>
+<SCRIPT type="text/javascript">
+	$(function(){
+		$('.lock').click(function(){
+			var id=$(this).attr('uid');
+			var lock=$(this).attr('lock');
+			obj=$(this);
+			$.post("<{:U('User/lock')}>",{id:id,lock:lock},function(data){
+				data=eval("("+data+")");
+
+				if(data.status){
+					obj.html('锁定');
+					obj.attr('lock',data.lock);
+				}else{
+					obj.html('正常');
+					obj.attr('lock',data.lock);
+				}
+
+				
+			})
+		})
+	})
+</SCRIPT>
+</head>
+
+<body>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr bgcolor="#353c44">
+                <td width="4%" height="19"><img src="__PUBLIC__/images/tb.gif" width="14" height="14" /></td>
+              </tr>
+</table>
+
+
+	<table width="100%"  class="table table-hover table-bordered">
+      <tr class="success" bgcolor="#d3eaef">
+		  <td>编号</td>
+        <td>用户名</td>
+    	 <td>邮箱</td>
+        <td>注册时间</td>
+		<td>当前状态</td>
+        <td width="20%">操作</td>
+       
+      </tr>
+
+<foreach name="list" item="v">
+      <tr>
+
+        <td><span class="badge badge-warning"><{$v.id}></span></td>
+        <td><{$v.username}></td>
+      	<td><{$v.email}></td>
+        <td><{$v.time|date="Y年m月d日 H时i分",###}></td>
+		<td>
+			<if condition="$v['lock']">
+				<p class="label label-info lock" uid='<{$v.id}>' lock='<{$v.lock}>' style="cursor:pointer">锁定</p>
+			<else/>
+				<p class="label label-important lock" uid='<{$v.id}>' lock='<{$v.lock}>' style="cursor:pointer">正常</p>
+			</if>
+
+
+		</td>
+        <td><a href="<{:U('User/update',array('id'=>$v['id']))}>" class="btn btn-primary btn-small">修改查看</a>&nbsp;&nbsp;
+		<a href="<{:U('User/reset',array('id'=>$v['id']))}>" class="btn btn-danger btn-small" title="谨慎操作">重置密码</a>&nbsp;&nbsp; 
+
+		<a href="<{:U('User/del',array('id'=>$v['id']))}>" class="btn btn-danger btn-small" title="谨慎操作">删除</a>
+		</td>
+       
+      </tr>
+</foreach>
+      <tr>
+        <td height="30" bgcolor="#FFFFFF">&nbsp;</td>
+        <td height="30" colspan="7" align="right" bgcolor="#FFFFFF" class="STYLE6"><{$page}></td>
+        </tr>
+    </table>
+
+
+
+
+
+
+</body>
+</html>

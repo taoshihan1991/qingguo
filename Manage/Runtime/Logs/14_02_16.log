@@ -1,0 +1,87 @@
+[ 2014-02-16T09:00:56+08:00 ] 127.0.0.1 /zhide.php/public/end.html
+ERR: 模板不存在[./Manage/Tpl/Public/end.html]
+
+[ 2014-02-16T09:01:05+08:00 ] 127.0.0.1 /zhide.php/public/dylm.asp
+ERR: 非法操作:dylm.asp
+
+[ 2014-02-16T09:03:13+08:00 ] 127.0.0.1 /zhide.php/public/dylm.asp
+ERR: 非法操作:dylm.asp
+
+[ 2014-02-16T09:04:39+08:00 ] 127.0.0.1 /zhide.php/public/end.html
+ERR: 模板不存在[./Manage/Tpl/Public/end.html]
+
+[ 2014-02-16T10:41:50+08:00 ] 127.0.0.1 /zhide.php/public/xwclass.asp
+ERR: 非法操作:xwclass.asp
+
+[ 2014-02-16T10:57:22+08:00 ] 127.0.0.1 /zhide.php/public/end.html
+ERR: 模板不存在[./Manage/Tpl/Public/end.html]
+
+[ 2014-02-16T10:59:12+08:00 ] 127.0.0.1 /zhide.php/xwclass/index.html
+ERR: 模板不存在[./Manage/Tpl/Xwclass/index.html]
+
+[ 2014-02-16T11:01:25+08:00 ] 127.0.0.1 /zhide.php/zd_js/jquery-1.4.2.js
+ERR: 无法加载模块:ZdJs
+
+[ 2014-02-16T11:01:27+08:00 ] 127.0.0.1 /zhide.php/xwclass/%22&request.ServerVariables(%22HTTP_REFERER%22)&%22
+ERR: 非法操作:"&request.servervariables("http_referer")&"
+
+[ 2014-02-16T11:01:29+08:00 ] 127.0.0.1 /zhide.php/zd_js/jquery-1.4.2.js
+ERR: 无法加载模块:ZdJs
+
+[ 2014-02-16T11:01:30+08:00 ] 127.0.0.1 /zhide.php/xwclass/%22&request.ServerVariables(%22HTTP_REFERER%22)&%22
+ERR: 非法操作:"&request.servervariables("http_referer")&"
+
+[ 2014-02-16T11:01:34+08:00 ] 127.0.0.1 /zhide.php/zd_js/jquery-1.4.2.js
+ERR: 无法加载模块:ZdJs
+
+[ 2014-02-16T11:03:13+08:00 ] 127.0.0.1 /zhide.php/xwclass/%22&request.ServerVariables(%22HTTP_REFERER%22)&%22
+ERR: 非法操作:"&request.servervariables("http_referer")&"
+
+[ 2014-02-16T11:06:01+08:00 ] 127.0.0.1 /zhide.php/xwclass/%22&request.ServerVariables(%22HTTP_REFERER%22)&%22
+ERR: 非法操作:"&request.servervariables("http_referer")&"
+
+[ 2014-02-16T11:07:56+08:00 ] 127.0.0.1 /zhide.php/public/xw.asp
+ERR: 非法操作:xw.asp
+
+[ 2014-02-16T11:34:43+08:00 ] 127.0.0.1 /zhide.php/xwclass/addClass.html
+ERR: Model:insert您所请求的方法不存在！
+
+[ 2014-02-16T13:45:18+08:00 ] 127.0.0.1 /zhide.php/public/xw.asp
+ERR: 非法操作:xw.asp
+
+[ 2014-02-16T13:49:18+08:00 ] 127.0.0.1 /zhide.php/xwclass/update/id/2.html
+ERR: 模板不存在[./Manage/Tpl/Xwclass/update.html]
+
+[ 2014-02-16T14:47:19+08:00 ] 127.0.0.1 /zhide.php/public/end.html
+ERR: 模板不存在[./Manage/Tpl/Public/end.html]
+
+[ 2014-02-16T14:47:38+08:00 ] 127.0.0.1 /zhide.php/public/end.html
+ERR: 模板不存在[./Manage/Tpl/Public/end.html]
+
+[ 2014-02-16T14:48:46+08:00 ] 127.0.0.1 /zhide.php?m=public&a=end
+ERR: 模板不存在[./Manage/Tpl/Public/end.html]
+
+[ 2014-02-16T14:53:38+08:00 ] 127.0.0.1 /zhide.php?m=public&a=end
+ERR: 模板不存在[./Manage/Tpl/Public/end.html]
+
+[ 2014-02-16T14:55:00+08:00 ] 127.0.0.1 /zhide.php?m=public&a=end
+ERR: 模板不存在[./Manage/Tpl/Public/end.html]
+
+[ 2014-02-16T14:55:56+08:00 ] 127.0.0.1 /zhide.php?m=public&a=end
+ERR: 模板不存在[./Manage/Tpl/Public/end.html]
+
+[ 2014-02-16T14:56:16+08:00 ] 127.0.0.1 /zhide.php?m=xw&a=index
+ERR: 无法加载模块:Xw
+
+[ 2014-02-16T15:05:58+08:00 ] 127.0.0.1 /zhide.php?m=xw&a=index
+ERR: 模板不存在[./Manage/Tpl/Xw/index.html]
+
+[ 2014-02-16T15:11:06+08:00 ] 127.0.0.1 /zhide.php?m=xw&a=index
+ERR: 模板不存在[./Manage/Tpl/Xw/index.html]
+
+[ 2014-02-16T15:36:12+08:00 ] 127.0.0.1 /zhide.php?m=xw&a=index
+ERR: 模板不存在[./Manage/Tpl/Xw/index.html]
+
+[ 2014-02-16T17:25:12+08:00 ] 127.0.0.1 /zhide.php?m=public&a=end
+ERR: 模板不存在[./Manage/Tpl/Public/end.html]
+
