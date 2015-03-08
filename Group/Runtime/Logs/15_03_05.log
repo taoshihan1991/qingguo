@@ -1,0 +1,45 @@
+[ 2015-03-05T18:24:27+08:00 ] 127.0.0.1 /qingguo/group.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.022883s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.023006s ]
+NOTIC: [8] Undefined index: cid G:\php\htdocs\qingguo\Group\Lib\Action\IndexAction.class.php 第 16 行.
+NOTIC: [8] Undefined index: lid G:\php\htdocs\qingguo\Group\Lib\Action\IndexAction.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `group_category` [ RunTime:0.105240s ]
+SQL: SELECT `cname`,`cid` FROM `group_category` WHERE ( `pid` = 0 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.036030s ]
+NOTIC: [8] Undefined index: uid G:\php\htdocs\qingguo\Group\Lib\Action\CommonAction.class.php 第 19 行.
+SQL: SELECT `cname`,`cid` FROM `group_category` WHERE ( `pid` = 0 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.000459s ]
+SQL: SELECT `pid` FROM `group_category` WHERE ( `cid` = 0 ) AND ( `display` = 1 ) LIMIT 1   [ RunTime:0.000624s ]
+SQL: SELECT `cname`,`cid` FROM `group_category` WHERE ( `pid` = 0 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.000376s ]
+SQL: SHOW COLUMNS FROM `group_locality` [ RunTime:0.077983s ]
+SQL: SELECT `lname`,`lid` FROM `group_locality` WHERE ( `pid` = 0 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.012385s ]
+SQL: SELECT `pid` FROM `group_locality` WHERE ( `lid` = 0 ) AND ( `display` = 1 ) LIMIT 1   [ RunTime:0.000328s ]
+SQL: SELECT `lname`,`lid` FROM `group_locality` WHERE ( `pid` = 0 ) AND ( `display` = 1 ) ORDER BY sort asc  [ RunTime:0.000373s ]
+SQL: SELECT `pid` FROM `group_category` WHERE ( `cid` = 0 ) AND ( `display` = 1 ) LIMIT 1   [ RunTime:0.000490s ]
+SQL: SHOW COLUMNS FROM `group_goods` [ RunTime:0.039325s ]
+SQL: SHOW COLUMNS FROM `group_category` [ RunTime:0.006288s ]
+SQL: SHOW COLUMNS FROM `group_locality` [ RunTime:0.005022s ]
+SQL: SHOW COLUMNS FROM `group_shop` [ RunTime:0.017444s ]
+SQL: SELECT COUNT(*) AS tp_count FROM group_goods goods  JOIN group_category category ON goods.cid=category.cid  JOIN group_locality locality ON goods.lid=locality.lid  JOIN group_shop shop ON goods.shopid=shop.shopid WHERE ( goods.price > '0' ) LIMIT 1   [ RunTime:0.011234s ]
+SQL: SELECT goods.gid AS gid,goods.shopid AS shopid,goods.cid AS cid,goods.lid AS lid,goods.main_title AS main_title,goods.sub_title AS sub_title,goods.price AS price,goods.old_price AS old_price,goods.buy AS buy,goods.goods_img AS goods_img,category.cname AS cname,locality.lname AS lname,shop.shopname AS shopname FROM group_goods goods  JOIN group_category category ON goods.cid=category.cid  JOIN group_locality locality ON goods.lid=locality.lid  JOIN group_shop shop ON goods.shopid=shop.shopid WHERE ( goods.price > '0' ) ORDER BY goods.gid desc LIMIT 0,10   [ RunTime:0.001216s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: webInfo G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 11 行.
+NOTIC: [8] Undefined index: cid G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 57 行.
+NOTIC: [8] Undefined index: cid G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 58 行.
+NOTIC: [8] Undefined index: cid G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 58 行.
+NOTIC: [8] Undefined index: cid G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 58 行.
+NOTIC: [8] Undefined index: cid G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 58 行.
+NOTIC: [8] Undefined index: cid G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 58 行.
+NOTIC: [8] Undefined variable: sonCategory G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 193 行.
+NOTIC: [8] Undefined variable: sonLocality G:\php\htdocs\qingguo\Group\Runtime\Cache\cba56360011186ef0bb7322f540ca16d.php 第 204 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.215569s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.215682s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.013632s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.018805s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.005691s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.006869s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.045283s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.005805s ]
+INFO: [ view_end ] --END-- [ RunTime:0.005896s ]
+

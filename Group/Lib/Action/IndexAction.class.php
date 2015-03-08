@@ -247,4 +247,42 @@ class IndexAction extends CommonAction {
 		}
 		$this->assign('priceArr',$tempArr);
 	}
+	/**
+	* ajax获取最近浏览的记录
+	*/
+	public function getRecentView(){
+		if(IS_AJAX===false){
+			$key=enctyption('recent',0);
+			setCookie($key,'',time()-1,'/');
+			$this->success('清空浏览记录成功!',U('Index/index'));
+			exit;
+		};
+		$key=enctyption('recent',0);
+        $value=isset($_COOKIE[$key]) ? unserialize($_COOKIE[$key]) : null;
+
+        $result=array();
+        if(!$value){
+        	$result=array('status'=>false);
+        }else{
+        	$where=array(
+        		'gid'=>array('in',$value)
+        	);
+        	$db=D('GoodsView');
+        	$res=$db->getGoods($where);
+        	$data=$this->disRecentGoods($res);
+        	$result=array('status'=>true,'data'=>$data);
+        }
+        exit(json_encode($result));
+	}
+	/**
+	* 处理ajax取得的商品数据
+	*/
+	private function disRecentGoods($data){
+		if(empty($data)) return;
+		foreach($data as $k=>$v){
+			$data[$k]['url']=U('Detail/index',array('gid'=>$v['gid']));
+ 			$data[$k]['image']=getPicUrl($v['goods_img'],'mini');
+		}
+		return $data;
+	}
 }

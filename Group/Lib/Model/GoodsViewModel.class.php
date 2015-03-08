@@ -33,6 +33,12 @@ class GoodsViewModel extends ViewModel {
         $data=$this->where(array('goods.gid'=>$gid))->find();
         return $data;
     }
+    /**
+    * 获得指定条件商品数据
+    */
+    public function getGoods($where,$limit=10){
+        return $this->where($where)->limit($limit)->select();
+    }
    
   
 }

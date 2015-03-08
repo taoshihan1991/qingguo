@@ -98,7 +98,9 @@ class LoginAction extends CommonAction {
             if(isset($_POST['auto_login'])){
                 setcookie(session_name(),session_id(),time()+C('COOKIE_LIFE_TIME'),'/');
             }
-            $this->success('登陆成功',U('Member/index'));
+            $ref=urldecode($_COOKIE['ref']);
+            $url=isset($ref) ? $ref :U('Member/index');
+            $this->success('登陆成功',$url);
         }else{
             $this->error('登陆失败',U('Index/index'));
         }

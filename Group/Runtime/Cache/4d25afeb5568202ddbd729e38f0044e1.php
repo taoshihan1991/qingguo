@@ -60,15 +60,10 @@
 			</div>
 			<!-- 用户相关 -->
 			<div id="user-relevance" class='user-relevance'>
-				
-				<!--登录注册-->
-					<div class='user-nav login-reg'>
-						<a class='title' href="<?php echo U('Login/register');?>">注册</a>
+				<?php if($userIsLogin): ?><div class='user-nav login-reg'>
+						<a class='title' href="<?php echo U('Login/quit');?>">退出</a>
 					</div>
-					<div class='user-nav login-reg'>	
-						<a class='title' href="<?php echo U('Login/index');?>">登录</a>
-					</div>
-				<!--我的团购 -->	
+					<!--我的团购 -->	
 					<div class='user-nav my-hdtg '>
 						<a class='title' href="">我的团购</a>
 						<ul class="menu">
@@ -81,83 +76,27 @@
 							<li><a href="">账户设置</a></li>
 						</ul>
 					</div>
+				<?php else: ?>
+					<!--登录注册-->
+					<div class='user-nav login-reg'>
+						<a class='title' href="<?php echo U('Login/register');?>">注册</a>
+					</div>
+					<div class='user-nav login-reg'>	
+						<a class='title' href="<?php echo U('Login/index');?>">登录</a>
+					</div><?php endif; ?>
+
+				
 				<!-- 最近浏览 -->	
-					<div  class='user-nav recent-view '>
+					<div  class='user-nav recent-view ' data-url="<?php echo U('Index/getRecentView');?>">
 						<a class='title' href="">最近浏览</a>
 						<ul class="menu">
-							<li>
-								<a class='image' href="">
-									<img src="http://p1.meituan.net/80.50/deal/__10119572__2038276.jpg" />
-								</a>
-								<div>
-									<h4>
-										<a href="">上岛咖啡双人下午茶套餐，五道口</a>
-									</h4>
-									<span><strong>¥25</strong><del>36</del></span>
-								</div>					
-							</li>
-							<li>
-								<a class='image' href="">
-									<img src="http://p1.meituan.net/80.50/deal/__10119572__2038276.jpg" />
-								</a>
-								<div>
-									<h4>
-										<a href="">上岛咖啡双人下午茶套餐，五道口</a>
-									</h4>
-									<span><strong>¥25</strong><del>36</del></span>
-								</div>					
-							</li>
-							<li>
-								<a class='image' href="">
-									<img src="http://p1.meituan.net/80.50/deal/__10119572__2038276.jpg" />
-								</a>
-								<div>
-									<h4>
-										<a href="">上岛咖啡双人下午茶套餐，五道口</a>
-									</h4>
-									<span><strong>¥25</strong><del>36</del></span>
-								</div>					
-							</li>
-							<li>
-								<a class='image' href="">
-									<img src="http://p1.meituan.net/80.50/deal/__10119572__2038276.jpg" />
-								</a>
-								<div>
-									<h4>
-										<a href="">上岛咖啡双人下午茶套餐，五道口</a>
-									</h4>
-									<span><strong>¥25</strong><del>36</del></span>
-								</div>					
-							</li>
-							<li>
-								<a class='image' href="">
-									<img src="http://p1.meituan.net/80.50/deal/__10119572__2038276.jpg" />
-								</a>
-								<div>
-									<h4>
-										<a href="">上岛咖啡双人下午茶套餐，五道口</a>
-									</h4>
-									<span><strong>¥25</strong><del>36</del></span>
-								</div>					
-							</li>
-							<p class='clear'><a href="">清空最近浏览记录</a></p>
+							<p class='clear'><a href="">加载中......</a></p>
 						</ul>
 					</div>
-					<div  class='user-nav my-cart '>
-						<a class='title' href=""><i>&nbsp;</i>购物车</a>
+					<div  class='user-nav my-cart ' data-url="<?php echo U('Cart/index');?>" delCartUrl="<?php echo U('Cart/ajaxDelCartGoods');?>">
+						<a class='title' href="<?php echo U('Cart/index');?>"><i>&nbsp;</i>购物车</a>
 						<ul class="menu">
-							<li>
-								<a class='image' href="">
-									<img src="http://p1.meituan.net/80.50/deal/__10119572__2038276.jpg" />
-								</a>
-								<div>
-									<h4>
-										<a href="">上岛咖啡双人下午茶套餐，五道口</a>
-									</h4>
-									<span><strong>¥25</strong><a href="">删除</a></span>
-								</div>					
-							</li>
-							<p class='clear'><a href="">查看我的购物车</a></p>
+							<p class='clear'><a href="">加载中......</a></p>
 						</ul>
 					</div>
 			</div>

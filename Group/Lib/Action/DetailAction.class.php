@@ -20,6 +20,9 @@ class DetailAction extends CommonAction {
     	$info=$this->db->getGoodsFind($this->gid);
         $info=$this->disDetailData($info);
     	$this->assign('info',$info);
+
+        /*设置最近浏览*/
+        $this->setRecentView();
     	$this->display();
     }
     /**
@@ -37,6 +40,17 @@ class DetailAction extends CommonAction {
         }
         $data['goods_server']=$server;
         return $data;
+    }
+    /**
+    * 设置最近浏览
+    */
+    private function setRecentView(){
+        $key=enctyption('recent',0);
+        $value=isset($_COOKIE[$key]) ? unserialize($_COOKIE[$key]) : null;
+        if(!in_array($this->gid,$value)){
+            $value[]=$this->gid;
+            setcookie($key,serialize($value),time()+86400,'/');
+        }
     }
  
 }

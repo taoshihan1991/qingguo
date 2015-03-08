@@ -60,15 +60,10 @@
 			</div>
 			<!-- 用户相关 -->
 			<div id="user-relevance" class='user-relevance'>
-				
-				<!--登录注册-->
-					<div class='user-nav login-reg'>
-						<a class='title' href="<?php echo U('Login/register');?>">注册</a>
+				<?php if($userIsLogin): ?><div class='user-nav login-reg'>
+						<a class='title' href="<?php echo U('Login/quit');?>">退出</a>
 					</div>
-					<div class='user-nav login-reg'>	
-						<a class='title' href="<?php echo U('Login/index');?>">登录</a>
-					</div>
-				<!--我的团购 -->	
+					<!--我的团购 -->	
 					<div class='user-nav my-hdtg '>
 						<a class='title' href="">我的团购</a>
 						<ul class="menu">
@@ -81,6 +76,16 @@
 							<li><a href="">账户设置</a></li>
 						</ul>
 					</div>
+				<?php else: ?>
+					<!--登录注册-->
+					<div class='user-nav login-reg'>
+						<a class='title' href="<?php echo U('Login/register');?>">注册</a>
+					</div>
+					<div class='user-nav login-reg'>	
+						<a class='title' href="<?php echo U('Login/index');?>">登录</a>
+					</div><?php endif; ?>
+
+				
 				<!-- 最近浏览 -->	
 					<div  class='user-nav recent-view '>
 						<a class='title' href="">最近浏览</a>
@@ -144,7 +149,7 @@
 						</ul>
 					</div>
 					<div  class='user-nav my-cart '>
-						<a class='title' href=""><i>&nbsp;</i>购物车</a>
+						<a class='title' href="<?php echo U('Cart/index');?>"><i>&nbsp;</i>购物车</a>
 						<ul class="menu">
 							<li>
 								<a class='image' href="">
@@ -185,7 +190,7 @@
 				preg:/^[a-z]\w{5,15}$/i,
 				focus:'请填写你的用户名',
 				empty:'用户名不能为空',
-				error:'用户名格式错误',
+				error:'用户名需要5-15位',
 				success:'用户名填写正确',
 				ajax:true,
 				url:"<?php echo U('Login/check');?>"
@@ -194,7 +199,7 @@
 				preg:/^\S{6,32}$/,
 				focus:'请填写你的密码',
 				empty:'密码不能为空',
-				error:'密码格式错误',
+				error:'密码需要6-32位',
 				success:'密码填写正确'
 			},
 			'password_d':{

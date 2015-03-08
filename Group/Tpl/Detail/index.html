@@ -1,6 +1,23 @@
 	<include file="Common:header"/>
 <!-- 载入公共头部文件结束 -->
 	<link href="../Public/css/detail.css" type="text/css" rel="stylesheet" >
+	<script type="text/javascript">
+		$(function(){
+			$('.cart').click(function(){
+				var url=$(this).attr('data-url');
+				$.ajax({
+					url:url,
+					dataType:'json',
+					type:'GET',
+					success:function(result){
+						if(result.status==true){
+							alert('加入购物车成功');
+						}
+					}
+				});
+			});
+		});
+	</script>
 	<div id="map" class='position'>
 		<a href="{:U('Index/index',array('lid'=>$info['lid']))}">{$info.lname}</a><span>»</span><a href="{:U('Index/index',array('cid'=>$info['cid']))}">{$info.cname}</a><span>»</span><a>{$info.shopname}</a>	</div>
 	<div id="content" class='position' style="height:3000px;">
@@ -23,7 +40,7 @@
 						</div>
 						<div class='deal-buy-cart'>
 							<a href="{:U('Member/buy',array('gid'=>$info['gid']))}" class='buy'></a>
-							<a href="{:U('Cart/index',array('gid'=>$info['gid']))}" class='cart'></a>
+							<a href="javascript:void(0)" data-url="{:U('Cart/add',array('gid'=>$info['gid']))}" class='cart'></a>
 						</div>
 						<div class='purchased'>
 							<p class='people'>
